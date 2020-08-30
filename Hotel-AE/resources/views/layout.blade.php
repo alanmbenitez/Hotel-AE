@@ -6,8 +6,9 @@
     <meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
 
     <!-- ========== SEO ========== -->
-    <title>Hotel Zante</title>
-    <meta content="" name="description">
+   
+    <title>@yield('title') | Hotel Aires Express</title>
+    <meta name="description" content="@yield('description')."/>
     <meta content="" name="keywords">
     <meta content="" name="author">
     
@@ -59,29 +60,48 @@
     <div class="wrapper">
         
         <!-- ========== TOP MENU ========== -->
-      <!--   <div class="top_menu transparent hidden-xs">
+      <div class="top_menu transparent hidden-xs">
             <div class="container">
                 <ul class="top_menu_right">
                     <li><i class="fa  fa-phone"></i><a href="tel:18475555555"> 1-888-123-4567 </a></li>
                     <li class="email"><i class="fa  fa-envelope-o "></i> <a href="mailto:contact@site.com">contact@site.com</a></li>
                     <li class="language-switcher">
                         <nav class="dropdown">
-                            <a href="#" class="dropdown-toggle select" data-hover="dropdown" data-toggle="dropdown">
+                            <a href="#" id="lang_page" class="dropdown-toggle select" data-hover="dropdown" data-toggle="dropdown">
+                                @if(App::getLocale() === 'en')
                                 <i class="famfamfam-flag-gb "></i>English<b class="caret"></b>
+                                @else
+                                <i class="famfamfam-flag-es "></i>Español<b class="caret"></b>
+                                @endif
+                                
                             </a>
+                            @if (config('locale.status') && count(config('locale.languages')) > 1)
+                           
                             <ul class="dropdown-menu">
-                                <li><a href="#"><i class="famfamfam-flag-gr"></i>Ελληνικά</a></li>
-                                <li><a href="#"><i class="famfamfam-flag-it "></i>Italiano</a></li>
-                                <li><a href="#"><i class="famfamfam-flag-de "></i>Deutsch</a></li>
-                                <li><a href="#"><i class="famfamfam-flag-fr "></i>Français</a></li>
-                                <li><a href="#"><i class="famfamfam-flag-es "></i>Español</a></li>
+                                <li><a id="lang_en" href="{!! route('lang.swap', 'en') !!}"><i class="famfamfam-flag-gb "></i>English</a></li>
+                                <li><a id="lang_es" href="{!! route('lang.swap', 'es') !!}"><i class="famfamfam-flag-es "></i>Español</a></li>
                             </ul>
+                          
+                            @endif
+                            
                         </nav>
                     </li>
                 </ul>
             </div>
         </div>
-         -->
+  {{--      <script>
+          lang_page = document.getElementById('lang_page')
+          lang_es = document.getElementById('lang_es')
+          lang_en = document.getElementById('lang_en')
+         
+         lang_en.addEventListener('click', () => {
+             lang_page.innerText = lang_en.innerText
+         })
+         lang_es.addEventListener('click', () => {
+             lang_page.innerText = lang_es.innerText
+         })
+          console.log(lang_page.innerText);
+       </script> --}}
         <!-- ========== HEADER ========== -->
         <header class="fixed transparent">
             <div class="container">
@@ -114,11 +134,10 @@
                         <li class="dropdown simple_menu">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">ROOMS <b class="caret"></b></a>
                             <ul class="dropdown-menu">
-                                <li><a href="rooms-list.html">Rooms List View</a></li>
-                                <li><a href="rooms-grid.html">Rooms Grid View</a></li>
-                                <li><a href="rooms-block.html">Rooms Block View</a></li>
-                                <li><a href="room.html">Room Details 1</a></li>
-                                <li><a href="room2.html">Room Details 2</a></li>
+                                <li><a href="{{url('/singleRoom') }}">Single</a></li>
+                                <li><a href="rooms-grid.html">Double</a></li>
+                                <li><a href="rooms-block.html">Deluxe</a></li>
+                                
                             </ul>
                         </li>
                         <li class="dropdown mega_menu mega_menu_fullwidth"><a href="#" data-toggle="dropdown" class="dropdown-toggle" aria-expanded="true">PAGES <b class="caret"></b></a>
@@ -207,6 +226,8 @@
                         <!-- IMAGE -->
                         <img src="https://blog.restorando.com/wp-content/uploads/2017/09/shutterstock_118912582.jpg" alt="Image" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="5" class="rev-slidebg" data-no-retina>
                         <!-- LAYER NR. 1 --> 
+                        <!--Comprobamos si el status esta a true y existe más de un lenguaje-->
+
                          <div class="tp-caption"
                              data-x="['left','left','left','center']" 
                              data-hoffset="['15','15','15','0']" 
@@ -216,7 +237,7 @@
                              data-lineheight="['40','28','28','22']"
                              data-whitespace="nowrap"
                              data-frames='[{"delay":0,"speed":1500,"frame":"0","from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:[100%];s:inherit;e:inherit;","to":"o:1;","ease":"Power2.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
-                             style="color: #fff; font-weight: 700; font-family: 'Raleway', sans-serif;; ">WELCOME TO ZANTE, <span id="text_rotating">LIVE YOUR MYTH, MODERN ROOMS, GREEK CUISINE</span>
+                             style="color: #fff; font-weight: 700; font-family: 'Raleway', sans-serif;; ">{{ __('home.title')}} <br><span id="text_rotating">LIVE YOUR MYTH, MODERN ROOMS, GREEK CUISINE</span>
                         </div>
                         <!-- LAYER NR. 2 --> 
                         <div class="tp-caption tp_m_title"
@@ -478,7 +499,7 @@
                 </ul>
             </div>
         </div>
-
+       
      @yield('main')
                 </div>
             </div>

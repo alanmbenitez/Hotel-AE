@@ -14,3 +14,8 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', 'HomeController@index')->name('home');
+/* Route::get('/{locale}', 'HomeController@lang'); */
+
+
+Route::get('/singleRoom', 'RoomsController@single')->name('lang.swap');
+Route::get('/{lang}', 'LanguageController@swap')->name('lang.swap');
