@@ -82,6 +82,7 @@ return [
     | used globally for all e-mails that are sent by your application.
     |
     */
+    
 
     'from' => [
         'address' => env('MAIL_FROM_ADDRESS', 'hello@example.com'),
@@ -106,5 +107,12 @@ return [
             resource_path('views/vendor/mail'),
         ],
     ],
+    'stream' => [
+        'ssl' => [
+           'allow_self_signed' => true,
+           'verify_peer' => false,
+           'verify_peer_name' => false,
+        ],
+     ],
 
 ];
