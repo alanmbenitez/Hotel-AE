@@ -19,5 +19,9 @@ Route::get('/', 'HomeController@index')->name('home');
 
 Route::get('/singleRoom', 'RoomsController@single')->name('lang.swap');
 Route::get('/{lang}', 'LanguageController@swap')->name('lang.swap');
+//Route::get('/guia', 'BlogController@guia')->name('guia');
+Route::get('/blog', function () {
+    return view('pages.blog.blog');
+});
 Route::post('/', 'FormsController@store')->name('form');
 Route::post('/singleRoom', 'FormsController@store')->name('form');

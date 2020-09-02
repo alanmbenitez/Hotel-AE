@@ -30,7 +30,7 @@
                
             </li>
           
-            <li><a href="blog.html">BLOG</a></li>
+            <li><a href="{{url('/blog')}}">BLOG</a></li>
             <li><a href="blog.html">CONTACTO</a></li>
             <li class="dropdown simple_menu">
                 @if(App::getLocale() === 'en')
