@@ -20,11 +20,8 @@ Somos un hotel de Categoria ubicado en plena Ciudad de Buenos aires
         <div class="page_title gradient_overlay" style="background: url(images/page_title_bg.jpg);">
             <div class="container">
                 <div class="inner">
-                    <h1>Blog List</h1>
-                    <ol class="breadcrumb">
-                        <li><a href="index.html">Home</a></li>
-                        <li>Blog List</li>
-                    </ol>
+                    <h1>Guia de Buenos aires</h1>
+                    
                 </div>
             </div>
         </div>
@@ -33,7 +30,7 @@ Somos un hotel de Categoria ubicado en plena Ciudad de Buenos aires
         <main class="blog">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-9">
+                    <div class="col-md-8">
                         <!-- ITEM -->
                         <article class="blog_list">
                             <figure>
@@ -142,9 +139,15 @@ Somos un hotel de Categoria ubicado en plena Ciudad de Buenos aires
                             </ul>
                         </nav>
                     </div>
+                    <div class="col-md-4">
+                        @component('components.general.Form_reserva')
+                        @endcomponent
+                    </div>
                 </div>
             </div>
+ 
 
+           
         </main>
 
     </div>

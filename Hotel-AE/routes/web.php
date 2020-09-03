@@ -17,11 +17,11 @@ Route::get('/', 'HomeController@index')->name('home');
 /* Route::get('/{locale}', 'HomeController@lang'); */
 
 
-Route::get('/singleRoom', 'RoomsController@single')->name('lang.swap');
-Route::get('/{lang}', 'LanguageController@swap')->name('lang.swap');
-//Route::get('/guia', 'BlogController@guia')->name('guia');
-Route::get('/blog', function () {
-    return view('pages.blog.blog');
-});
+Route::get('/singleRoom', 'RoomsController@index')->name('lang.swap');
+Route::get('/guia', 'BlogController@index')->name('guia');
 Route::post('/', 'FormsController@store')->name('form');
 Route::post('/singleRoom', 'FormsController@store')->name('form');
+Route::post('/', 'FormsController@store')->name('form');
+Route::post('/guia', 'FormsController@store')->name('form');
+/* Route::get('/{lang}', 'LanguageController@swap')->name('lang.swap');
+ */

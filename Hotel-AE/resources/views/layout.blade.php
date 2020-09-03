@@ -71,7 +71,7 @@
 
         <article style="position: fixed; z-index: 100; right:5%; bottom: 5%;">
             <span>
-                <a href="https://api.whatsapp.com/send?phone=+551135009839" target="_blank"><img style="max-width: 80px;" src="https://i.imgur.com/KAvcYgq.png"></a>
+                <a href="https://api.whatsapp.com/send?phone=+551135009839" target="_blank"><img style="max-width: 80px;" src="{{asset('images/whatsapp.png')}}"></a>
             </span>
         </article>
      @yield('main')
