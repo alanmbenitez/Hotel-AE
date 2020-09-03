@@ -5,18 +5,18 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand light" href="index.html">
-            <img src="https://i.imgur.com/l35y0S2.png" height="50" alt="Logo">
+        <a class="navbar-brand light" href="{{route('home')}}">
+            <img src="{{ asset('images\logo_trucho_ae.png')}}" height="50" alt="Logo">
         </a>
-        <a class="navbar-brand dark nodisplay" href="index.html">
-            <img src="https://i.imgur.com/l35y0S2.png" height="50" alt="Logo">
+        <a class="navbar-brand dark nodisplay" href="{{route('home')}}">
+            <img src="{{ asset('images\logo_trucho_ae.png')}}" height="50" alt="Logo">
         </a>
     </div>
     <nav id="main_menu" class="mobile_menu navbar-collapse">
         <ul class="nav navbar-nav">
             <li class="mobile_menu_title" style="display:none;">MENU</li>
             <li class="dropdown simple_menu">
-                <a href="#" data-toggle="dropdown">HOME </a>
+                <a href="{{route('home')}}" data-toggle="dropdown">HOME </a>
             </li>
             <li class="dropdown simple_menu"><a href="#" data-toggle="dropdown" class="dropdown-toggle" aria-expanded="true">ROOMS <b class="caret"></b></a>
                 <ul class="dropdown-menu">
@@ -30,7 +30,7 @@
                
             </li>
           
-            <li><a href="blog.html">BLOG</a></li>
+            <li><a href="{{route('guia')}}">BLOG</a></li>
             <li><a href="blog.html">CONTACTO</a></li>
             <li class="dropdown simple_menu">
                 @if(App::getLocale() === 'en')
