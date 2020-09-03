@@ -20,3 +20,4 @@ Route::get('/', 'HomeController@index')->name('home');
 Route::get('/singleRoom', 'RoomsController@single')->name('lang.swap');
 Route::get('/{lang}', 'LanguageController@swap')->name('lang.swap');
 Route::post('/', 'FormsController@store')->name('form');
+Route::post('/singleRoom', 'FormsController@store')->name('form');

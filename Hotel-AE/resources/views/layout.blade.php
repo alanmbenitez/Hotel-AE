@@ -63,19 +63,7 @@
       <div class="top_menu transparent hidden-xs">
   
         </div>
-  {{--      <script>
-          lang_page = document.getElementById('lang_page')
-          lang_es = document.getElementById('lang_es')
-          lang_en = document.getElementById('lang_en')
-         
-         lang_en.addEventListener('click', () => {
-             lang_page.innerText = lang_en.innerText
-         })
-         lang_es.addEventListener('click', () => {
-             lang_page.innerText = lang_es.innerText
-         })
-          console.log(lang_page.innerText);
-       </script> --}}
+  
         <!-- ========== HEADER ========== -->
          @yield('navBar')
         <!-- ========== REVOLUTION SLIDER ========== -->

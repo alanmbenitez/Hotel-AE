@@ -15,7 +15,7 @@
                 data-title="Slide" 
                 data-description="">
                 <!-- IMAGE -->
-                <img src="https://blog.restorando.com/wp-content/uploads/2017/09/shutterstock_118912582.jpg" alt="Image" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="5" class="rev-slidebg" data-no-retina>
+                <img src="https://as2.ftcdn.net/jpg/01/33/21/13/500_F_133211319_jwyOpDWmIPlm6nuB54xoIMPXvCeNc1gC.jpg" alt="Image" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="5" class="rev-slidebg" data-no-retina>
                 <!-- LAYER NR. 1 --> 
                 <!--Comprobamos si el status esta a true y existe más de un lenguaje-->
 
