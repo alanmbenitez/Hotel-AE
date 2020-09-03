@@ -9,7 +9,10 @@
 Somos un hotel de Categoria ubicado en plena Ciudad de Buenos aires
 @endsection
 
-
+@section('navBar')
+@component('components.general.nav_general')
+    
+@endcomponent  
 
 @section('main')
 
@@ -203,141 +206,8 @@ Somos un hotel de Categoria ubicado en plena Ciudad de Buenos aires
                         </div>
                     </div>
                     <div class="col-md-4">
-                        <div class="sidebar">
-                            <aside class="widget">
-                                <div class="vbf">
-                                    <h2 class="form_title"><i class="fa fa-calendar"></i> BOOK ONLINE</h2>
-                                    <form id="booking-form" class="inner">
-                                        <div class="form-group">
-                                            <input class="form-control" name="booking-name" placeholder="Enter Your Name" type="text">
-                                        </div>
-                                        <div class="form-group">
-                                            <input class="form-control" name="booking-email" placeholder="Enter Your Email Address" type="email">
-                                        </div>
-                                        <div class="form-group">
-                                            <input class="form-control" name="booking-phone" placeholder="Enter Your Phone Number" type="text">
-                                        </div>
-                                        <div class="form-group">
-                                            <div class="form_select">
-                                                <select name="booking-roomtype" class="form-control" title="Select Room Type" data-header="Room Type" disabled>
-                                                    <option value="Single Room" selected>Single Room</option>
-                                                    <option value="Double Room">Double Room</option>
-                                                    <option value="Deluxe Room">Deluxe Room</option>
-                                                </select>
-                                            </div>
-                                        </div>
-                                        <div class="form-group col-md-6 col-sm-6 col-xs-12 nopadding">
-                                            <div class="form_select">
-                                                <select name="booking-adults" class="form-control md_noborder_right" title="Adults" data-header="Adults">
-                                                    <option value="0">0</option>
-                                                    <option value="1">1</option>
-                                                    <option value="2">2</option>
-                                                    <option value="3">3</option>
-                                                    <option value="4">4</option>
-                                                </select>
-                                            </div>
-                                        </div>
-                                        <div class="form-group col-md-6 col-sm-6 col-xs-12 nopadding">
-                                            <div class="form_select">
-                                                <select name="booking-children" class="form-control" title="Children" data-header="Children">
-                                                    <option value="0">0</option>
-                                                    <option value="1">1</option>
-                                                    <option value="2">2</option>
-                                                    <option value="3">3</option>
-                                                    <option value="4">4</option>
-                                                </select>
-                                            </div>
-                                        </div>
-                                        <div class="form-group col-md-6 col-sm-6 col-xs-12 nopadding">
-                                            <div class="input-group">
-                                                <div class="form_date">
-                                                    <input type="text" class="datepicker form-control md_noborder_right" name="booking-checkin" placeholder="Arrival Date" readonly>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="form-group col-md-6 col-sm-6 col-xs-12 nopadding">
-                                            <div class="input-group">
-                                                <div class="form_date">
-                                                    <input type="text" class="datepicker form-control" name="booking-checkout" placeholder="Departure Date" readonly>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <button class="button btn_lg btn_blue btn_full" type="submit">BOOK A ROOM NOW</button>
-                                        <div class="a_center mt10">
-                                            <a href="booking-form.html" class="a_b_f">Advanced Booking Form</a>
-                                        </div>
-                                    </form>
-                                </div>
-                            </aside>
-                            <aside class="widget">
-                                <h4>NEED HELP?</h4>
-                                <div class="help">
-                                    If you have any question please don't hesitate to contact us
-                                    <div class="phone"><i class="fa  fa-phone"></i><a href="tel:18475555555"> 1-888-123-4567 </a></div>
-                                    <div class="email"><i class="fa  fa-envelope-o "></i><a href="mailto:contact@site.com">contact@site.com</a> or use <a href="contact.html"> contact form</a></div>
-                                </div>
-                            </aside>
-                            <aside class="widget">
-                                <h4>Latest Posts</h4>
-                                <div class="latest_posts">
-                                    <article class="latest_post">
-                                        <figure>
-                                            <a href="blog-post.html" class="hover_effect h_link h_blue">
-                                                <img src="images/blog/thumb1.jpg" alt="Image">
-                                            </a>
-                                        </figure>
-                                        <div class="details">
-                                            <h6><a href="blog-post.html">Live your myth in Greece</a></h6>
-                                            <span><i class="fa fa-calendar"></i>23/11/2017</span>
-                                        </div>
-                                    </article>
-                                    <article class="latest_post">
-                                        <figure>
-                                            <a href="blog-post.html" class="hover_effect h_link h_blue">
-                                                <img src="images/blog/thumb2.jpg" alt="Image">
-                                            </a>
-                                        </figure>
-                                        <div class="details">
-                                            <h6><a href="blog-post.html">Hotel Zante in pictures</a></h6>
-                                            <span><i class="fa fa-calendar"></i>18/10/2017</span>
-                                        </div>
-                                    </article>
-                                    <article class="latest_post">
-                                        <figure>
-                                            <a href="blog-post.html" class="hover_effect h_link h_blue">
-                                                <img src="images/blog/thumb3.jpg" alt="Image">
-                                            </a>
-                                        </figure>
-                                        <div class="details">
-                                            <h6><a href="blog-post.html">Hotel Zante family party</a></h6>
-                                            <span><i class="fa fa-calendar"></i>13/08/2017</span>
-                                        </div>
-                                    </article>
-                                    <article class="latest_post">
-                                        <figure>
-                                            <a href="blog-post.html" class="hover_effect h_link h_blue">
-                                                <img src="images/blog/thumb4.jpg" alt="Image">
-                                            </a>
-                                        </figure>
-                                        <div class="details">
-                                            <h6><a href="blog-post.html">Hotel Zante weddings</a></h6>
-                                            <span><i class="fa fa-calendar"></i>13/08/2017</span>
-                                        </div>
-                                    </article>
-                                    <article class="latest_post">
-                                        <figure>
-                                            <a href="blog-post.html" class="hover_effect h_link h_blue">
-                                                <img src="images/blog/thumb5.jpg" alt="Image">
-                                            </a>
-                                        </figure>
-                                        <div class="details">
-                                            <h6><a href="blog-post.html">10 things you should know</a></h6>
-                                            <span><i class="fa fa-calendar"></i>13/08/2017</span>
-                                        </div>
-                                    </article>
-                                </div>
-                            </aside>
-                        </div>
+                        @component('components.general.Form_reserva')
+                        @endcomponent
                     </div>
                 </div>
             </div>
