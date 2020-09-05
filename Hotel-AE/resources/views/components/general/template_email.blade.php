@@ -218,9 +218,9 @@
                                                         style="padding-left:20px;padding-right:20px;font-size:12px;display:inline-block;"><span
                                                             style="font-size: 16px; line-height: 2; word-break: break-word; mso-line-height-alt: 32px;"><span
                                                                 data-mce-style="font-size: 12px; line-height: 24px;"
-                                                                style="font-size: 17px; line-height: 24px;">{{ $reserva['booking-checkin'] }}
+                                                                style="font-size: 17px; line-height: 24px;">{{ $reserva['checkin'] }}
                                                                 ⟶
-                                                                {{ $reserva['booking-checkout'] }}</span> </span></span>
+                                                                {{ $reserva['checkout'] }}</span> </span></span>
                                                 </div>
 
                                             </div>
@@ -283,7 +283,7 @@
                                                     <p
                                                         style="font-size: 18px; line-height: 1.2; word-break: break-word; font-family: 'Droid Serif', Georgia, Times, 'Times New Roman', serif; mso-line-height-alt: 22px; margin: 0;">
                                                         <span style="font-size: 18px;"><strong>Nombre:
-                                                                {{ $reserva['booking-name'] }} <br></strong></span></p>
+                                                                {{ $reserva['name'] }} <br></strong></span></p>
                                                 </div>
                                             </div>
 
@@ -294,27 +294,27 @@
                                                     <p
                                                         style="font-size: 17px; line-height: 1.8; word-break: break-word; font-family: 'Nunito', Arial, 'Helvetica Neue', Helvetica, sans-serif; mso-line-height-alt: 17px; margin: 0;">
                                                         <span style="font-size: 17px;">
-                                                            Email: {{ $reserva['booking-email'] }}
+                                                            Email: {{ $reserva['email'] }}
                                                         </span>
 													</p>
 													<p style="font-size: 17px; line-height: 1.8; word-break: break-word; font-family: 'Nunito', Arial, 'Helvetica Neue', Helvetica, sans-serif; mso-line-height-alt: 17px; margin: 0;">
 													<span style="font-size: 17px;">
-														Telfono: {{ $reserva['booking-phone'] }}
+														Telfono: {{ $reserva['phone'] }}
 													</span>
 													</p>
 														<p style="font-size: 17px; line-height: 1.8; word-break: break-word; font-family: 'Nunito', Arial, 'Helvetica Neue', Helvetica, sans-serif; mso-line-height-alt: 17px; margin: 0;">
 													<span style="font-size: 17px;">
-														Tipo de Habitacion: {{ $reserva['booking-roomtype'] }}
+														Tipo de Habitacion: {{ $reserva['room'] }}
 													</span>
 													</p>
 														<p style="font-size: 17px; line-height: 1.8; word-break: break-word; font-family: 'Nunito', Arial, 'Helvetica Neue', Helvetica, sans-serif; mso-line-height-alt: 17px; margin: 0;">
 													<span style="font-size: 17px;">
-														Cant. Adultos: {{ $reserva['booking-adults'] }}
+														Cant. Adultos: {{ $reserva['adults'] }}
 													</span>
 													</p>
 														<p style="font-size: 17px; line-height: 1.8; word-break: break-word; font-family: 'Nunito', Arial, 'Helvetica Neue', Helvetica, sans-serif; mso-line-height-alt: 17px; margin: 0;">
 													<span style="font-size: 17px;">
-														Cant. Niños:{{ $reserva['booking-children'] }}
+														Cant. Niños:{{ $reserva['child'] }}
 													</span>
 													</p>
 
@@ -451,7 +451,7 @@
                                                     style="line-height: 1.2; font-size: 12px; font-family: 'Nunito', Arial, 'Helvetica Neue', Helvetica, sans-serif; color: #555555; mso-line-height-alt: 14px;">
                                                     <p
                                                         style="font-size: 17px; line-height: 1.2; word-break: break-word; text-align: center; font-family: 'Nunito', Arial, 'Helvetica Neue', Helvetica, sans-serif; mso-line-height-alt: 17px; margin: 0;">
-                                                        {{ $reserva['booking-checkin'] }}</p>
+                                                        {{ $reserva['checkin'] }}</p>
                                                 </div>
                                             </div>
 
@@ -526,7 +526,7 @@
                                                     style="line-height: 1.2; font-size: 12px; font-family: 'Nunito', Arial, 'Helvetica Neue', Helvetica, sans-serif; color: #555555; mso-line-height-alt: 14px;">
                                                     <p
                                                         style="font-size: 17px; line-height: 1.2; word-break: break-word; text-align: center; font-family: 'Nunito', Arial, 'Helvetica Neue', Helvetica, sans-serif; mso-line-height-alt: 17px; margin: 0;">
-                                                        {{ $reserva['booking-checkout'] }}</p>
+                                                        {{ $reserva['checkout'] }}</p>
                                                 </div>
                                             </div>
 

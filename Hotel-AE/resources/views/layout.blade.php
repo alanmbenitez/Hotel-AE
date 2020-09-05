@@ -9,6 +9,7 @@
    
     <title>@yield('title') | Hotel Aires Express</title>
     <meta name="description" content="@yield('description')."/>
+    <meta name="csrf-token" content="{{ csrf_token() }}">
     <meta content="" name="keywords">
     <meta content="" name="author">
     
@@ -75,6 +76,7 @@
             </span>
         </article>
      @yield('main')
+     @include('sweetalert::alert')
                 </div>
             </div>
         </section> -->
@@ -176,6 +178,9 @@
     <script type="text/javascript" src="js/countUp.min.js"></script>
     <script type="text/javascript" src="js/jquery.countdown.min.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/sweetalert2.all.js"></script>
+  {{--   <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script> --}}
+
 
     <!-- ========== REVOLUTION SLIDER ========== -->
     <script type="text/javascript" src="revolution/js/jquery.themepunch.tools.min.js"></script>
@@ -189,6 +194,8 @@
     <script type="text/javascript" src="revolution/js/extensions/revolution.extension.parallax.min.js"></script>
     <script type="text/javascript" src="revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
     <script type="text/javascript" src="revolution/js/extensions/revolution.extension.video.min.js"></script>
+   
+    @yield('script')
 
 </body>
 </html>

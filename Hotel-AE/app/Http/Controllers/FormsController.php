@@ -8,25 +8,27 @@ class FormsController extends Controller
 {
     public function store(Request $request)
     {
-        $message = request()->validate(
+        $data = $request->all();
+        
+      
+        
+        $msg = request()->validate(
             [
-                'booking-name' => 'required',
-                'booking-email' => 'required|email',
-                'booking-phone' => 'required',
-                'booking-roomtype' => 'required',
-                'booking-adults' => 'required',
-                'booking-children' => 'required',
-                'booking-checkin' => 'required',
-                'booking-checkout' => 'required',
+                'name' => 'required',
+                'email' => 'required|email',
+                'phone' => 'required',
+                'room' => 'required',
+                'adults' => 'required',
+                'child' => 'required',
+                'checkin' => 'required',
+                'checkout' => 'required',
             ],
-            [
-                'name_requerid' => __('I need your name'),
-            ]
+            
         );
 
-        Mail::to('alanmbenitezz@gmail.com')->queue(new BookingEmail($message));
+        Mail::to('alanmbenitezz@gmail.com')->queue(new BookingEmail($msg)); 
 
-        /* return new BookinkEmail($message); */
-        return 'Datos validados';
+        return response()->json(['message' =>'todo ok'], 200);
+
     }
 }

@@ -19,7 +19,7 @@ Somos un hotel de Categoria ubicado en plena Ciudad de Buenos aires
 @endsection
 
 
-<meta content="" name="description">
+
 @section('main')
 
 
