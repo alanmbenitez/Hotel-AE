@@ -21,7 +21,7 @@
             <li class="dropdown simple_menu"><a href="#" data-toggle="dropdown" class="dropdown-toggle" aria-expanded="true">ROOMS <b class="caret"></b></a>
                 <ul class="dropdown-menu">
                     <li><a href="{{url('/singleRoom') }}">Habitacion Simple</a></li>
-                    <li><a href="buttons.html">Habitacion ddoble</a></li>
+                    <li><a href="buttons.html">Habitacion doble</a></li>
                     <li><a href="icons.html">Habitacion triple</a></li>
                 </ul>
             </li>
