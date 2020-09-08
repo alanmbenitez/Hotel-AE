@@ -1046,10 +1046,10 @@
  }
  /* ========== 2 GENERAL STYLES ========== */
  /* ---------- 2.1 Forms ---------- */
- 
- .form-group {
+ /*  .form-group {
      margin: 0;
  }
+  */
  
  .form-control {
      color: #b3b3b3;
@@ -1063,6 +1063,15 @@
  
  .form-control:disabled {
      background: #f5f5f5 !important;
+ }
+ 
+ .error-form-hotel {
+     color: #f56565;
+     padding-left: 5px;
+ }
+ 
+ .error_form_hidden {
+     display: none !important;
  }
  
  .form-control select {
@@ -1373,6 +1382,12 @@
      color: #fff;
  }
  
+ .button.btn_red {
+     background: #b92020;
+     border-color: #fa0929;
+     color: #fff;
+ }
+ 
  .button.btn_yellow {
      background: #ffb600;
      border-color: #ffb600;
@@ -1403,6 +1418,13 @@
  .button.btn_blue:focus {
      background: #2c88c0;
      border-color: #2c88c0;
+ }
+ 
+ .button.btn_red:hover,
+ .button.btn_red:active,
+ .button.btn_red:focus {
+     background: #ff2f5c;
+     border-color: #ff4040;
  }
  
  .button.btn_yellow:hover,
@@ -3654,7 +3676,7 @@
      height: 42px;
      border: 1px solid #dfdfdf;
      color: #b3b3b3;
-     margin-bottom: 15px !important;
+     /* margin-bottom: 15px !important; */
  }
  
  .vbf .form-control:focus {

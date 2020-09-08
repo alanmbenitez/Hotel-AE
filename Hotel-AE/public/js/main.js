@@ -1,9 +1,9 @@
  /*================================================
-  * Template Name: Hotel Zante - Hotel & Resort HTML Template
-  * Version: 1.3
-  * Author Name: Jomin Muskaj (Eagle-Themes)
-  * Author URI: eagle-themes.com
-  =================================================*/
+    * Template Name: Hotel Zante - Hotel & Resort HTML Template
+    * Version: 1.3
+    * Author Name: Jomin Muskaj (Eagle-Themes)
+    * Author URI: eagle-themes.com
+    =================================================*/
 
  (function($) {
      "use strict";
@@ -715,7 +715,7 @@
          $('.datepicker').datepicker({
              format: "dd/mm/yyyy", //Set Date Format
              startDate: new Date(), //Set Min Date Today
-             endDate: "18/12/2020", //Set Max Date
+             endDate: "31/12/2040", //Set Max Date
              datesDisabled: ['16/01/2017', '17/01/2017', '30/01/2017'], //Set Disabled Dates
              autoclose: true,
              todayHighlight: true,
