@@ -1,9 +1,9 @@
 <div class="vbf">
-    <h2 class="form_title"><i class="fa fa-calendar"></i> BOOK ONLINE</h2>
-    <form class="inner form-needs"  novalidate >
+    <h2 class="form_title"><i class="fa fa-calendar"></i> Reserva online</h2>
+    <form class="inner form-needs" >
        {{--  {{ route('form') }} method="POST" --}}
         @csrf
-        <div style="margin-bottom: 15px;"class="form-group">
+        <div class="form-group">
             <input class="form-control" id="form_name" name="booking-name" placeholder="Enter Your Name" type="text" required>
             <span id="error_form_name"class="error-form-hotel error_form_hidden">
                 Please provide a valid zip.
@@ -44,8 +44,8 @@
                 </select>
             </div>
             
-            <span id="error_form_adults"class="error-form-hotel error_form_hidden">
-               Debe seleccionar al menos un ocupante adulto
+            <span  id="error_form_adults"class=" text-right error-form-hotel error_form_hidden">
+               Elija nro. huespedes
             </span>
     </div>
         <div class="form-group col-md-6 col-sm-6 col-xs-12 nopadding">
@@ -58,7 +58,7 @@
                 </select>
             </div>
             <span id="error_form_child"class="error-form-hotel error_form_hidden ">
-              
+               
             </span>
             
         </div>
@@ -70,7 +70,7 @@
                 </div>
             </div>
             <span id="error_form_checkin"class="error-form-hotel error_form_hidden">
-                Debe seleccionar un rago de fechas valido
+                Rango de fecha invalido
             </span>
         </div>
         <div class="form-group col-md-6 col-sm-6 col-xs-12 nopadding">
@@ -79,7 +79,7 @@
                     <input type="text" class="datepicker form-control" id="form_checkout" name="booking-checkout" placeholder="Departure Date" readonly>
                 </div>
             </div>
-            <span id="error_form_checkin"class="error-form-hotel error_form_hidden">
+            <span id="error_form_checkout"class="error-form-hotel error_form_hidden">
                 
             </span>
         </div>
@@ -144,17 +144,13 @@ function validateInput(input ,id) {
     if (id === 'adults_id' ) {
         return (input !== "")
     }
-    if (id === 'checkin_id') {
+    if (id === 'checkout_id') {
         let diff = checkout.datepicker('getDate') - checkin.datepicker('getDate');
         let days = diff / 1000 / 60 / 60 / 24;
-        console.log(days > 0);
+        
         return (days > 0)
     }
-    /* if (id === 'checkout_id') {
-        let diff = checkout.datepicker('getDate') - checkin.datepicker('getDate');
-        let days = diff / 1000 / 60 / 60 / 24;
-        return (days > 0 )
-    } */
+    
     return (input.trim().length >= 6 )
 }
 
@@ -199,15 +195,17 @@ function validatorForm(valor, error, id) {
     validatorForm(adults, error_adults, 'adults_id')
     validatorForm(adults, error_child, 'adults_id')
 
-    validatorForm(checkin, error_checkin, 'checkin_id')
-    validatorForm(checkin, error_checkout, 'checkin_id')
+    validatorForm(checkout, error_checkin, 'checkout_id')
+     validatorForm(checkin, error_checkin, 'checkout_id')
+ 
+ 
 
  
 
-  console.log(errors_form);
 
 
-
+  if (errors_form.length === 0) {
+      
   
      
         $.ajax({
@@ -229,8 +227,8 @@ function validatorForm(valor, error, id) {
               
                  Swal({
               type: "success",
-              title: `Muchas gracias! <br id='aplicaB2c'>
-              <p class='text-sm px-4 aplicaB2c'>En las proximas 24hs. nos estaremos comunicando con usted para confirmar su reserva</p>`,
+              title: `Muchas gracias! <br>
+              <p class='text-sm px-4'>En las proximas 24hs. nos estaremos comunicando con usted para confirmar su reserva</p>`,
               showCloseButton: true,
               showConfirmButton: false
             });
@@ -241,16 +239,14 @@ function validatorForm(valor, error, id) {
                 inputReset()
             },
             error: function () {
-               /*  Swal({
+                Swal({
               type: "error",
               title: `Lo sentimos, hubo un error! <br id='aplicaB2c'>
               <p class='text-sm px-4 aplicaB2c'>Verifica los datos ingresado e intentalo nuevamente</p>`,
               showCloseButton: true,
               showConfirmButton: false
-            }); */
-          /*       button_submit.innerHTML = 'Solicitar Reserva';
-            button_submit.classList.add("btn_blue")
-            button_submit.classList.remove("btn_red") */
+            });
+         
                
                
             }
@@ -258,9 +254,15 @@ function validatorForm(valor, error, id) {
         })
         
     
+  }else{
+            button_submit.innerHTML = 'Verifique los datos ingresados';
+            button_submit.classList.add("btn_red")
+            button_submit.classList.remove("btn_blue")
     
+  }
     
     });
+    
     
     
     

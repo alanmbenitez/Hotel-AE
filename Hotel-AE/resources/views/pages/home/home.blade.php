@@ -7,6 +7,10 @@ Home
 @section('description')
 Somos un hotel de Categoria ubicado en plena Ciudad de Buenos aires
 @endsection
+
+@section('logo_menu')
+{{ asset('images\logo1.png')}}
+@endsection
 @section('navBar')
 @component('components.home.nav_home')
     

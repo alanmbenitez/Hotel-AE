@@ -10,6 +10,10 @@ Guía de Buenos Aires
 Somos un hotel de Categoria ubicado en plena Ciudad de Buenos aires
 @endsection
 
+@section('logo_menu')
+{{ asset('images\logo2.png')}}
+@endsection
+
 @section('navBar')
 @component('components.general.nav_general')
     
@@ -18,12 +22,12 @@ Somos un hotel de Categoria ubicado en plena Ciudad de Buenos aires
 @section('main')
 
         <!-- =========== PAGE TITLE ========== -->
-        @component('components.home.blog_title')
+        @component('components.blog.blog_title')
         @endcomponent
 
         <!-- =========== MAIN ========== -->
         
-        @component('components.home.blog_main')
+        @component('components.blog.blog_main')
         @endcomponent
         
 @endsection
