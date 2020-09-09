@@ -10,5 +10,5 @@ return [
     | Descripccion
     */
     // EJ
-    'title' => 'Bienvenido al Hotel Aires Express',
+    'title' => 'Bienvenidos al Hotel Aires Express',
 ];

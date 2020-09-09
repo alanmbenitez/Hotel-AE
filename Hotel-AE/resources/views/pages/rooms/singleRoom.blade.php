@@ -2,17 +2,21 @@
 
 
 @section('title')
-{{$single}}
+{{-- {{$single}} --}}
 @endsection
 
 @section('description')
 Somos un hotel de Categoria ubicado en plena Ciudad de Buenos aires
 @endsection
 
+@section('logo_menu')
+{{ asset('images\logo2.png')}}
+@endsection
+
 @section('navBar')
 @component('components.general.nav_general')
-    
 @endcomponent  
+@endsection
 
 @section('main')
 
@@ -21,22 +25,18 @@ Somos un hotel de Categoria ubicado en plena Ciudad de Buenos aires
  
      
      <!-- =========== PAGE TITLE ========== -->
-        <div class="page_title gradient_overlay" style="background: url(images/page_title_bg.jpg);">
+        <div class="page_title gradient_overlay hero_blog_img" >
             <div class="container">
                 <div class="inner">
                     <div class="row">
                         <div class="col-md-6 col-sm-6">
-                        <h1>{{$single}}</h1>
-                            <ol class="breadcrumb">
-                                <li><a href="index.html">Home</a></li>
-                                <li>Rooms</li>
-                                <li>Single Room</li>
-                            </ol>
+                        <h1>Habitacion Individual</h1>
+                            
                         </div>
                         <div class="col-md-6 col-sm-6">
                             <div class="price">
                                 <div class="inner">
-                                    €90 <span>per night</span>
+                                    $1490 <span>por noche</span>
                                 </div>
                             </div>
                         </div>
@@ -121,7 +121,7 @@ Somos un hotel de Categoria ubicado en plena Ciudad de Buenos aires
                             </div>
                         </div>
                         <div class="main_title mt50">
-                            <h2>ABOUT HOTEL ZANTE</h2>
+                            <h2>Hotel Aires Express</h2>
                         </div>
                         <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis</p>
                         
@@ -131,33 +131,30 @@ Somos un hotel de Categoria ubicado en plena Ciudad de Buenos aires
                         
                         <div class="main_title t_style a_left s_title mt50">
                             <div class="c_inner">
-                                <h2 class="c_title">ROOM SERVICES</h2>
+                                <h2 class="c_title">SERVICIOS</h2>
                             </div>
                         </div>
                         <div class="room_facilitys_list">
                             <div class="all_facility_list">
                                 <div class="col-sm-4 nopadding">
                                     <ul class="list-unstyled">
-                                        <li><i class="fa fa-check"></i>Double Bed</li>
-                                        <li><i class="fa fa-check"></i>80 Sq mt</li>
-                                        <li><i class="fa fa-check"></i>6 Persons</li>
-                                        <li><i class="fa fa-check"></i>Free Internet</li>
+                                        <li><i class="fa fa-check"></i>Cama Simple o Matromonial</li>
+                                        <li><i class="fa fa-check"></i>2 personas</li>
+                                        <li><i class="fa fa-check"></i>Wifi Libre</li>
                                     </ul>
                                 </div>
                                 <div class="col-sm-4 nopadding">
                                     <ul class="list-unstyled">
-                                        <li><i class="fa fa-check"></i>Free Wi-Fi</li>
-                                        <li><i class="fa fa-check"></i>Breakfast Include</li>
-                                        <li><i class="fa fa-check"></i>Private Balcony</li>
-                                        <li class="no"><i class="fa fa-times"></i>Free Newspaper</li>
+                                        <li><i class="fa fa-check"></i>Desayuno Continental Libre</li>
+                                        <li><i class="fa fa-check"></i>Televisión por cable</li>
+                                        <li><i class="fa fa-check"></i>Secador de cabello</li>                           
                                     </ul>
                                 </div>
                                 <div class="col-sm-4 nopadding_left">
                                     <ul class="list-unstyled">
-                                        <li class="no"><i class="fa fa-times"></i>Flat Screen Tv</li>
-                                        <li><i class="fa fa-check"></i>Full Ac</li>
-                                        <li class="no"><i class="fa fa-times"></i>Beach View</li>
-                                        <li><i class="fa fa-check"></i>Room Service</li>
+                                        <li><i class="fa fa-check"></i>Conserjería 24hs</li>
+                                        <li><i class="fa fa-check"></i>Estacionamiento cercano</li>
+                                        <li><i class="fa fa-check"></i>Aire frio Calor con regulación individual</li>                           
                                     </ul>
                                 </div>
                             </div>
@@ -165,7 +162,7 @@ Somos un hotel de Categoria ubicado en plena Ciudad de Buenos aires
                         <div class="similar_rooms">
                             <div class="main_title t_style5 l_blue s_title a_left">
                                 <div class="c_inner">
-                                    <h2 class="c_title">SIMILAR ROOMS</h2>
+                                    <h2 class="c_title">Otras habitaciones</h2>
                                 </div>
                             </div>
                             <div class="row">
@@ -173,9 +170,9 @@ Somos un hotel de Categoria ubicado en plena Ciudad de Buenos aires
                                     <article>
                                         <figure>
                                             <a href="room.html" class="hover_effect h_blue h_link"><img src="images/rooms/single-room.jpg" alt="Image" class="img-responsive"></a>
-                                            <div class="price">€99<span> night</span></div>
+                                            <div class="price">$1450<span> /noche</span></div>
                                             <figcaption>
-                                                <h4><a href="room.html">Double Room</a></h4>
+                                                <h4><a href="room.html">Habitacion Doble</a></h4>
                                             </figcaption>
                                         </figure>
                                     </article>
@@ -184,24 +181,24 @@ Somos un hotel de Categoria ubicado en plena Ciudad de Buenos aires
                                     <article>
                                         <figure>
                                             <a href="room.html" class="hover_effect h_blue h_link"><img src="images/rooms/double-room.jpg" alt="Image" class="img-responsive"></a>
-                                            <div class="price">€129<span> night</span></div>
+                                            <div class="price">$1450<span> /noche</span></div>
                                             <figcaption>
-                                                <h4><a href="room.html">Single Room </a></h4>
+                                                <h4><a href="room.html"> Habitacion Triple </a></h4>
                                             </figcaption>
                                         </figure>
                                     </article>
                                 </div>
-                                <div class="col-md-4">
+                               {{--  <div class="col-md-4">
                                     <article>
                                         <figure>
                                             <a href="room.html" class="hover_effect h_blue h_link"><img src="images/rooms/deluxe-room.jpg" alt="Image" class="img-responsive"></a>
-                                            <div class="price">€189<span> night</span></div>
+                                            <div class="price">$1450<span> /noche</span></div>
                                             <figcaption>
                                                 <h4><a href="room.html">Deluxe Room </a></h4>
                                             </figcaption>
                                         </figure>
                                     </article>
-                                </div>
+                                </div> --}}
                             </div>
                         </div>
                     </div>

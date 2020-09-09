@@ -37,12 +37,7 @@
     <!-- ========== GOOGLE FONTS ========== -->
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900%7cRaleway:400,500,600,700" rel="stylesheet">
 
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
+   
 </head>
 
 <body>
@@ -70,10 +65,15 @@
         <!-- ========== REVOLUTION SLIDER ========== -->
          @yield('revolution')
 
-        <article style="position: fixed; z-index: 100; right:5%; bottom: 5%;">
+        <article class="btn-whatsapp">
             <span>
-                <a href="https://api.whatsapp.com/send?phone=+551135009839" target="_blank"><img style="max-width: 80px;" src="{{asset('images/whatsapp.png')}}"></a>
+                <a 
+                href="https://api.whatsapp.com/send?phone=+5491140480054" 
+                target="_blank"><img class="img_btn_whatsapp"
+                src="{{asset('images/wp.png')}}"></a>
             </span>
+            
+            
         </article>
      @yield('main')
      @include('sweetalert::alert')
@@ -88,37 +88,33 @@
                     <div class="row">
                         <div class="col-md-3 col-sm-6 widget">
                             <div class="about">
-                                <a href="index.html"><img class="logo" src="images/logo.svg" height="32" alt="Logo"></a>
+                                <a href="index.html"><img class="logo" src="{{ asset('images\logo2.png')}}" height="64" alt="Logo"></a>
                                 <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet.</p>
                                 <p>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip.</p>
                             </div>
                         </div>
                         <div class="col-md-3 col-sm-6 widget">
-                            <h5>Latest News</h5>
-                            <ul class="blog_posts">
-                                <li><a href="blog-post.html">Live your myth in Greece</a> <small>AUGUST 13, 2017</small></li>
-                                <li><a href="blog-post.html">Hotel Zante in pictures</a> <small>AUGUST 16, 2017</small></li>
-                                <li><a href="blog-post.html">Hotel Zante family party</a> <small>SEPTEMBER 15, 2017</small></li>
-                            </ul>
+                           
                         </div>
-                        <div class="col-md-3 col-sm-6 widget">
-                            <h5>Useful Links</h5>
+                        <div class="col-md-2 col-sm-6 widget">
+                            <h5>Links</h5>
                             <ul class="useful_links">
-                                <li><a href="#">About us</a></li>
-                                <li><a href="#">Contact us</a></li>
-                                <li><a href="#">History</a></li>
-                                <li><a href="#">Gallery</a></li>
-                                <li><a href="#">Location</a></li>
+                                <li><a href="{{route('home')}}">Home</a></li>
+                                <li><a href="{{url('/singleRoom') }}">Rooms</a></li>
+                                <li><a href="{{route('guia')}}">Blog</a></li>
+                                <li><a href="{{route('home')}}">Contacto</a></li>
+                               
                             </ul>
                         </div>
-                        <div class="col-md-3 col-sm-6 widget">
-                            <h5>Contact Us</h5>
+                        <div class="col-md-4 col-sm-6 widget">
+                            <h5>Contactenos</h5>
                             <address>
                                 <ul class="address_details">
-                                    <li><i class="glyphicon glyphicon-map-marker"></i> 25, Navagio Zakynthos, Greece</li>
-                                    <li><i class="glyphicon glyphicon-phone-alt"></i> Phone: 800 123 3456 </li>
-                                    <li><i class="fa fa-fax"></i> Fax: 800 123 3456</li>
-                                    <li><i class="fa fa-envelope"></i> Email: <a href="mailto:info@site.com">contact@site.com</a></li>
+                                    <li><i class="glyphicon glyphicon-map-marker"></i> Bartolomé Mitre 3410, C1201 AAN, Buenos Aires</li>
+                                    <li><i class="glyphicon glyphicon-phone-alt"></i> Telefono: +54 011 4867-1265 </li>
+                                    <li><i class="fa fa-whatsapp"></i> Whatsapp: +54 9 11 4048 0054
+                                    </li>
+                                    <li><i class="fa fa-envelope"></i> Email: <a href="mailto:hotelairesexpress@hotmail.com">hotelairesexpress@hotmail.com</a></li>
                                 </ul>
                             </address>
                         </div>
@@ -130,16 +126,11 @@
                     <div class="row">
                         <div class="col-md-6 col-sm-6">
                             <div class="copyrights">
-                                 Copyright 2017 <a href="index.html">Hotel Zante</a> All Rights Reserved.
+                                 Copyright 2020 <a href="index.html">Hotel Aires Express</a> All Rights Reserved.
                             </div>
                         </div>
                         <div class="col-md-6 col-sm-6">
                             <div class="social_media">
-                                <a class="facebook" data-original-title="Facebook" data-toggle="tooltip" href="#"><i class="fa fa-facebook"></i></a>
-                                <a class="twitter" data-original-title="Twitter" data-toggle="tooltip" href="#"><i class="fa fa-twitter"></i></a>
-                                <a class="googleplus" data-original-title="Google Plus" data-toggle="tooltip" href="#"><i class="fa fa-google-plus"></i></a>
-                                <a class="pinterest" data-original-title="Pinterest" data-toggle="tooltip" href="#"><i class="fa fa-pinterest"></i></a>
-                                <a class="linkedin" data-original-title="Linkedin" data-toggle="tooltip" href="#"><i class="fa fa-linkedin"></i></a>
                                 <a class="instagram" data-original-title="Instagram" data-toggle="tooltip" href="#"><i class="fa fa-instagram"></i></a>
                             </div>
                         </div>
@@ -179,7 +170,9 @@
     <script type="text/javascript" src="js/jquery.countdown.min.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
     <script type="text/javascript" src="js/sweetalert2.all.js"></script>
-  {{--   <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script> --}}
+   {{--  <script type="text/javascript" src="js/form_reservas.js"></script> --}}
+
+  
 
 
     <!-- ========== REVOLUTION SLIDER ========== -->
