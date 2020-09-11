@@ -15,19 +15,18 @@ Somos un hotel de Categoria ubicado en plena Ciudad de Buenos aires
 @endsection
 
 @section('navBar')
-@component('components.general.nav_general')
-    
+@component('components.general.nav_general') 
 @endcomponent  
- @dd($single)
+@endsection
+
 @section('main')
 
         <!-- =========== PAGE TITLE ========== -->
-        @component('components.blog.blog_title')
-        @endcomponent
+        @include('components.blog.blog_title')
+        
 
         <!-- =========== MAIN ========== -->
         
-        @component('components.blog.blog_main')
-        @endcomponent
+        @include('components.blog.blog_main')
         
 @endsection
