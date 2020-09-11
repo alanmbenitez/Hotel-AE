@@ -14,25 +14,25 @@
     <meta content="" name="author">
     
     <!-- ========== FAVICON ========== -->
-    <link rel="apple-touch-icon-precomposed" href="images/favicon-apple.png" />
-	<link rel="icon" href="images/favicon.png">
+    <link rel="apple-touch-icon-precomposed" href="images/favicon-1.svg" />
+	<link rel="icon" href="images/favicon-2.svg">
 
     <!-- ========== STYLESHEETS ========== --> 
-    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
-    <link href="revolution/css/layers.css" rel="stylesheet" type="text/css" />
-    <link href="revolution/css/settings.css" rel="stylesheet" type="text/css" />
-    <link href="revolution/css/navigation.css" rel="stylesheet" type="text/css" />
-    <link href="css/bootstrap-select.min.css" rel="stylesheet" type="text/css">
-    <link href="css/animate.min.css" rel="stylesheet" type="text/css">
-    <link href="css/famfamfam-flags.css" rel="stylesheet" type="text/css">
-    <link href="css/magnific-popup.css" rel="stylesheet" type="text/css">
-    <link href="css/owl.carousel.min.css" rel="stylesheet" type="text/css">
-    <link href="css/style.css" rel="stylesheet" type="text/css">
-    <link href="css/responsive.css" rel="stylesheet" type="text/css">
+    <link href="{{asset('css/bootstrap.min.css')}}" rel="stylesheet" type="text/css">
+    <link href="{{asset('revolution/css/layers.css')}}" rel="stylesheet" type="text/css" />
+    <link href="{{asset('revolution/css/settings.css')}}" rel="stylesheet" type="text/css" />
+    <link href="{{asset('revolution/css/navigation.css')}}" rel="stylesheet" type="text/css" />
+    <link href="{{asset('css/bootstrap-select.min.css')}}" rel="stylesheet" type="text/css">
+    <link href="{{asset('css/animate.min.css')}}" rel="stylesheet" type="text/css">
+    <link href="{{asset('css/famfamfam-flags.css')}}" rel="stylesheet" type="text/css">
+    <link href="{{asset('css/magnific-popup.css')}}" rel="stylesheet" type="text/css">
+    <link href="{{asset('css/owl.carousel.min.css')}}" rel="stylesheet" type="text/css">
+    <link href="{{asset('css/style.css')}}" rel="stylesheet" type="text/css">
+    <link href="{{asset('css/responsive.css')}}" rel="stylesheet" type="text/css">
 
     <!-- ========== ICON FONTS ========== -->
-    <link href="fonts/font-awesome.min.css" rel="stylesheet">
-    <link href="fonts/flaticon.css" rel="stylesheet">
+    <link href="{{asset('fonts/font-awesome.min.css')}}" rel="stylesheet">
+    <link href="{{asset('fonts/flaticon.css')}}" rel="stylesheet">
     
     <!-- ========== GOOGLE FONTS ========== -->
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900%7cRaleway:400,500,600,700" rel="stylesheet">
@@ -150,45 +150,47 @@
     <div id="notification"></div>
      
     <!-- ========== JAVASCRIPT ========== -->
-    <script type="text/javascript" src="js/jquery.min.js"></script>
-    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY"></script>
-    <script type="text/javascript" src="js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="js/bootstrap-datepicker.min.js"></script>
-    <script type="text/javascript" src="js/bootstrap-select.min.js"></script>
-    <script type="text/javascript" src="js/jquery.smoothState.js"></script>
-    <script type="text/javascript" src="js/moment.min.js"></script>
-    <script type="text/javascript" src="js/morphext.min.js"></script>
-    <script type="text/javascript" src="js/wow.min.js"></script>
-    <script type="text/javascript" src="js/jquery.easing.min.js"></script>
-    <script type="text/javascript" src="js/owl.carousel.min.js"></script>
-    <script type="text/javascript" src="js/owl.carousel.thumbs.min.js"></script>
-    <script type="text/javascript" src="js/jquery.magnific-popup.min.js"></script>
-    <script type="text/javascript" src="js/jPushMenu.js"></script>
-    <script type="text/javascript" src="js/isotope.pkgd.min.js"></script>
-    <script type="text/javascript" src="js/imagesloaded.pkgd.min.js"></script>
-    <script type="text/javascript" src="js/countUp.min.js"></script>
-    <script type="text/javascript" src="js/jquery.countdown.min.js"></script>
-    <script type="text/javascript" src="js/main.js"></script>
-    <script type="text/javascript" src="js/sweetalert2.all.js"></script>
-   {{--  <script type="text/javascript" src="js/form_reservas.js"></script> --}}
+    <script type="text/javascript" src="{{asset('js/jquery.min.js')}}"></script>
+    <script type="text/javascript" src="{{asset('https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY')}}"></script>
+    <script type="text/javascript" src="{{asset('js/bootstrap.min.js')}}"></script>
+    <script type="text/javascript" src="{{asset('js/bootstrap-datepicker.min.js')}}"></script>
+    <script type="text/javascript" src="{{asset('js/bootstrap-select.min.js')}}"></script>
+    <script type="text/javascript" src="{{asset('js/jquery.smoothState.js')}}"></script>
+    <script type="text/javascript" src="{{asset('js/moment.min.js')}}"></script>
+    <script type="text/javascript" src="{{asset('js/morphext.min.js')}}"></script>
+    <script type="text/javascript" src="{{asset('js/wow.min.js')}}"></script>
+    <script type="text/javascript" src="{{asset('js/jquery.easing.min.js')}}"></script>
+    <script type="text/javascript" src="{{asset('js/owl.carousel.min.js')}}"></script>
+    <script type="text/javascript" src="{{asset('js/owl.carousel.thumbs.min.js')}}"></script>
+    <script type="text/javascript" src="{{asset('js/jquery.magnific-popup.min.js')}}"></script>
+    <script type="text/javascript" src="{{asset('js/jPushMenu.js')}}"></script>
+    <script type="text/javascript" src="{{asset('js/isotope.pkgd.min.js')}}"></script>
+    <script type="text/javascript" src="{{asset('js/imagesloaded.pkgd.min.js')}}"></script>
+    <script type="text/javascript" src="{{asset('js/countUp.min.js')}}"></script>
+    <script type="text/javascript" src="{{asset('js/jquery.countdown.min.js')}}"></script>
+    <script type="text/javascript" src="{{asset('js/main.js')}}"></script>
+    <script type="text/javascript" src="{{asset('js/sweetalert2.all.js')}}"></script>
+   {{--  <script type="text/javascript" src="{{asset('js/form_reservas.js')}}"></script> --}}
 
   
 
 
     <!-- ========== REVOLUTION SLIDER ========== -->
-    <script type="text/javascript" src="revolution/js/jquery.themepunch.tools.min.js"></script>
-    <script type="text/javascript" src="revolution/js/jquery.themepunch.revolution.min.js"></script>
-    <script type="text/javascript" src="revolution/js/extensions/revolution.extension.actions.min.js"></script>
-    <script type="text/javascript" src="revolution/js/extensions/revolution.extension.carousel.min.js"></script>
-    <script type="text/javascript" src="revolution/js/extensions/revolution.extension.kenburn.min.js"></script>
-    <script type="text/javascript" src="revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
-    <script type="text/javascript" src="revolution/js/extensions/revolution.extension.migration.min.js"></script>
-    <script type="text/javascript" src="revolution/js/extensions/revolution.extension.navigation.min.js"></script>
-    <script type="text/javascript" src="revolution/js/extensions/revolution.extension.parallax.min.js"></script>
-    <script type="text/javascript" src="revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
-    <script type="text/javascript" src="revolution/js/extensions/revolution.extension.video.min.js"></script>
+    <script type="text/javascript" src="{{asset('revolution/js/jquery.themepunch.tools.min.js')}}"></script>
+    <script type="text/javascript" src="{{asset('revolution/js/jquery.themepunch.revolution.min.js')}}"></script>
+    <script type="text/javascript" src="{{asset('revolution/js/extensions/revolution.extension.actions.min.js')}}"></script>
+    <script type="text/javascript" src="{{asset('revolution/js/extensions/revolution.extension.carousel.min.js')}}"></script>
+    <script type="text/javascript" src="{{asset('revolution/js/extensions/revolution.extension.kenburn.min.js')}}"></script>
+    <script type="text/javascript" src="{{asset('revolution/js/extensions/revolution.extension.layeranimation.min.js')}}"></script>
+    <script type="text/javascript" src="{{asset('revolution/js/extensions/revolution.extension.migration.min.js')}}"></script>
+    <script type="text/javascript" src="{{asset('revolution/js/extensions/revolution.extension.navigation.min.js')}}"></script>
+    <script type="text/javascript" src="{{asset('revolution/js/extensions/revolution.extension.parallax.min.js')}}"></script>
+    <script type="text/javascript" src="{{asset('revolution/js/extensions/revolution.extension.slideanims.min.js')}}"></script>
+    <script type="text/javascript" src="{{asset('revolution/js/extensions/revolution.extension.video.min.js')}}"></script>
    
     @yield('script')
+    @yield('script2')
+
 
 </body>
 </html>

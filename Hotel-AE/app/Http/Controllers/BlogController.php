@@ -7,8 +7,9 @@ use Illuminate\Http\Request;
 class BlogController extends Controller
 {
     public function index()
-    {   //$single = __('blog.single');
-        return view('pages.blog.blog');
+    { 
+        return view('pages.blog.blog')
+        
             
     }
 }
