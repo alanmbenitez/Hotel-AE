@@ -5,7 +5,6 @@
                 <!-- ITEM -->
                 @foreach($data['places'] as $item)
                 <article class="blog_list">
-                    @dd($single)
                     <figure>
                     <a href="{{$item['href']}}" class="hover_effect h_link h_blue">
                             <img src="{{$item['img']}}" class="img-responsive" alt="Image">
