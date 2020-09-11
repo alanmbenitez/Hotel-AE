@@ -7,9 +7,27 @@ use Illuminate\Http\Request;
 class RoomsController extends Controller
 {
     public function single()
-    {   $single = __('rooms.single');
+    {   $rooms = __('rooms.single');
         return view('pages.rooms.singleRoom')
-        ->with('single', $single);
+        ->with('rooms', $rooms);
             
     }
+    
+    
+    public function double()
+    {   $rooms = __('rooms.double');
+        return view('pages.rooms.singleRoom')
+        ->with('rooms', $rooms);
+      
+    
+    } 
+    
+    public function triple()
+    {   $rooms = __('rooms.triple');
+        return view('pages.rooms.singleRoom')
+        ->with('rooms', $rooms);
+            
+    }
+
 }
+
