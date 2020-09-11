@@ -4,6 +4,7 @@
             <div class="col-md-8">
                 <!-- ITEM -->
                 <article class="blog_list">
+                    @dd($single)
                     <figure>
                         <a href="blog-post.html" class="hover_effect h_link h_blue">
                             <img src="{{asset('images/blog/jardin.jpg')}}" class="img-responsive" alt="Image">

@@ -154,20 +154,20 @@ function validateInput(input ,id) {
     return (input.trim().length >= 6 )
 }
 
-function validatorForm(valor, error, id) {
+function validatorForm(valor, error, id, array_error) {
     if (!validateInput(valor.val(),id)) {
        error.removeClass("error_form_hidden")
-       errors_form.push({error,id})
+       array_error.push({error,id})
        valor.change(()=>{
             if (validateInput(valor.val(),id)) {
                 error.addClass("error_form_hidden")
-                let index = errors_form.map(er =>{
+                let index = array_error.map(er =>{
                     return er.id
                 }).indexOf(id)
-                errors_form.splice(index)
+                array_error.splice(index)
             }else{
                 error.removeClass("error_form_hidden")
-                errors_form.push({error,id})
+                array_error.push({error,id})
             }
         })
     }
@@ -189,14 +189,14 @@ function validatorForm(valor, error, id) {
     /* =========== validation ========== */
 
     
-    validatorForm(name, error_name, 'name_id')
-    validatorForm(email, error_email, 'email_id')
-    validatorForm(phone, error_phone, 'phone_id')
-    validatorForm(adults, error_adults, 'adults_id')
-    validatorForm(adults, error_child, 'adults_id')
+    validatorForm(name, error_name, 'name_id', errors_form)
+    validatorForm(email, error_email, 'email_id', errors_form)
+    validatorForm(phone, error_phone, 'phone_id', errors_form)
+    validatorForm(adults, error_adults, 'adults_id', errors_form)
+    validatorForm(adults, error_child, 'adults_id', errors_form)
 
-    validatorForm(checkout, error_checkin, 'checkout_id')
-     validatorForm(checkin, error_checkin, 'checkout_id')
+    validatorForm(checkout, error_checkin, 'checkout_id', errors_form)
+     validatorForm(checkin, error_checkin, 'checkout_id', errors_form)
  
  
 
@@ -211,7 +211,7 @@ function validatorForm(valor, error, id) {
         $.ajax({
             headers: { 'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content') },
             type:'POST',
-            url:"{{ route('form1') }}",
+            url:"{{ route('form') }}",
             dataType: 'json',
             data:   {   
                         name: name.val(),
@@ -238,7 +238,9 @@ function validatorForm(valor, error, id) {
 
                 inputReset()
             },
-            error: function () {
+            error: function (xhr, status, error) {
+                var err = eval("(" + xhr.responseText + ")");
+                console.log(err);
                 Swal({
               type: "error",
               title: `Lo sentimos, hubo un error! <br id='aplicaB2c'>

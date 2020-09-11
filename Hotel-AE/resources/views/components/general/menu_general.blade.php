@@ -20,16 +20,19 @@
             </li>
             <li class="dropdown simple_menu nav_li_menu"><a href="#" data-toggle="dropdown" class="dropdown-toggle nav_a_menu" aria-expanded="true">ROOMS <b class="caret"></b></a>
                 <ul class="dropdown-menu">
-                    <li><a href="{{url('/singleRoom') }}">Habitacion Simple</a></li>
+                    <li><a href="{{url('/rooms/individual') }}">Habitacion Simple</a></li>
                     <li><a href="buttons.html">Habitacion doble</a></li>
                     <li><a href="icons.html">Habitacion triple</a></li>
                 </ul>
             </li>
           
             <li class="nav_li_menu ">
-                <a href="{{route('guia')}}" class="nav_a_menu"  >BLOG</a></li>
+                <a href="{{route('guia')}}" class="nav_a_menu"  >GUIA</a></li>
             <li class="nav_li_menu">
                 <a class="nav_a_menu" href="blog.html" >CONTACTO</a></li>
+                @if (false)
+                    
+               
             <li class="dropdown simple_menu nav_li_menu">
                 @if(App::getLocale() === 'en')
                 <a href="#" data-toggle="dropdown" class="nav_a_menu  dropdown-toggle" aria-expanded="true"><i class="fa fa-globe"></i> | EN <b class="caret"></b></a>
@@ -44,7 +47,7 @@
                 </ul>
                 @endif
             </li>
-
+            @endif
         
 
 

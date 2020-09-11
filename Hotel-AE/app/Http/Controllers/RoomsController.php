@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 
 class RoomsController extends Controller
 {
-    public function index()
+    public function single()
     {   $single = __('rooms.single');
         return view('pages.rooms.singleRoom')
         ->with('single', $single);
