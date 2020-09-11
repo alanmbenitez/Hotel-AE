@@ -17,9 +17,9 @@ Route::get('/', 'HomeController@index')->name('home');
 /* Route::get('/{locale}', 'HomeController@lang'); */
 
 
-Route::get('/rooms-individual', 'RoomsController@single')->name('lang.swap');
-Route::get('/rooms-doble', 'RoomsController@double')->name('lang.swap');
-Route::get('/rooms-triple', 'RoomsController@triple')->name('lang.swap');
+Route::get('/rooms/individual', 'RoomsController@single')->name('lang.swap');
+Route::get('/rooms/doble', 'RoomsController@double')->name('lang.swap');
+Route::get('/rooms/triple', 'RoomsController@triple')->name('lang.swap');
 
 Route::get('/guia', 'BlogController@index')->name('guia');
 Route::post('/', 'FormsController@store')->name('form');
