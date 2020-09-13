@@ -74,7 +74,7 @@
                      data-y="['160','160','500','400']"
                      data-width="[368, 368, 768, 480]" 
                      data-height="[auto, auto, auto, auto]"
-                     data-frames='[{"delay":3000,"speed":1500,"frame":"0","from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:[100%];s:inherit;e:inherit;","to":"o:1;","ease":"Power2.easeInOut"}]' 
+                     data-frames='[{"delay":500,"speed":1000,"frame":"0","from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:[100%];s:inherit;e:inherit;","to":"o:1;","ease":"Power2.easeInOut"}]' 
                      style="z-index: 99;">
                 <!-- ========== BOOKING FORM ========== -->
                 @component('components.general.Form_reserva')
