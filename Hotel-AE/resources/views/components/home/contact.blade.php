@@ -1,9 +1,9 @@
 <section class="white_bg" id="contact">
     <div class="container">
         <div class="main_title mt_wave a_center">
-            <h2> Contactenos</h2>
+            <h2> Contáctenos</h2>
         </div>
-        <p class="main_description a_center">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit.</p>
+        <p class="main_description a_center">Dejanos tu consulta por alguna de nuestras habitaciones o bien alguna sugerencia que tengas respecto al hotel o nuestra web.</p>
         
         <div   class="box_contact_maps row">
             <div class=" div_iframe_maps_contact col-md-6">
@@ -21,29 +21,29 @@
             </div>
             <div class="col-md-6 form_contact">
                 <div style="margin-top: 0" class="main_title a_center">
-                    <h2>Envienos su consulta o sugerencia</h2>
+                    <h2>Envíenos su consulta o sugerencia</h2>
                 </div>
                 <form >
                     @csrf
                     <div class="form-group">
-                        <input class="form-control" id="form_name_contact" name="name" placeholder="Your Name" type="text">
+                        <input class="form-control" id="form_name_contact" name="name" placeholder="Nombre" type="text">
                         <span id="error_name_contact" class="error-form-hotel error_form_hidden">
                             Please provide a valid zip.
                         </span>
                     </div>
                     <div class="form-group">
-                        <input class="form-control"  id="form_email_contact" name="email" type="email" placeholder="Your Email Address">
+                        <input class="form-control"  id="form_email_contact" name="email" type="email" placeholder="Email">
                         <span id="error_email_contact" class="error-form-hotel error_form_hidden">
                             Please provide a valid zip.
                         </span>
                     </div>
                     <div class="form-group">
-                        <textarea class="form-control" id="form_text_contact" name="message" placeholder="Your Message"></textarea>
+                        <textarea class="form-control" id="form_text_contact" name="message" placeholder="Mensaje"></textarea>
                         <span id="error_text_contact" class="error-form-hotel error_form_hidden">
                             Please provide a valid zip.
                         </span>
                     </div>
-                    <button class="button btn_lg btn_blue btn_full upper" id="button_contact" type="submit"><i class="fa fa-location-arrow"></i>Send Message</button>
+                    <button class="button btn_lg btn_blue btn_full upper" id="button_contact" type="submit"><i class="fa fa-location-arrow"></i>Enviar mensaje</button>
                    
                 </form>
             </div>
@@ -107,7 +107,7 @@ button_contact.addEventListener('click' ,(e) => {
                  Swal({
               type: "success",
               title: `Muchas gracias! <br>
-              <p class='text-sm px-4'>En las proximas 24hs. nos estaremos comunicando con usted para responder a su consulta o sugerencia</p>`,
+              <p class='text-sm px-4'>En las próximas 24 horas nos estaremos comunicando con usted para responder a su consulta o sugerencia.</p>`,
               showCloseButton: true,
               showConfirmButton: false
             });
@@ -125,7 +125,7 @@ button_contact.addEventListener('click' ,(e) => {
                 Swal({
               type: "error",
               title: `Lo sentimos, hubo un error! <br id='aplicaB2c'>
-              <p class='text-sm px-4 aplicaB2c'>Verifica los datos ingresado e intentalo nuevamente</p>`,
+              <p class='text-sm px-4 aplicaB2c'>Verifica los datos ingresados e intentalo nuevamente.</p>`,
               showCloseButton: true,
               showConfirmButton: false
             });
@@ -137,7 +137,7 @@ button_contact.addEventListener('click' ,(e) => {
         })
 
     }else{
-            button_contact.innerHTML = 'Verifique los datos ingresados';
+            button_contact.innerHTML = 'Verifique los datos ingresados.';
             button_contact.classList.add("btn_red")
             button_contact.classList.remove("btn_blue")
     
