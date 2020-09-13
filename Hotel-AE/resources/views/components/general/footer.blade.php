@@ -30,7 +30,8 @@
                             <li><i class="fa fa-whatsapp"></i>{{__('footer.data')['wpp']}}
                             </li>
                             <li><i class="fa fa-envelope"></i> Email: <a href="mailto:{{__('footer.data')['email']}}">{{__('footer.data')['email']}}</a></li>
-                            
+                            <li><i class="fa fa-instagram"></i><a href="https://www.instagram.com/hotel_airesexpress">{{__('footer.data')['insta']}}</a></li>
+                            <li><i class="fa fa-facebook-square"></i><a href="https://www.facebook.com/airesexpress/">{{__('footer.data')['facebook']}}</a></li>
                         </ul>
                     </address>
                 </div>
@@ -46,9 +47,9 @@
                     </div>
                 </div>
                 <div class="col-md-6 col-sm-6">
-                    <div class="social_media">
+                    {{-- <div class="social_media">
                         <a class="instagram" data-original-title="Instagram" data-toggle="tooltip" href="#"><i class="fa fa-instagram"></i></a>
-                    </div>
+                    </div> --}}
                 </div>
             </div>
         </div>

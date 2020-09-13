@@ -3,7 +3,7 @@
         <div class="main_title mt_wave a_center">
             <h2 class="text_color_title_ae">NUESTROS SERVICIOS</h2>
         </div>
-        <p class="main_description a_center">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit.</p>
+        <p class="main_description a_center">Ofrecemos los siguientes servicios para que puedas aprovechar al máximo tu estadía en el hotel.</p>
         
         <div class="row">
             <div class="col-md-7">
@@ -22,14 +22,14 @@
                        </span>
                         <div class="media-body">
                             <h5>Desayuno continental libre</h5>
-                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet.</p>
+                            <p>Café con leche, medialunas, tostadas</p>
                         </div>
                     </div>
                     <div class="owl-thumb-item">
                     <span class="media-left"><img src="{{asset('images/icons/air.svg')}}" alt="" srcset=""></span>
                         <div class="media-body">
-                            <h5>Aire frio Calor </h5>
-                            <p>con regulación individual</p>
+                            <h5>Aire acondicionado frío/calor </h5>
+                            <p>Cada uno con regulación individual</p>
                         </div>
                     </div>
                     <div class="owl-thumb-item">
@@ -38,7 +38,7 @@
                        </span>
                         <div class="media-body">
                             <h5>Estacionamiento cercano</h5>
-                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet.</p>
+                            <p>Lugar libre para estacionar en las inmediaciones</p>
                         </div>
                     </div>
                     <div class="owl-thumb-item">
@@ -46,8 +46,8 @@
                             <img src="{{asset('images/icons/conserje.svg')}}" alt="" srcset="">
                         </span>
                         <div class="media-body">
-                            <h5>Conserjería 24hs</h5>
-                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet.</p>
+                            <h5>Conserjería 24 horas</h5>
+                            <p>Atención personalizada cuando necesites</p>
                         </div>
                     </div>
                 </div>
