@@ -50,9 +50,7 @@ class FormsController extends Controller
                 'email' => 'required|email',
                 'contact' => 'required',
                
-            ],
-            
-        );
+            ]);
 
         Mail::to('cecimtorres79@gmail.com')->queue(new ContactEmail($msg)); 
 
