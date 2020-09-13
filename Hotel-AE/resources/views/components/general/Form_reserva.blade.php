@@ -223,7 +223,7 @@ function validatorForm(valor, error, id, array_error) {
                         checkin: checkin.val(),
                         checkout: checkout.val(),
                     },
-            success: function () {
+            success: function (response) {
               
                  Swal({
               type: "success",
