@@ -12,7 +12,7 @@ return [
     // EJ
     'single' => [
 
-    'title'=>'Habitacion Individual',
+    'title'=>'Habitación Individual',
     'precio_num'=>'',
     'Precio_per_night'=>'por noche ',
     'fotos'=>[
@@ -30,7 +30,7 @@ return [
         ]
     ],
 
-    'title_service'=>'servicios',
+    'title_service'=>'Servicios',
 
     'informacion'=>[
         'columna1' =>[
@@ -80,7 +80,7 @@ return [
     ],
     'double' => [
 
-        'title'=>'Habitacion Doble',
+        'title'=>'Habitación Doble',
         'precio_num'=>'',
         'Precio_per_night'=>'por noche ',
         'fotos'=>[
@@ -98,7 +98,7 @@ return [
             ]
         ],
 
-        'title_service'=>'servicios',
+        'title_service'=>'Servicios',
     
     
         'informacion'=>[
@@ -148,7 +148,7 @@ return [
     ],
     'triple' => [
 
-        'title'=>'Habitacion triple',
+        'title'=>'Habitación triple',
         'precio_num'=>'1',
         'Precio_per_night'=>'por noche ',
         'fotos'=>[

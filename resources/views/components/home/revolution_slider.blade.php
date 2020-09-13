@@ -15,7 +15,7 @@
                 data-title="Slide" 
                 data-description="">
                 <!-- IMAGE -->
-                <img src="{{asset('images/home/obelisco.jpeg')}}" alt="Image" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="5" class="rev-slidebg" data-no-retina>
+                <img src="{{asset('images/home/obelisco.webp')}}" alt="Image" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="5" class="rev-slidebg" data-no-retina>
                 <!-- LAYER NR. 1 --> 
                 
                 <div class="tp-caption"
@@ -27,7 +27,7 @@
                      data-lineheight="['40','28','28','22']"
                      data-whitespace="nowrap"
                      data-frames='[{"delay":0,"speed":1500,"frame":"0","from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:[100%];s:inherit;e:inherit;","to":"o:1;","ease":"Power2.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
-                     style="color: #fff; font-weight: 700; font-family: 'Raleway', sans-serif;; ">{{ __('home.title')}} <br><span id="text_rotating"> COMODO, TRANQUILO , CONFORTABLE</span>
+                     style="color: #fff; font-weight: 700; font-family: 'Raleway', sans-serif;; ">{{ __('home.title')}} <br><span id="text_rotating"> CÓMODO, TRANQUILO , CONFORTABLE</span>
                 </div>
                 <!-- LAYER NR. 8 --> 
                 <div class="tp-caption tp_s_title"
@@ -74,7 +74,7 @@
                      data-y="['160','160','500','400']"
                      data-width="[368, 368, 768, 480]" 
                      data-height="[auto, auto, auto, auto]"
-                     data-frames='[{"delay":3000,"speed":1500,"frame":"0","from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:[100%];s:inherit;e:inherit;","to":"o:1;","ease":"Power2.easeInOut"}]' 
+                     data-frames='[{"delay":500,"speed":1000,"frame":"0","from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:[100%];s:inherit;e:inherit;","to":"o:1;","ease":"Power2.easeInOut"}]' 
                      style="z-index: 99;">
                 <!-- ========== BOOKING FORM ========== -->
                 @component('components.general.Form_reserva')

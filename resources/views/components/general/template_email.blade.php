@@ -297,7 +297,7 @@
 													</p>
 													<p style="font-size: 17px; line-height: 1.8; word-break: break-word; font-family: 'Nunito', Arial, 'Helvetica Neue', Helvetica, sans-serif; mso-line-height-alt: 17px; margin: 0;">
 													<span style="font-size: 17px;">
-														Telefono: {{ $reserva['phone'] }}
+														Telfono: {{ $reserva['phone'] }}
 													</span>
 													</p>
 														<p style="font-size: 17px; line-height: 1.8; word-break: break-word; font-family: 'Nunito', Arial, 'Helvetica Neue', Helvetica, sans-serif; mso-line-height-alt: 17px; margin: 0;">
@@ -416,7 +416,7 @@
                                                                             
                                                                                 <svg version="1.0" xmlns="http://www.w3.org/2000/svg" height="90" viewBox="0 0 1280.000000 1927.000000"
                                                                                 preserveAspectRatio="xMidYMid meet">
-                                                                               
+                                                                              
                                                                                <g transform="translate(0.000000,1927.000000) scale(0.100000,-0.100000)"
                                                                                fill="#ED325C" stroke="none">
                                                                                <path fill="#ED325C"  d="M3900 19263 c-103 -13 -290 -57 -393 -93 -484 -167 -867 -501 -1094

@@ -16,7 +16,7 @@ class FormsController extends Controller
         
       
         
-        $msg = request()->validate(
+        $msg = $request->validate(
             [
                 'name' => 'required',
                 'email' => 'required|email',
@@ -26,15 +26,16 @@ class FormsController extends Controller
                 'child' => '',
                 'checkin' => 'required',
                 'checkout' => 'required',
-            ],
-            
-        );
+            ]);
 
-        Mail::to('cecimtorres79@gmail.com')->queue(new BookingEmail($msg)); 
-        Mail::to($msg['email'])->queue(new UserEmail($msg)); 
+        Mail::to('alanmbenitezz@gmail.com')->queue(new BookingEmail($msg)); 
+       
+
+         Mail::to($request->email)->queue(new UserEmail($msg)); 
 
 
-        return response()->json(['message' =>'todo ok'], 200);
+        return response()->json(['message' =>'todo ok'], 200); 
+
 
     }
 
@@ -52,7 +53,7 @@ class FormsController extends Controller
                
             ]);
 
-        Mail::to('cecimtorres79@gmail.com')->queue(new ContactEmail($msg)); 
+        Mail::to('alanmbenitezz@gmail.com')->queue(new ContactEmail($msg)); 
 
         return response()->json(['message' =>'todo ok'], 200);
 

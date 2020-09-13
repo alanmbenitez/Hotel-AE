@@ -4,39 +4,39 @@
        {{--  {{ route('form') }} method="POST" --}}
         @csrf
         <div class="form-group">
-            <input class="form-control" id="form_name" name="booking-name" placeholder="Enter Your Name" type="text" required>
+            <input class="form-control" id="form_name" name="booking-name" placeholder="Nombre completo" type="text" required>
             <span id="error_form_name"class="error-form-hotel error_form_hidden">
-                Please provide a valid zip.
+                Nombre inválido.
             </span>
         </div>
         <div class="form-group">
-            <input class="form-control" id="form_email" name="booking-email" placeholder="Enter Your Email Address" type="email" >
+            <input class="form-control" id="form_email" name="booking-email" placeholder="Email" type="email" >
             <span id="error_form_email"class="error-form-hotel error_form_hidden">
-                Please provide a valid zip.
+                Email inválido.
             </span>
         </div>
         <div class="form-group">
-            <input class="form-control" id="form_phone" name="booking-phone" placeholder="Enter Your Phone Number" type="text" required>
+            <input class="form-control" id="form_phone" name="booking-phone" placeholder="Número de teléfono" type="text" required>
             <span id="error_form_phone"class="error-form-hotel error_form_hidden">
-                Please provide a valid zip.
+                Número de teléfono inválido.
             </span>
         </div>
         <div class="form-group">
             <div class="form_select">
-                <select name="booking-roomtype" class="form-control" id="form_room" value="0" title="Select Room Type" data-header="Room Type">
+                <select name="booking-roomtype" class="form-control" id="form_room" value="0" title="Seleccionar habitación" data-header="Room Type">
                     
-                    <option value="Single Room"  selected="selected">Single Room</option>
-                    <option value="Double Room">Double Room</option>
-                    <option value="Deluxe Room">Deluxe Room</option>
+                    <option value="Single Room"  selected="selected">Individual</option>
+                    <option value="Double Room">Doble</option>
+                    <option value="Deluxe Room">Triple</option>
                 </select>
             </div>
             <span id="error_form_rooms"class="error-form-hotel error_form_hidden">
-                Please provide a valid zip.
+                Selección inválida.
             </span>
         </div>
         <div class="form-group col-md-6 col-sm-6 col-xs-12 nopadding">
             <div class="form_select">
-                <select  name="booking-adults" class="form-control md_noborder_right" value="0" id="form_adults" title="Adults" data-header="Adults">
+                <select  name="booking-adults" class="form-control md_noborder_right" value="0" id="form_adults" title="Adultos" data-header="Adults">
                     <option value="1">1</option>
                     <option value="2">2</option>
                     <option value="3">3</option>
@@ -45,12 +45,12 @@
             </div>
             
             <span  id="error_form_adults"class=" text-right error-form-hotel error_form_hidden">
-               Elija nro. huespedes
+               Elija número de huéspedes.
             </span>
     </div>
         <div class="form-group col-md-6 col-sm-6 col-xs-12 nopadding">
             <div class="form_select">
-                <select name="booking-children" class="form-control" id="form_child" value="0" title="Children" data-header="Children">
+                <select name="booking-children" class="form-control" id="form_child" value="0" title="Chicos" data-header="Children">
                     <option value="1">1</option>
                     <option value="2">2</option>
                     <option value="3">3</option>
@@ -66,17 +66,17 @@
         <div class="form-group col-md-6 col-sm-6 col-xs-12 nopadding">
             <div class="input-group">
                 <div class="form_date">
-                    <input type="text" class="datepicker form-control md_noborder_right" id="form_checkin" name="booking-checkin" placeholder="Arrival Date" readonly>
+                    <input type="text" class="datepicker form-control md_noborder_right" id="form_checkin" name="booking-checkin" placeholder="Fecha entrada" readonly>
                 </div>
             </div>
             <span id="error_form_checkin"class="error-form-hotel error_form_hidden">
-                Rango de fecha invalido
+                Rango de fecha inválido.
             </span>
         </div>
         <div class="form-group col-md-6 col-sm-6 col-xs-12 nopadding">
             <div class="input-group">
                 <div class="form_date">
-                    <input type="text" class="datepicker form-control" id="form_checkout" name="booking-checkout" placeholder="Departure Date" readonly>
+                    <input type="text" class="datepicker form-control" id="form_checkout" name="booking-checkout" placeholder="Fecha salida" readonly>
                 </div>
             </div>
             <span id="error_form_checkout"class="error-form-hotel error_form_hidden">
@@ -216,14 +216,14 @@ function validatorForm(valor, error, id, array_error) {
             data:   {   
                         name: name.val(),
                         email:email.val(),
-                        phone: phone.val(),
+                        phone: name.val(),
                         adults: adults.val(),
                         child: child.val(),
                         room: room.val(),
                         checkin: checkin.val(),
                         checkout: checkout.val(),
                     },
-            success: function () {
+            success: function (response) {
               
                  Swal({
               type: "success",

@@ -20,9 +20,9 @@
             </li>
             <li class="dropdown simple_menu nav_li_menu"><a href="#" data-toggle="dropdown" class="dropdown-toggle nav_a_menu" aria-expanded="true">ROOMS <b class="caret"></b></a>
                 <ul class="dropdown-menu">
-                    <li><a href="{{url('/rooms/individual') }}">Habitacion Simple</a></li>
-                    <li><a href="buttons.html">Habitacion doble</a></li>
-                    <li><a href="icons.html">Habitacion triple</a></li>
+                    <li><a href="{{url('/rooms/individual') }}">Individuales</a></li>
+                    <li><a href="buttons.html">Dobles</a></li>
+                    <li><a href="icons.html">Triples</a></li>
                 </ul>
             </li>
           
