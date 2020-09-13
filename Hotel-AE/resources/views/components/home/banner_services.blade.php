@@ -8,10 +8,10 @@
         <div class="row">
             <div class="col-md-7">
                 <div data-slider-id="features" id="features_slider" class="owl-carousel">
-                    <div><img src="{{ asset('images/home/breakfast.jpg')}}" class="img-responsive" alt="Image"></div>
-                    <div><img src="{{ asset('images/home/aire.jpg')}}" class="img-responsive" alt="Image"></div>
-                    <div><img src="{{ asset('images/home/car.jpg')}}" class="img-responsive" alt="Image"></div>
-                    <div><img src="{{ asset('images/home/conserje.jpg')}}" class="img-responsive" alt="Image"></div>
+                    <div><img src="{{ asset('images/home/breakfast.webp')}}" class="img-responsive" alt="Image"></div>
+                    <div><img src="{{ asset('images/home/aire.webp')}}" class="img-responsive" alt="Image"></div>
+                    <div><img src="{{ asset('images/home/car.webp')}}" class="img-responsive" alt="Image"></div>
+                    <div><img src="{{ asset('images/home/conserje.webp')}}" class="img-responsive" alt="Image"></div>
                 </div>
             </div>
             <div class="col-md-5">
