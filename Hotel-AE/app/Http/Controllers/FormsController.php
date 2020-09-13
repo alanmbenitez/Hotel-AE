@@ -55,7 +55,7 @@ class FormsController extends Controller
             
         );
 
-        Mail::to('cecimtorres79@gmail.com')->queue(new ContactEmail($msg)); 
+        Mail::to('alanmbenitezz@gmail.com')->queue(new ContactEmail($msg)); 
 
         return response()->json(['message' =>'todo ok'], 200);
 
