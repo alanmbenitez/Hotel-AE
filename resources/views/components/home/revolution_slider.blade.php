@@ -40,7 +40,8 @@
                      data-fontsize="['20','20','20','15']"
                      data-lineheight="['20','20','20','15']"
                      data-frames='[{"delay":2000,"speed":1500,"frame":"0","from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:[100%];s:inherit;e:inherit;","to":"o:1;","ease":"Power2.easeInOut"}]' style="display: flex; justify-content: center; align-items: center; ">
-                     <i style="font-size: 34px; color: #ED325C; padding: 15px;" class="fa fa-wifi"></i> Wifi Disponible las 24hs.
+                    
+                     <i style="font-size: 34px; color: #ED325C; padding: 15px;" class="fa fa-wifi"></i>Wifi Disponible las 24hs.
                 </div>
                 <!-- LAYER NR. 9 --> 
                 <div class="tp-caption tp_s_title"
@@ -52,7 +53,9 @@
                      data-responsive_offset="on" 
                      data-fontsize="['20','20','20','15']"
                      data-lineheight="['20','20','20','15']" 
-                     data-frames='[{"delay":2200,"speed":1500,"frame":"0","from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:[100%];s:inherit;e:inherit;","to":"o:1;","ease":"Power2.easeInOut"}]' style="display: flex; justify-content: center; align-items: center; "><i style="font-size: 34px; color: #ED325C; padding: 15px;" class="fa fa fa-coffee"></i> Desayuno continental libre.
+                     data-frames='[{"delay":2200,"speed":1500,"frame":"0","from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:[100%];s:inherit;e:inherit;","to":"o:1;","ease":"Power2.easeInOut"}]' style="display: flex; justify-content: center; align-items: center; ">
+                     <i style="font-size: 34px; color: #ED325C; padding: 15px;" class="fa fa fa-coffee"></i> 
+                     Desayuno continental libre.
                 </div>
                 <!-- LAYER NR. 10 --> 
                 <div class="tp-caption tp_s_title"
@@ -64,7 +67,8 @@
                      data-responsive_offset="on" 
                      data-fontsize="['20','20','20','15']" 
                      data-lineheight="['20','20','20','15']"
-                     data-frames='[{"delay":2400,"speed":1500,"frame":"0","from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:[100%];s:inherit;e:inherit;","to":"o:1;","ease":"Power2.easeInOut"}]' style="display: flex; justify-content: center; align-items: center; "><i style="font-size: 34px; color: #ED325C; padding: 15px;" class="fa ffa fa-television"></i> Television por cable.
+                     data-frames='[{"delay":2400,"speed":1500,"frame":"0","from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:[100%];s:inherit;e:inherit;","to":"o:1;","ease":"Power2.easeInOut"}]' style="display: flex; justify-content: center; align-items: center; ">
+                     <i style="font-size: 34px; color: #ED325C; padding: 15px;" class="fa ffa fa-television"></i>  Television por cable.
                 </div>
                 
                 <!-- LAYER NR. 14 --> 

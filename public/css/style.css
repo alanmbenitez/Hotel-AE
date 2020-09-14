@@ -95,7 +95,7 @@
  }
  
  body {
-     color: #a1b1c1;
+     color: #71787f;
      background: #fff;
      font-family: 'Lato', sans-serif;
      font-size: 14px;
@@ -121,7 +121,7 @@
      position: relative !important;
      background: #fff;
      padding: 0;
-     box-shadow: 0 0 2px #a1b1c1;
+     box-shadow: 0 0 2px #71787f;
      margin-left: auto !important;
      margin-right: auto !important;
  }
@@ -258,7 +258,7 @@
      padding: 0;
      margin: 0;
      font-family: 'Raleway', sans-serif;
-     color: #a1b1c1;
+     color: #71787f;
      font-weight: 400;
  }
  
@@ -1138,14 +1138,14 @@
  
  label {
      font-size: .9em;
-     color: #a1b1c1;
+     color: #71787f;
      letter-spacing: 1px;
      font-weight: 400;
      margin-bottom: 10px;
  }
  
  label .label_icon_info {
-     color: #a1b1c1;
+     color: #71787f;
  }
  
  .bootstrap-select.btn-group .dropdown-toggle .caret {
@@ -1217,7 +1217,7 @@
  
  .datepicker-dropdown.datepicker .day {
      padding: 10px 12px;
-     color: #a1b1c1;
+     color: #71787f;
      background: #f4fafd;
      border: 1px solid #e7eef1;
      text-align: center;
@@ -1231,7 +1231,7 @@
  
  .datepicker-dropdown.datepicker .day.disabled {
      background: #fbf5f5;
-     color: #a1b1c1;
+     color: #71787f;
      border-color: #ede8ea;
  }
  
@@ -1245,7 +1245,7 @@
  .datepicker-dropdown.datepicker .day.disabled:hover {
      cursor: not-allowed;
      background: #fbf5f5;
-     color: #a1b1c1;
+     color: #71787f;
      border-color: #ede8ea;
  }
  
@@ -1276,7 +1276,7 @@
      display: inline-block;
      width: 50px;
      padding: 10px 0;
-     color: #a1b1c1;
+     color: #71787f;
      background: #f4fafd;
      border: 1px solid #e7eef1;
      text-align: center;
@@ -1299,7 +1299,7 @@
  .datepicker-dropdown.datepicker .decade.disabled,
  .datepicker-dropdown.datepicker .century.disabled {
      background: #fbf5f5;
-     color: #a1b1c1;
+     color: #71787f;
      border-color: #ede8ea;
  }
  
@@ -1318,7 +1318,7 @@
  }
  
  .bootstrap-select .dropdown-menu li a {
-     color: #a1b1c1;
+     color: #71787f;
  }
  
  .bootstrap-select .dropdown-menu .popover-title {
@@ -1486,7 +1486,7 @@
      line-height: 0;
      background: #f5f5f5;
      border: 1px solid #eeeeee;
-     color: #a1b1c1;
+     color: #71787f;
      font-weight: 700;
  }
  
@@ -1592,7 +1592,7 @@
  .pagination li.active a,
  .pagination li.disabled,
  .pagination li.page_of {
-     color: #a1b1c1;
+     color: #71787f;
      font-weight: 700;
      display: inline-block;
      font-size: 13px;
@@ -1686,15 +1686,18 @@
  
  .main_description {
      margin-bottom: 50px;
+     margin-left: auto;
+     margin-right: auto;
  }
  
  .main_description {
-     font-size: 1em;
+     font-size: 1.5em;
      line-height: 1.6;
  }
  
  .main_description.a_center {
-     padding: 0 10%;
+     /* padding: 0 10%; */
+     max-width: 756px;
  }
  
  .main_description.md_white {
@@ -2422,7 +2425,7 @@
  }
  
  header .navbar-header .mobile_menu_btn .icon-bar {
-     background: #a1b1c1;
+     background: #71787f;
      position: relative;
      -webkit-transition: all 500ms ease-in-out;
      transition: all 500ms ease-in-out;
@@ -2433,7 +2436,7 @@
  }
  
  header.scroll .navbar-header .mobile_menu_btn .icon-bar {
-     background: #a1b1c1;
+     background: #71787f;
  }
  
  header .navbar-header .mobile_menu_btn .icon-bar {
@@ -2479,7 +2482,7 @@
  }
  
  #main_menu .navbar-nav li a {
-     color: #a1b1c1;
+     color: #71787f;
      font-size: .95em;
      font-weight: 900;
      letter-spacing: .05em;
@@ -2498,7 +2501,7 @@
  }
  
  .transparent.nav_bg #main_menu .navbar-nav li a {
-     color: #a1b1c1;
+     color: #333;
  }
  
  .transparent.nav_bg #main_menu .navbar-nav li.active a.dropdown-toggle,
@@ -2511,7 +2514,7 @@
  }
  
  #main_menu .navbar-nav li a {
-     color: #a1b1c1;
+     color: #71787f;
  }
  
  #main_menu .navbar-nav li a:hover,
@@ -2633,7 +2636,7 @@
  #main_menu .mega_menu .mega_menu_inner ul .list_title {
      padding: 10px 0;
      font-size: .9em;
-     color: #a1b1c1;
+     color: #71787f;
      font-weight: 700;
      text-transform: uppercase;
  }
@@ -2882,7 +2885,7 @@
  
  .room figcaption h4 a,
  .room figcaption h5 a {
-     color: #a1b1c1;
+     color: #71787f;
  }
  
  .room figure .price {
@@ -2941,7 +2944,7 @@
  
  #features .owl-thumb-item .media-body h5 {
      font-weight: 600;
-     color: #a1b1c1;
+     color: #71787f;
  }
  
  #features .owl-thumb-item.active .media-body h5 {
@@ -2950,7 +2953,7 @@
  
  #features .owl-thumb-item .media-body p {
      font-size: .98em;
-     color: #acbac4;
+     color: #848f97;
      margin: 7px 0;
  }
  
@@ -3037,7 +3040,7 @@
  }
  
  #blog .blog_item .main h3 a {
-     color: #a1b1c1;
+     color: #71787f;
      font-size: .8em;
      font-weight: 600;
  }
@@ -3144,7 +3147,7 @@
  
  .comments .author_name a {
      float: left;
-     color: #a1b1c1;
+     color: #71787f;
      font-weight: 600;
  }
  
@@ -3758,7 +3761,7 @@
  }
  
  .vbf .a_b_f {
-     color: #a1b1c1;
+     color: #71787f;
      font-size: 13px;
  }
  /* ---------- 6.2 Horizontal Booking Form 1 ---------- */
@@ -3811,7 +3814,7 @@
  
  .hbf .inner .advanced_form_link a {
      font-weight: 400;
-     color: #a1b1c1;
+     color: #71787f;
      font-size: .9em;
  }
  
@@ -3995,7 +3998,7 @@
  }
  
  footer .widget h5 {
-     color: #a1b1c1;
+     color: #71787f;
      text-transform: uppercase;
      font-weight: 700;
      letter-spacing: 1px;
@@ -4284,7 +4287,7 @@
  
  .sidebar .widget .categories li a,
  .sidebar .widget .archive li a {
-     color: #a1b1c1;
+     color: #71787f;
      display: list-item;
      font-size: 1em;
      font-weight: 600;
@@ -4339,7 +4342,7 @@
  }
  
  .sidebar .widget .latest_posts .latest_post .details h6 a {
-     color: #a1b1c1;
+     color: #71787f;
      font-weight: 600;
  }
  
@@ -4366,7 +4369,7 @@
  }
  
  .sidebar .widget .tagcloud a .tag {
-     background: #a1b1c1;
+     background: #71787f;
      color: #FFF;
      display: inline-block;
      font-size: .8em;
@@ -4387,7 +4390,7 @@
  }
  
  .sidebar .widget .tagcloud .num:before {
-     border-color: rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) #a1b1c1;
+     border-color: rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) #71787f;
      border-style: solid;
      border-width: 4px;
      content: "";
@@ -4946,7 +4949,7 @@
  
  #events_page .item .event-wrapper h5 a {
      font-size: 1.2em;
-     color: #a1b1c1;
+     color: #71787f;
  }
  
  #events_page .item .event-wrapper .meta {
@@ -5067,7 +5070,7 @@
  
  .gallery_items figure figcaption h4 {
      font-size: 1.2em;
-     color: #a1b1c1;
+     color: #71787f;
  }
  
  .gallery_items figure figcaption span {
@@ -5135,7 +5138,7 @@
      border-radius: 50%;
      line-height: 30px;
      border: 1px solid #e9e8e7;
-     color: #a1b1c1;
+     color: #71787f;
  }
  /* ---------- 8.14 Places  ---------- */
  
@@ -5304,13 +5307,13 @@
  
  .room_list .room_details .room_desc h3 a {
      font-family: 'Raleway', sans-serif;
-     color: #a1b1c1;
+     color: #71787f;
      font-weight: 400;
      font-size: 1.2em;
  }
  
  .room_list .room_details .room_desc p {
-     color: #a1b1c1;
+     color: #71787f;
      padding-top: 10px;
  }
  
@@ -5401,7 +5404,7 @@
  
  #rooms_grid .room_grid_item .room_info h3 a {
      font-family: 'Raleway', sans-serif;
-     color: #a1b1c1;
+     color: #71787f;
      font-weight: 400;
      font-size: 1em;
  }
@@ -5437,7 +5440,7 @@
  }
  
  #rooms_block_view .room_block_item .room_info h3 a {
-     color: #a1b1c1;
+     color: #71787f;
      font-weight: 400;
      font-size: 1em;
  }
@@ -5492,7 +5495,7 @@
  }
  
  #room_page .slider #thumbs .owl-item.active-item .item {
-     border: 1px solid #a1b1c1;
+     border: 1px solid #71787f;
  }
  
  #room_page .slider #thumbs .owl-item .item img {}
@@ -5561,7 +5564,7 @@
  
  .similar_rooms article figcaption h4 a {
      font-size: 1em;
-     color: #a1b1c1;
+     color: #71787f;
      display: inline-block;
      font-size: 1.8rem;
      font-weight: 500;
@@ -5599,13 +5602,13 @@
  
  #icons .col-md-3 {
      display: block;
-     color: #a1b1c1;
+     color: #71787f;
      line-height: 32px;
      height: 32px;
  }
  
  #icons .col-md-3 i {
-     color: #a1b1c1;
+     color: #71787f;
  }
  
  #icons .col-md-3 i {

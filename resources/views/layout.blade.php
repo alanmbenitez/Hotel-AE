@@ -31,7 +31,7 @@
     <link href="{{asset('css/responsive.css')}}" rel="stylesheet" type="text/css">
 
     <!-- ========== ICON FONTS ========== -->
-    <link href="{{asset('fonts/font-awesome.min.css')}}" rel="stylesheet">
+    <link href="{{asset('fonts/fontawesome.min.css')}}" rel="stylesheet">
     <link href="{{asset('fonts/flaticon.css')}}" rel="stylesheet">
     
     <!-- ========== GOOGLE FONTS ========== -->
