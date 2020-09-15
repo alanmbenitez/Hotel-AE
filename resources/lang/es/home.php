@@ -48,5 +48,32 @@ return [
             'title' => 'Conserjería 24 horas',
             'description' => 'Atención personalizada cuando necesites',
         ],
-    ]
-];
+    ],
+    'title_our_rooms'=>'NUESTRAS HABITACIONES',
+    'info_our_rooms'=>'Contamos con 52 habitaciones, de las cuales hay <strong>individuales</strong> con cama de 1 o 2 plazas, <strong>dobles</strong> con cama matrimonial o separadas, y <strong>triples</strong> con cama matrimonial o separadas.</p>',
+    'main_carousel'=> [
+        'carousel1'=>[
+            'src'=>asset('images/rooms/single-room.jpg'),
+            'alt'=>'image',
+            'title'=>'Individuales',
+            'price'=>'',
+            'per_night'=>'/ noche'
+        ],
+        'carousel2'=>[
+            'src'=>asset('images/rooms/single-room.jpg'),
+            'alt'=>'image',
+            'title'=>'Dobles',
+            'price'=>'',
+            'per_night'=>'/ noche'
+        ],
+        'carousel'=>[
+            'src'=>asset('images/rooms/single-room.jpg'),
+            'alt'=>'image',
+            'title'=>'Triples',
+            'price'=>'',
+            'per_night'=>'/ noche'
+        ]
+
+
+        ],
+    ];
