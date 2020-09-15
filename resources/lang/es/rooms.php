@@ -64,14 +64,14 @@ return [
             'room1'=>[
                 'href'=>'room-double',
                 'src'=>asset('images/rooms/single-room.jpg'),
-                'name'=>'Habitacion Doble',
+                'name'=>'Doble',
                 'price'=>'',
                 'per_night'=>'/noche'
             ],
             'room2'=>[
                 'href'=>'room-triple',
                 'src'=>asset('images/rooms/single-room.jpg'),
-                'name'=>'Habitacion Triple',
+                'name'=>'Triple',
                 'price'=>'',
                 'per_night'=>'/noche'
             ]
@@ -132,14 +132,14 @@ return [
             'room1'=>[
                 'href'=>'room-individual',
                 'src'=>asset('images/rooms/single-room.jpg'),
-                'name'=>'Habitacion individual',
+                'name'=>'individual',
                 'price'=>'',
                 'per_night'=>'/noche'
             ],
             'room2'=>[
                 'href'=>'room-double',
                 'src'=>asset('images/rooms/single-room.jpg'),
-                'name'=>'Habitacion Triple',
+                'name'=>'Triple',
                 'price'=>'',
                 'per_night'=>'/noche'
             ]
@@ -201,14 +201,14 @@ return [
             'room1'=>[
                 'href'=>'room-individual',
                 'src'=>asset('images/rooms/single-room.jpg'),
-                'name'=>'Habitacion individual',
+                'name'=>'Individual',
                 'price'=>'',
                 'per_night'=>'/noche'
             ],
             'room2'=>[
                 'href'=>'room-double',
                 'src'=>asset('images/rooms/single-room.jpg'),
-                'name'=>'Habitacion Doble',
+                'name'=>'Doble',
                 'price'=>'',
                 'per_night'=>'/noche'
             ]
