@@ -14,11 +14,11 @@
     </div>
     <nav id="main_menu" class="mobile_menu navbar-collapse">
         <ul class="nav navbar-nav">
-            <li class="mobile_menu_title" style="display:none;">MENU</li>
-            <li class="dropdown simple_menu nav_li_menu">
+            <li class="mobile_menu_title nav_mobile_ul_menu" style="display:none;">MENU</li>
+            <li class="dropdown simple_menu nav_li_menu nav_mobile_ul_menu">
                 <a href="{{route('home')}}" data-toggle="dropdown" class="nav_a_menu" >HOME </a>
             </li>
-            <li class="dropdown simple_menu nav_li_menu"><a href="#" data-toggle="dropdown" class="dropdown-toggle nav_a_menu" aria-expanded="true">ROOMS <b class="caret"></b></a>
+            <li class="dropdown simple_menu nav_li_menu nav_mobile_ul_menu"><a href="#" data-toggle="dropdown" class="dropdown-toggle nav_a_menu" aria-expanded="true">ROOMS <b class="caret"></b></a>
                 <ul class="dropdown-menu">
                     <li><a href="{{url('/rooms/single') }}">Individual</a></li>
                     <li><a href="{{url('/rooms/double') }}">Dobles</a></li>
@@ -26,9 +26,9 @@
                 </ul>
             </li>
           
-            <li class="nav_li_menu ">
-                <a href="{{route('guia')}}" class="nav_a_menu"  >GUIA</a></li>
-            <li class="nav_li_menu">
+            <li class="nav_li_menu nav_mobile_ul_menu">
+                <a href="{{route('guia')}}" class="nav_a_menu">GUIA</a></li>
+            <li class="nav_li_menu nav_mobile_ul_menu">
                 <a class="nav_a_menu" href="blog.html" >CONTACTO</a></li>
                 @if (false)
                     

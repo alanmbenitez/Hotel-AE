@@ -25,8 +25,8 @@
                     <address>
                         <ul class="address_details">
                             
-                            <li><i class="glyphicon glyphicon-map-marker"></i>{{__('footer.data')['address']}}</li>
-                            <li><i class="glyphicon glyphicon-phone-alt"></i>{{__('footer.data')['phone']}}</li>
+                            <li><i class="fa fa-map-marker-alt"></i>{{__('footer.data')['address']}}</li>
+                            <li><i class="fa fa-phone-alt"></i>{{__('footer.data')['phone']}}</li>
                             <li><i class="fa fa-whatsapp"></i>{{__('footer.data')['wpp']}}
                             </li>
                             <li><i class="fa fa-envelope"></i> Email: <a href="mailto:{{__('footer.data')['email']}}">{{__('footer.data')['email']}}</a></li>

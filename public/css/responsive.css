@@ -272,7 +272,7 @@
          color: #a1b1be;
      }
      #main_menu.mobile_menu .navbar-nav li a:hover {
-         color: #1dc1f8;
+         color: #ED325C;
      }
      #main_menu.mobile_menu .navbar-nav li.mobile_menu_title {
          color: #a1b1be;
@@ -306,6 +306,7 @@
      #main_menu.mobile_menu .navbar-nav .dropdown .dropdown-menu li a {
          padding: 8px 50px;
          font-size: 0.9em;
+         text-transform: uppercase;
      }
      #main_menu.mobile_menu .navbar-nav .mega_menu .mega_menu_inner {
          padding: 0;

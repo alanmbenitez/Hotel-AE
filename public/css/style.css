@@ -2354,6 +2354,12 @@
  /* ========== 4  HEADER ========== */
  /* ---------- 4.1 Header ---------- */
  
+ @media only screen and (max-width: 991px) {
+     .nav_mobile_ul_menu {
+         padding: 14px 15px !important;
+     }
+ }
+ 
  header {
      width: 100%;
      background: #fff;
@@ -4014,7 +4020,7 @@
  }
  
  footer .widget a:hover {
-     color: #1dc1f8;
+     color: #ED325C;
  }
  
  footer .about p {
@@ -4069,7 +4075,7 @@
  }
  
  footer .useful_links li a:hover:before {
-     color: #1dc1f8;
+     color: #ED325C;
  }
  
  footer .address_details li {
