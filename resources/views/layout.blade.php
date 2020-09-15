@@ -31,8 +31,7 @@
     <link href="{{asset('css/responsive.css')}}" rel="stylesheet" type="text/css">
 
     <!-- ========== ICON FONTS ========== -->
-    <link href="{{asset('fonts/font-awesome.min.css')}}" rel="stylesheet">
-    <link href="{{asset('fonts/flaticon.css')}}" rel="stylesheet">
+
     
     <!-- ========== GOOGLE FONTS ========== -->
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900%7cRaleway:400,500,600,700" rel="stylesheet">
@@ -95,6 +94,8 @@
     <div id="notification"></div>
      
     <!-- ========== JAVASCRIPT ========== -->
+    <script src="https://kit.fontawesome.com/89f55138af.js" crossorigin="anonymous"></script>
+
     <script type="text/javascript" src="{{asset('js/jquery.min.js')}}"></script>
     <script type="text/javascript" src="{{asset('https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY')}}"></script>
     <script type="text/javascript" src="{{asset('js/bootstrap.min.js')}}"></script>
