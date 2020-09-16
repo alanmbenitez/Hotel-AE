@@ -6,19 +6,20 @@
         <div class="form-group">
             <input class="form-control" id="form_name" name="booking-name" placeholder="Nombre completo" type="text" required>
             <span id="error_form_name"class="error-form-hotel error_form_hidden">
-                Nombre inválido.
+                Por favor ingrese su nombre completo
             </span>
         </div>
         <div class="form-group">
             <input class="form-control" id="form_email" name="booking-email" placeholder="Email" type="email" >
             <span id="error_form_email"class="error-form-hotel error_form_hidden">
-                Email inválido.
+                Por favor ingrese una direccion de email válida.
             </span>
         </div>
         <div class="form-group">
             <input class="form-control" id="form_phone" name="booking-phone" placeholder="Número de teléfono" type="text" required>
             <span id="error_form_phone"class="error-form-hotel error_form_hidden">
-                Número de teléfono inválido.
+                Por favor ingrese un numero de telefono válido.
+
             </span>
         </div>
         <div class="form-group">
@@ -216,7 +217,7 @@ function validatorForm(valor, error, id, array_error) {
             data:   {   
                         name: name.val(),
                         email:email.val(),
-                        phone: name.val(),
+                        phone: phone.val(),
                         adults: adults.val(),
                         child: child.val(),
                         room: room.val(),

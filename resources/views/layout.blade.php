@@ -18,6 +18,10 @@
 	<link rel="icon" href="images/favicon-2.svg">
 
     <!-- ========== STYLESHEETS ========== --> 
+       <!-- Compiled and minified CSS -->
+      
+     
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css"> 
     <link href="{{asset('css/bootstrap.min.css')}}" rel="stylesheet" type="text/css">
     <link href="{{asset('revolution/css/layers.css')}}" rel="stylesheet" type="text/css" />
     <link href="{{asset('revolution/css/settings.css')}}" rel="stylesheet" type="text/css" />
@@ -29,6 +33,8 @@
     <link href="{{asset('css/owl.carousel.min.css')}}" rel="stylesheet" type="text/css">
     <link href="{{asset('css/style.css')}}" rel="stylesheet" type="text/css">
     <link href="{{asset('css/responsive.css')}}" rel="stylesheet" type="text/css">
+
+
 
     <!-- ========== ICON FONTS ========== -->
 
@@ -78,7 +84,7 @@
      @include('sweetalert::alert')
                 </div>
             </div>
-        </section> -->
+        </section> 
 
         <!-- ========== FOOTER ========== -->
         @include('components.general.footer')
@@ -86,8 +92,8 @@
     </div>
     
     <!-- ========== BACK TO TOP ========== -->
-    <div id="back_to_top">
-        <i class="fa fa-angle-up" aria-hidden="true"></i>
+    <div  id="back_to_top">
+        <i class="back-to-top fa fa-angle-up" aria-hidden="true"></i>
     </div>
 
     <!-- ========== NOTIFICATION ========== -->
@@ -116,6 +122,7 @@
     <script type="text/javascript" src="{{asset('js/jquery.countdown.min.js')}}"></script>
     <script type="text/javascript" src="{{asset('js/main.js')}}"></script>
     <script type="text/javascript" src="{{asset('js/sweetalert2.all.js')}}"></script>
+   
    {{--  <script type="text/javascript" src="{{asset('js/form_reservas.js')}}"></script> --}}
 
   
@@ -133,7 +140,21 @@
     <script type="text/javascript" src="{{asset('revolution/js/extensions/revolution.extension.parallax.min.js')}}"></script>
     <script type="text/javascript" src="{{asset('revolution/js/extensions/revolution.extension.slideanims.min.js')}}"></script>
     <script type="text/javascript" src="{{asset('revolution/js/extensions/revolution.extension.video.min.js')}}"></script>
-   
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+
+    <script>
+        $('.CarouselRoom').flickity({
+          // options
+          
+          cellAlign: 'center',
+          contain: true,
+          prevNextButtons: false,
+          autoPlay: 2500,
+          wrapAround: true,
+          
+          
+        });
+            </script>
     @yield('script')
     @yield('script2')
 
