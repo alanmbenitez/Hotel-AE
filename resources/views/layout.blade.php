@@ -84,7 +84,7 @@
      @include('sweetalert::alert')
                 </div>
             </div>
-        </section> -->
+        </section> 
 
         <!-- ========== FOOTER ========== -->
         @include('components.general.footer')
@@ -92,8 +92,8 @@
     </div>
     
     <!-- ========== BACK TO TOP ========== -->
-    <div id="back_to_top">
-        <i class="fa fa-angle-up" aria-hidden="true"></i>
+    <div  id="back_to_top">
+        <i class="back-to-top fa fa-angle-up" aria-hidden="true"></i>
     </div>
 
     <!-- ========== NOTIFICATION ========== -->

@@ -43,7 +43,7 @@
             <div class="row">
                 <div class="col-md-6 col-sm-6">
                     <div class="copyrights">
-                         Copyright 2020 <a href="index.html">Hotel Aires Express</a> All Rights Reserved.
+                         Copyright 2020 <a href="index.html">Hotel Aires Express</a> <br> All Rights Reserved.
                     </div>
                 </div>
                 <div class="col-md-6 col-sm-6">
