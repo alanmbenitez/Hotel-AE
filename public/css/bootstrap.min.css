@@ -7446,9 +7446,10 @@ button.close {
     border-left-color: #fff
 }
 
-.carousel {
+
+/* .carousel {
     position: relative
-}
+} */
 
 .carousel-inner {
     position: relative;

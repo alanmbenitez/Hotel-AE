@@ -1,4 +1,4 @@
-<svg width="40px" padding="5px"  xmlns="http://www.w3.org/2000/svg"  style=" margin-left: 28px" viewBox="0 0 350 350">
+<svg class="svg_icon_home"  xmlns="http://www.w3.org/2000/svg"  style=" margin-left: 28px" viewBox="0 0 350 350">
     <defs>
         <style>.cls-1,.cls-2,.cls-3{fill:none;}.cls-2,.cls-3{stroke:#ed325c;stroke-miterlimit:10;stroke-width:8px;}.cls-3{stroke-linecap:round;}.cls-4{fill:#ed325c;}</style>
     </defs>

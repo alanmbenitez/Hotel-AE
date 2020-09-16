@@ -1,15 +1,15 @@
  <!-- ========== FAVORITE ROOMS ========== -->
  <section class="white_bg" id="rooms">
-    <div class="container">
+    <div class="container container_img_room" >
 
         <div class="main_title mt_wave a_center">
         <h2 class="text_color_title_ae">{{__('home.title_our_rooms')}}</h2>
         </div>
     <p class="main_description a_center">{{__('home.title_our_rooms')}}</p>
 
-        <div class="row"> 
+        <div class="CarouselRoom" > 
             @foreach (__('home.main_carousel') as $carousel)
-                <div class="col-md-4">
+                <div class="col-md-4 carousel-cell">
                     <article class="room">
                         <figure>
                             

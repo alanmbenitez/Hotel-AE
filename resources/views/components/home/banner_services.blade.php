@@ -5,19 +5,19 @@
         </div>
         <p class="main_description a_center">{{ __('home.subtitle_services') }}</p>
         
-        <div class="row">
+        <div id="imagen" class="row">
             <div class="col-md-7">
                 <div data-slider-id="features" id="features_slider" class="owl-carousel">
                    @foreach (__('home.img_services') as $img)
-                    <div><img src="{{$img['src']}}" class="img-responsive" alt="{{ $img['alt'] }}"></div>
+                <div class="{{$img['class']}}"><img src="{{$img['src']}}" class="{{$img['class']}} img-responsive" alt="{{ $img['alt'] }}"></div>
                        
                     @endforeach 
                 </div>
             </div>
-            <div class="col-md-5">
+            <div style="    margin-top: 9px;" class="col-md-5">
                 <div class="owl-thumbs" data-slider-id="features">
                     @foreach (__('home.info_services') as $info)
-                    <div class="owl-thumb-item">
+                    <a href="#imagen" class="{{$info['class']}} owl-thumb-item">
                         <span class="media-left">
                             <img src="{{ $info['src'] }}" alt="{{ $info['alt'] }}" srcset="">
                        </span>
@@ -26,7 +26,7 @@
                             <p>{{ $info['description'] }}</p>
                         </div>
                    
-                    </div>
+                    </a>
                     @endforeach
                     
                 </div>

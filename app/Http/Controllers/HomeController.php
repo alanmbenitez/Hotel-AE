@@ -12,9 +12,9 @@ class HomeController extends BaseController
         return view('pages.home.home');
             
     }
-    public function room()
+    public function contacto()
     {  
-        return view('pages.rooms.singleRoom');
+        return view('pages.contact.contact');
             
     }
     public function lang($locale)

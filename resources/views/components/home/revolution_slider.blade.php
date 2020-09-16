@@ -19,11 +19,11 @@
                 <!-- LAYER NR. 1 --> 
                 
                 <div class="tp-caption"
-                     data-x="['510','right','left','center']" 
-                     data-hoffset="['15','15','15','0']" 
+                     data-x="['510','center','left','center']" 
+                     data-hoffset="['15','200','100','0']" 
                      data-y="['200','200','150','150']"
                      data-responsive_offset="on" 
-                     data-fontsize="['40','28','28','22']" 
+                     data-fontsize="['40','28','30','22']" 
                      data-lineheight="['40','28','28','22']"
                      data-whitespace="nowrap"
                      data-frames='[{"delay":0,"speed":1500,"frame":"0","from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:[100%];s:inherit;e:inherit;","to":"o:1;","ease":"Power2.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
@@ -32,9 +32,9 @@
                 <!-- LAYER NR. 8 --> 
                 <div class="tp-caption tp_s_title"
                      data-visibility="['on','on','on','on']"
-                     data-x="['510','left','right','left']" 
-                     data-hoffset="['15','15','15','0']" 
-                     data-y="['300','middle','middle','200']"
+                     data-x="['510','center','left','left']" 
+                     data-hoffset="['15','80','60','0']" 
+                     data-y="['300','300','250','200']"
                      data-voffset="['50','50','300','300']" 
                      data-responsive_offset="on" 
                      data-fontsize="['20','20','20','15']"
@@ -45,9 +45,9 @@
                 <!-- LAYER NR. 9 --> 
                 <div class="tp-caption tp_s_title"
                      data-visibility="['on','on','on','on']"
-                     data-x="['510','center','center','left']" 
-                     data-hoffset="['15','15','15','0']"  
-                     data-y="['400','middle','100','240']"
+                     data-x="['510','center','left','left']" 
+                     data-hoffset="['15','92','60','0']"  
+                     data-y="['350','370','310','240']"
                      data-voffset="['50','50','300','300']" 
                      data-responsive_offset="on" 
                      data-fontsize="['20','20','20','15']"
@@ -59,9 +59,9 @@
                 <!-- LAYER NR. 10 --> 
                 <div class="tp-caption tp_s_title"
                      data-visibility="['on','on','on','on']"
-                     data-x="['510','left','right','left']" 
-                     data-hoffset="['15','15','15','0']" 
-                     data-y="['500','middle','top','280']"
+                     data-x="['510','center','left','left']" 
+                     data-hoffset="['15','65','60','0']" 
+                     data-y="['400','440','370','280']"
                      data-voffset="['110','150','400','400']" 
                      data-responsive_offset="on" 
                      data-fontsize="['20','20','20','15']" 

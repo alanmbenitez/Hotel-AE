@@ -1,7 +1,7 @@
-<section class="white_bg" id="contact">
+<section style="padding-top: 0px" class="white_bg" id="contact">
     <div class="container">
         <div class="main_title mt_wave a_center">
-            <h2> Contáctenos</h2>
+            <h2>ESCRÍBENOS</h2>
         </div>
         <p class="main_description a_center">Dejanos tu consulta por alguna de nuestras habitaciones o bien alguna sugerencia que tengas respecto al hotel o nuestra web.</p>
         
@@ -47,7 +47,9 @@
                    
                 </form>
             </div>
-
+        </div> 
+    </div>        
+</section>
 @section('script2')
     <script>
     let name_contact = $("#form_name_contact")
