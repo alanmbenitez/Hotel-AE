@@ -45,8 +45,11 @@ Somos un hotel de Categoria ubicado en plena Ciudad de Buenos aires
 <!-- ========== PLACES ========== -->
 
 <!-- ========== CONTACT ========== -->
-
+<div data-aos="fade-right"
+data-aos-anchor="#example-anchor"
+data-aos-offset="2200"
+data-aos-duration="1500">
 @component('components.home.contact')
 @endcomponent
-
+</div>
 @endsection

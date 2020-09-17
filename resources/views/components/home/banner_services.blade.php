@@ -1,7 +1,10 @@
-<section class="lightgrey_bg" id="features">
-    <div class="container">
-        <div class="main_title mt_wave a_center">
-            <h2 class="text_color_title_ae">{{ __('home.title_services') }}</h2>
+<section class=" star_rooms lightgrey_bg" id="features">
+    <div data-aos="fade-left"
+    data-aos-anchor="#example-anchor"
+    data-aos-offset="1700"
+    data-aos-duration="1500" class="container">
+        <div class="main_title a_center">
+            <h2 class="text_color_title_ae underlined_title">{{ __('home.title_services') }}</h2>
         </div>
         <p class="main_description a_center">{{ __('home.subtitle_services') }}</p>
         

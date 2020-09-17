@@ -35,13 +35,15 @@ Somos un hotel de Categoria ubicado en plena Ciudad de Buenos aires
                         @include('components.rooms.images_rooms')
                         @include('components.rooms.info_rooms')
                         @include('components.rooms.services_room')
-                        @include('components.rooms.other_rooms')
+                        @include('components.rooms.other_rooms') 
                         
                     </div>
-                    <div class="col-md-4">
-                        @component('components.general.Form_reserva')
-                        @endcomponent
-                    </div>
+                    
+                  
+            <div class="col-md-4">
+                @component('components.general.Form_reserva')
+                @endcomponent
+            </div>
                 </div>
             </div>
         </main>

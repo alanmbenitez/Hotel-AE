@@ -1,16 +1,19 @@
  <!-- ========== FAVORITE ROOMS ========== -->
- <section class="white_bg" id="rooms">
-    <div class="container container_img_room" >
+ <section  class=" star_rooms white_bg"  id="rooms">
+    <div  class="container container_img_room"  data-aos="fade-right"
+    data-aos-anchor="#example-anchor"
+    data-aos-offset="1100"
+    data-aos-duration="1500">
 
-        <div class="main_title mt_wave a_center">
-        <h2 class="text_color_title_ae">{{__('home.title_our_rooms')}}</h2>
+        <div class="main_title a_center">
+        <h2 class="text_color_title_ae underlined_title" >{{__('home.title_our_rooms')}}</h2>
         </div>
     <p class="main_description a_center">{{__('home.title_our_rooms')}}</p>
 
-        <div class="CarouselRoom" > 
+        <div  class="CarouselHome" > 
             @foreach (__('home.main_carousel') as $carousel)
                 <div class="col-md-4 carousel-cell">
-                    <article class="room">
+                    <article class="cardArticle room">
                         <figure>
                             <div class="price">{{$carousel['price']}} <span>{{$carousel['per_night']}}</span></div>
                             <a class="hover_effect h_link" href="{{$carousel['href']}}">
@@ -25,8 +28,6 @@
                 </div>
             @endforeach
             </div>
-            {{-- <div class="mt40 a_center">
-                <a class="button btn_sm btn_yellow" href="rooms-list.html">VIEW ROOMS LIST</a>
-            </div>  --}}
+            
     </div>
 </section>
