@@ -13,7 +13,7 @@ return [
     'single' => [
 
     'title'=>'Habitación Individual',
-    'precio_num'=>'',
+    'precio_num'=>'$1700',
     'Precio_per_night'=>'por noche ',
     'fotos'=>[
         'foto1'=>[
@@ -54,38 +54,38 @@ return [
     'title_content'=>'Hotel Aires Express',
             
         'contenido'=>[
-            'parrafo1' => 'Comoda habitacion espaciosa, un excelente lugar para trabajar y descanzar,Tenemos todos los servicios a tu disposicion para crear una excelente experiencia en una de las zonas historicas de nuestra ciudad.',
-            'parrafo2' => 'Ven y disfruta de Buenos Aires desde nuestras instalaciones te esperamos.'
+            'parrafo1' => 'Cómoda habitación espaciosa, un excelente lugar para trabajar y descansar. Tenemos todos los servicios a tu disposición para crear una excelente experiencia en una de las zonas históricas de nuestra ciudad.',
+            'parrafo2' => 'Ven y disfruta de Buenos Aires desde nuestras instalaciones, te esperamos!'
     
         ],
 
         'title_rooms'=>'Otras habitaciones',
             'other_rooms'=>[
                 'room1'=>[
-                    'href'=>'room-doble',
+                    'href'=> url('/rooms/double'),
                     'src'=>asset('images/rooms/single-room.jpg'),
                     'name'=>'Doble',
-                    'price'=>'',
+                    'price'=>'$1980',
                     'per_night'=>'/noche'
                 ],
                 'room2'=>[
-                    'href'=>'room-triple',
+                    'href'=> url('/rooms/triple'),
                     'src'=>asset('images/rooms/single-room.jpg'),
                     'name'=>'Triple',
-                    'price'=>'',
+                    'price'=>'$2200',
                     'per_night'=>'/noche'
                 ],
                 'room3'=>[
-                    'href'=>'room-cuadruple',
+                    'href'=> url('/rooms/cuadruple'),
                     'src'=>asset('images/rooms/single-room.jpg'),
-                    'name'=>'Cuadruple',
-                    'price'=>'',
+                    'name'=>'Cuádruple',
+                    'price'=>'$2450',
                     'per_night'=>'/noche'
                 ]
     ]],
     'double' => [
         'title'=>'Habitación Doble',
-        'precio_num'=>'',
+        'precio_num'=>'$1980',
         'Precio_per_night'=>'por noche ',
         'fotos'=>[
             'foto1'=>[
@@ -126,32 +126,32 @@ return [
         'title_content'=>'Hotel Aires Express',
             
         'contenido'=>[
-            'parrafo1' => 'Comoda habitacion espaciosa, un excelente lugar para trabajar y descanzar,Tenemos todos los servicios a tu disposicion para crear una excelente experiencia en una de las zonas historicas de nuestra ciudad.',
-            'parrafo2' => 'Ven y disfruta de Buenos Aires desde nuestras instalaciones te esperamos.'
+            'parrafo1' => 'Cómoda habitación espaciosa, un excelente lugar para trabajar y descansar. Tenemos todos los servicios a tu disposición para crear una excelente experiencia en una de las zonas históricas de nuestra ciudad.',
+            'parrafo2' => 'Ven y disfruta de Buenos Aires desde nuestras instalaciones, te esperamos!'
     
         ],
 
         'title_rooms'=>'Otras habitaciones',
             'other_rooms'=>[
                 'room1'=>[
-                    'href'=>'room-individual',
+                    'href'=>url('/rooms/single'),
                     'src'=>asset('images/rooms/single-room.jpg'),
                     'name'=>'Individual',
-                    'price'=>'1700$',
+                    'price'=>'$1700',
                     'per_night'=>'/noche'
                 ],
                 'room2'=>[
-                    'href'=>'room-triple',
+                    'href'=>url('/rooms/triple'),
                     'src'=>asset('images/rooms/single-room.jpg'),
                     'name'=>'Triple',
-                    'price'=>'2200$',
+                    'price'=>'$2200',
                     'per_night'=>'/noche'
                 ],
                 'room3'=>[
-                    'href'=>'room-cuadruple',
+                    'href'=>url('/rooms/cuadruple'),
                     'src'=>asset('images/rooms/single-room.jpg'),
-                    'name'=>'Cuadruple',
-                    'price'=>'2450$',
+                    'name'=>'Cuádruple',
+                    'price'=>'$2450',
                     'per_night'=>'/noche'
                 ]
             ]
@@ -159,8 +159,8 @@ return [
     ],
     'triple' => [
 
-        'title'=>'Habitación triple',
-        'precio_num'=>'1',
+        'title'=>'Habitación Triple',
+        'precio_num'=>'$2200',
         'Precio_per_night'=>'por noche ',
         'fotos'=>[
             'foto1'=>[
@@ -202,40 +202,40 @@ return [
         'title_content'=>'Hotel Aires Express',
             
         'contenido'=>[
-            'parrafo1' => 'Comoda habitacion espaciosa, un excelente lugar para trabajar y descanzar,Tenemos todos los servicios a tu disposicion para crear una excelente experiencia en una de las zonas historicas de nuestra ciudad.',
-            'parrafo2' => 'Ven y disfruta de Buenos Aires desde nuestras instalaciones te esperamos.'
+            'parrafo1' => 'Cómoda habitación espaciosa, un excelente lugar para trabajar y descansar. Tenemos todos los servicios a tu disposición para crear una excelente experiencia en una de las zonas históricas de nuestra ciudad.',
+            'parrafo2' => 'Ven y disfruta de Buenos Aires desde nuestras instalaciones, te esperamos!'
     
         ],
         'title_rooms'=>'Otras habitaciones',
             'other_rooms'=>[
                 'room1'=>[
-                    'href'=>'room-individual',
+                    'href'=> url('/rooms/single'),
                     'src'=>asset('images/rooms/single-room.jpg'),
                     'name'=>'Individual',
-                    'price'=>'1700$',
+                    'price'=>'$1700',
                     'per_night'=>'/noche'
                 ],
                 'room2'=>[
-                    'href'=>'room-doble',
+                    'href'=> url('/rooms/double'),
                     'src'=>asset('images/rooms/single-room.jpg'),
-                    'name'=>'doble',
-                    'price'=>'1980$',
+                    'name'=>'Doble',
+                    'price'=>'$1980',
                     'per_night'=>'/noche'
                 ],
                 'room3'=>[
-                    'href'=>'room-cuadruple',
+                    'href'=>url('/rooms/cuadruple'),
                     'src'=>asset('images/rooms/single-room.jpg'),
-                    'name'=>'Cuadruple',
-                    'price'=>'2450',
+                    'name'=>'Cuádruple',
+                    'price'=>'$2450',
                     'per_night'=>'/noche'
                 ]
             ]
             ],
 
-            'Quadruple' => [
+            'cuadruple' => [
 
-                'title'=>'Habitación Cuadruple',
-                'precio_num'=>'2450$',
+                'title'=>'Habitación Cuádruple',
+                'precio_num'=>'$2450',
                 'Precio_per_night'=>'/ noche ',
                 'fotos'=>[
                     'foto1'=>[
@@ -276,30 +276,30 @@ return [
                 'title_content'=>'Hotel Aires Express',
             
                 'contenido'=>[
-                    'parrafo1' => 'Comoda habitacion espaciosa, un excelente lugar para trabajar y descanzar,Tenemos todos los servicios a tu disposicion para crear una excelente experiencia en una de las zonas historicas de nuestra ciudad.',
-            'parrafo2' => 'Ven y disfruta de Buenos Aires desde nuestras instalaciones te esperamos.'
+                    'parrafo1' => 'Cómoda habitación espaciosa, un excelente lugar para trabajar y descansar. Tenemos todos los servicios a tu disposición para crear una excelente experiencia en una de las zonas históricas de nuestra ciudad.',
+                    'parrafo2' => 'Ven y disfruta de Buenos Aires desde nuestras instalaciones, te esperamos!'
                 ],
                 'title_rooms'=>'Otras habitaciones',
                     'other_rooms'=>[
                         'room1'=>[
-                            'href'=>'room-individual',
+                            'href'=>url('/rooms/single'),
                             'src'=>asset('images/rooms/single-room.jpg'),
-                            'name'=>'Doble',
-                            'price'=>'',
+                            'name'=>'Individual',
+                            'price'=>'$1700',
                             'per_night'=>'/noche'
                         ],
                         'room2'=>[
-                            'href'=>'room-doble',
+                            'href'=> url('/rooms/double'),
                             'src'=>asset('images/rooms/single-room.jpg'),
-                            'name'=>'doble',
-                            'price'=>'',
+                            'name'=>'Doble',
+                            'price'=>'$1980',
                             'per_night'=>'/noche'
                         ],
                         'room3'=>[
-                            'href'=>'room-triple',
+                            'href'=>url('/rooms/triple'),
                             'src'=>asset('images/rooms/single-room.jpg'),
                             'name'=>'Triple',
-                            'price'=>'',
+                            'price'=>'$2200',
                             'per_night'=>'/noche'
                         ]
                     ]

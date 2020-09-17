@@ -28,19 +28,19 @@
                     <div class="form-group">
                         <input class="form-control" id="form_name_contact" name="name" placeholder="Nombre" type="text">
                         <span id="error_name_contact" class="error-form-hotel error_form_hidden">
-                            Please provide a valid zip.
+                            Nombre inválido.
                         </span>
                     </div>
                     <div class="form-group">
                         <input class="form-control"  id="form_email_contact" name="email" type="email" placeholder="Email">
                         <span id="error_email_contact" class="error-form-hotel error_form_hidden">
-                            Please provide a valid zip.
+                            Email inválido.
                         </span>
                     </div>
                     <div class="form-group">
                         <textarea class="form-control" id="form_text_contact" name="message" placeholder="Mensaje"></textarea>
                         <span id="error_text_contact" class="error-form-hotel error_form_hidden">
-                            Please provide a valid zip.
+                            Mensaje incorrecto.
                         </span>
                     </div>
                     <button class="button btn_lg btn_blue btn_full upper" id="button_contact" type="submit"><i class="fa fa-location-arrow"></i>Enviar mensaje</button>
@@ -79,7 +79,7 @@ button_contact.addEventListener('click' ,(e) => {
     e.preventDefault();
 
  
-     button_contact.innerHTML = 'Enviando Mensaje';
+     button_contact.innerHTML = 'Mensaje Enviado!';
     button_contact.classList.add("btn_red")
     button_contact.classList.remove("btn_blue")
 
@@ -127,7 +127,7 @@ button_contact.addEventListener('click' ,(e) => {
                 Swal({
               type: "error",
               title: `Lo sentimos, hubo un error! <br id='aplicaB2c'>
-              <p class='text-sm px-4 aplicaB2c'>Verifica los datos ingresados e intentalo nuevamente.</p>`,
+              <p class='text-sm px-4 aplicaB2c'>Verifica los datos ingresados e intentalo nuevamente</p>`,
               showCloseButton: true,
               showConfirmButton: false
             });
@@ -139,7 +139,7 @@ button_contact.addEventListener('click' ,(e) => {
         })
 
     }else{
-            button_contact.innerHTML = 'Verifique los datos ingresados.';
+            button_contact.innerHTML = 'Verifique los datos ingresados';
             button_contact.classList.add("btn_red")
             button_contact.classList.remove("btn_blue")
     

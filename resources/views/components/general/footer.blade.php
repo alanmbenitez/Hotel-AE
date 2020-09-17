@@ -15,9 +15,9 @@
                     <h5>Links</h5>
                     <ul class="useful_links">
                         <li><a href="{{route('home')}}">Home</a></li>
-                        <li><a href="{{url('/singleRoom') }}">Rooms</a></li>
-                        <li><a href="{{route('guia')}}">Blog</a></li>
-                        <li><a href="{{route('home')}}">Contacto</a></li>
+                        <li><a href="{{url('/rooms/single') }}">Habitaciones</a></li>
+                        <li><a href="{{route('guia')}}">Turismo</a></li>
+                        <li><a href="{{route('contacto')}}">Contacto</a></li>
                     </ul>
                 </div>
                 <div class="col-md-4 col-sm-6 widget">

@@ -92,38 +92,34 @@ return [
             'src'=>asset('images/rooms/single-room.jpg'),
             'alt'=>'image',
             'title'=>'Individuales',
-            'price'=>'1700$',
-            'per_night'=>'/ noche'
+            'price'=>'$1700',
+            'per_night'=>'/ noche',
+            'href' => url('/rooms/single')
         ],
         'carousel2'=>[
             'src'=>asset('images/rooms/single-room.jpg'),
             'alt'=>'image',
             'title'=>'Dobles',
-            'price'=>'1980$',
-            'per_night'=>'/ noche'
+            'price'=>'$1980',
+            'per_night'=>'/ noche',
+            'href' => url('/rooms/double')
         ],
         'carousel3'=>[
             'src'=>asset('images/rooms/single-room.jpg'),
             'alt'=>'image',
             'title'=>'Triples',
-            'price'=>'2200$',
-            'per_night'=>'/ noche'
+            'price'=>'$2200',
+            'per_night'=>'/ noche',
+            'href' => url('/rooms/triple')
         ],
         'carousel4'=>[
             'src'=>asset('images/rooms/single-room.jpg'),
             'alt'=>'image',
-            'title'=>'Cuadruple',
-            'price'=>'2450$',
-            'per_night'=>'/ noche'
-        ],
-        'carousel4'=>[
-            'src'=>asset('images/rooms/single-room.jpg'),
-            'alt'=>'image',
-            'title'=>'Cuadruples',
-            'price'=>'',
-            'per_night'=>'/ noche'
+            'title'=>'Cuádruples',
+            'price'=>'$2450',
+            'per_night'=>'/ noche',
+            'href' => url('/rooms/cuadruple')
         ]
-        
 
 
         ],
