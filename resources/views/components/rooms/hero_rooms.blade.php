@@ -1,4 +1,4 @@
-<div class="page_title gradient_overlay hero_blog_img" >
+<div class="page_title gradient_overlay_banner hero_blog_img" >
     <div class="container">
         <div class="inner">
             <div class=" title_hero_gral row">
