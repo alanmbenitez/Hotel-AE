@@ -75,8 +75,8 @@
             <span>
                 <a 
                 href="https://api.whatsapp.com/send?phone=+5491140480054" 
-                target="_blank"><img class="img_btn_whatsapp"
-                src="{{asset('images/wp.png')}}"></a>
+                target="_blank" rel="noreferrer"><img class="img_btn_whatsapp"
+                src="{{asset('images/wp.png')}}" alt="logo whatsapp"></a>
             </span>
             
             
@@ -94,7 +94,7 @@
     
     <!-- ========== BACK TO TOP ========== -->
     <div  id="back_to_top">
-        <i class="back-to-top fa fa-angle-up" aria-hidden="true"></i>
+        <i class="back-to-top fa fa-angle-up" aria-hidden="false"></i>
     </div>
 
     <!-- ========== NOTIFICATION ========== -->

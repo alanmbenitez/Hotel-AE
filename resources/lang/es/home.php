@@ -31,9 +31,9 @@ return [
             'alt' => 'conserje'
         ],
         'img4' => [
-            'src' => asset('images/home/breakfast.webp'),
+            'src' => asset('images/home/tv.webp'),
             'class'=>'',
-            'alt' => 'breakfast'
+            'alt' => 'tv'
         ],
        /*  'img5' => [
             'src' => asset('images/home/aire.webp'),
