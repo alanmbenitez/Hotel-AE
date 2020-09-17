@@ -41,16 +41,12 @@
     <div class="subfooter">
         <div class="container">
             <div class="row">
-                <div class="col-md-6 col-sm-6">
-                    <div class="copyrights">
-                         Copyright 2020 <a href="index.html">Hotel Aires Express</a> <br> All Rights Reserved.
+                <div style="text-align: center;" class="col-md-12 col-sm-12">
+                    <div class="copyrights"><i class="far fa-copyright"></i>
+                          2020 Copyright <a href="index.html">Hotel Aires Express</a> <br> All Rights Reserved.
                     </div>
                 </div>
-                <div class="col-md-6 col-sm-6">
-                    {{-- <div class="social_media">
-                        <a class="instagram" data-original-title="Instagram" data-toggle="tooltip" href="#"><i class="fa fa-instagram"></i></a>
-                    </div> --}}
-                </div>
+              
             </div>
         </div>
     </div>

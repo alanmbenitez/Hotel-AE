@@ -14,7 +14,7 @@
                         <h2><a href={{$item['href']}}>{{$item['title']}}</a></h2>
                        
                         <p>{{$item['parrafo']}}</p>
-                        <a class="button btn_blue " target="_blank" href={{$item['href']}}><i class="fa fa-angle-double-right"></i> Leer más </a>
+                        <a class="button btn_blue " target="_blank" rel="noreferrer" href={{$item['href']}}><i class="fa fa-angle-double-right"></i> Leer más </a>
                     </div>
                 </article>
                 @endforeach
