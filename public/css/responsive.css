@@ -413,7 +413,14 @@
  }
  /* Small Devices, Tablets */
  
- @media only screen and (max-width: 768px) {
+ @media only screen and (max-width: 767px) {
+     .hero_wrapper {
+         position: relative;
+         margin-bottom: 620px;
+     }
+ }
+ 
+ @media only screen and (max-width: 767px) {
      header.transparent {
          top: 10px;
      }
@@ -468,10 +475,6 @@
          width: 100%;
      }
      /*========== HERO ==========*/
-     .hero_wrapper {
-         position: relative;
-         margin-bottom: 620px;
-     }
      #hero,
      #hero ul,
      #hero ul li {

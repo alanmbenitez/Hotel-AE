@@ -1,14 +1,15 @@
+
 <div class="similar_rooms">
     <div class="main_title t_style5 l_blue s_title a_left">
         <div class="c_inner">
         <h2 class="c_title">{{$rooms['title_rooms']}}</h2>
         </div>
     </div>
-    <div class="row">
+    <div class="row CarouselRoom">
         @foreach ($rooms['other_rooms'] as $room)
         
-        <div class="col-md-4">
-            <article>
+        <div class=" cardRoom carousel-cell ">
+            <article class="cardArticle">
                 <figure>
                 <a href="{{$room['href']}}" 
                 class="hover_effect h_link"><img 
@@ -33,3 +34,6 @@
        
     </div>
 </div>
+<script>
+    
+</script>

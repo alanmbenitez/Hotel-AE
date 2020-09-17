@@ -81,7 +81,8 @@ return [
                     'name'=>'Cuádruple',
                     'price'=>'$2450',
                     'per_night'=>'/noche'
-                ]
+                ],
+                
     ]],
     'double' => [
         'title'=>'Habitación Doble',

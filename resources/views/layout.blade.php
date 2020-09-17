@@ -20,15 +20,16 @@
     <!-- ========== STYLESHEETS ========== --> 
        <!-- Compiled and minified CSS -->
       
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
      
-    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css"> 
+    <link rel="stylesheet" type="text/css" href="https://unpkg.com/flickity@2/dist/flickity.min.css" r> 
     <link href="{{asset('css/bootstrap.min.css')}}" rel="stylesheet" type="text/css">
     <link href="{{asset('revolution/css/layers.css')}}" rel="stylesheet" type="text/css" />
     <link href="{{asset('revolution/css/settings.css')}}" rel="stylesheet" type="text/css" />
     <link href="{{asset('revolution/css/navigation.css')}}" rel="stylesheet" type="text/css" />
     <link href="{{asset('css/bootstrap-select.min.css')}}" rel="stylesheet" type="text/css">
     <link href="{{asset('css/animate.min.css')}}" rel="stylesheet" type="text/css">
-    <link href="{{asset('css/famfamfam-flags.css')}}" rel="stylesheet" type="text/css">
+   
     <link href="{{asset('css/magnific-popup.css')}}" rel="stylesheet" type="text/css">
     <link href="{{asset('css/owl.carousel.min.css')}}" rel="stylesheet" type="text/css">
     <link href="{{asset('css/style.css')}}" rel="stylesheet" type="text/css">
@@ -100,8 +101,13 @@
     <div id="notification"></div>
      
     <!-- ========== JAVASCRIPT ========== -->
+    
     <script src="https://kit.fontawesome.com/89f55138af.js" crossorigin="anonymous"></script>
-
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+        
+      </script>
     <script type="text/javascript" src="{{asset('js/jquery.min.js')}}"></script>
     <script type="text/javascript" src="{{asset('https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY')}}"></script>
     <script type="text/javascript" src="{{asset('js/bootstrap.min.js')}}"></script>
@@ -122,7 +128,7 @@
     <script type="text/javascript" src="{{asset('js/jquery.countdown.min.js')}}"></script>
     <script type="text/javascript" src="{{asset('js/main.js')}}"></script>
     <script type="text/javascript" src="{{asset('js/sweetalert2.all.js')}}"></script>
-   
+    
    {{--  <script type="text/javascript" src="{{asset('js/form_reservas.js')}}"></script> --}}
 
   
@@ -143,18 +149,30 @@
     <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 
     <script>
-        $('.CarouselRoom').flickity({
+        $('.CarouselHome').flickity({
           // options
-          
+          /* watchCSS: true, */
           cellAlign: 'center',
           contain: true,
           prevNextButtons: false,
-          autoPlay: 2500,
+          /* autoPlay: 2500, */
           wrapAround: true,
           
           
         });
-            </script>
+
+        $('.CarouselRoom').flickity({
+          // options
+          watchCSS: true,
+          cellAlign: 'center',
+          contain: true,
+          prevNextButtons: false,
+          autoPlay: 2500, 
+          wrapAround: true,
+          
+          
+        });
+    </script>
     @yield('script')
     @yield('script2')
 

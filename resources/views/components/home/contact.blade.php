@@ -1,7 +1,11 @@
-<section style="padding-top: 0px" class="white_bg" id="contact">
-    <div class="container">
-        <div class="main_title mt_wave a_center">
-            <h2>ESCRÍBENOS</h2>
+<section style="padding-top: 0px" class=" star_rooms white_bg" id="contact">
+    <div class="container" >
+        <div class="container" data-aos="fade-right"
+        data-aos-anchor="#example-anchor"
+        data-aos-offset="2200"
+        data-aos-duration="1500">
+        <div class="main_title a_center">
+            <h2 class=" text_color_title_ae underlined_title">ESCRÍBENOS</h2>
         </div>
         <p class="main_description a_center">Dejanos tu consulta por alguna de nuestras habitaciones o bien alguna sugerencia que tengas respecto al hotel o nuestra web.</p>
         
