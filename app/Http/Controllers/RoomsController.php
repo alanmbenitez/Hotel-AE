@@ -29,5 +29,12 @@ class RoomsController extends Controller
             
     }
 
+    public function cuadruple()
+    {   $rooms = __('rooms.cuadruple');
+        return view('pages.rooms.singleRoom')
+        ->with('rooms', $rooms);
+            
+    }
+
 }
 

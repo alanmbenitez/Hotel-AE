@@ -16,20 +16,21 @@
         <ul class="nav navbar-nav">
             <li class="mobile_menu_title nav_mobile_ul_menu" style="display:none;">MENU</li>
             <li class="dropdown simple_menu nav_li_menu nav_mobile_ul_menu">
-                <a href="{{route('home')}}" data-toggle="dropdown" class="nav_a_menu" >HOME </a>
+                <a href="{{route('home')}}" data-toggle="dropdown" class="nav_a_menu" >INICIO</a>
             </li>
-            <li class="dropdown simple_menu nav_li_menu nav_mobile_ul_menu"><a href="#" data-toggle="dropdown" class="dropdown-toggle nav_a_menu" aria-expanded="true">ROOMS <b class="caret"></b></a>
+            <li class="dropdown simple_menu nav_li_menu nav_mobile_ul_menu"><a href="#" data-toggle="dropdown" class="dropdown-toggle nav_a_menu" aria-expanded="true">HABITACIONES<b class="caret"></b></a>
                 <ul class="dropdown-menu">
                     <li><a href="{{url('/rooms/single') }}">Individual</a></li>
                     <li><a href="{{url('/rooms/double') }}">Dobles</a></li>
                     <li><a href="{{url('/rooms/triple') }}">Triples</a></li>
+                    <li><a href="{{url('/rooms/cuadruple') }}">Cuádruples</a></li>
                 </ul>
             </li>
           
             <li class="nav_li_menu nav_mobile_ul_menu">
-                <a href="{{route('guia')}}" class="nav_a_menu">GUIA</a></li>
+                <a href="{{route('guia')}}" class="nav_a_menu">TURISMO</a></li>
             <li class="nav_li_menu nav_mobile_ul_menu">
-                <a class="nav_a_menu" href="blog.html" >CONTACTO</a></li>
+                <a class="nav_a_menu" href="{{route('contacto')}}" >CONTACTO</a></li>
                 @if (false)
                     
                

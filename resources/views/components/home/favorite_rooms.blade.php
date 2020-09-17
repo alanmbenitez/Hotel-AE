@@ -12,14 +12,13 @@
                 <div class="col-md-4 carousel-cell">
                     <article class="room">
                         <figure>
-                            
-                            {{-- <div class="price">{{$carousel['price']}} <span>{{$carousel['/night']}}</span></div> --}}
-                            <a class="hover_effect h_blue h_link" href="room.html">
+                            <div class="price">{{$carousel['price']}} <span>{{$carousel['per_night']}}</span></div>
+                            <a class="hover_effect h_link" href="{{$carousel['href']}}">
                                 <img src="images/rooms/single-room.jpg" class="img-responsive" alt="Image">
                             </a>
                             <figcaption>
-                                <h4><a href="room.html">{{$carousel['title']}}</a></h4>
-                                <span class="f_right"><a href="rooms-list.html" class="button btn_sm btn_blue">Ver más</a></span>
+                                <h4><a href="{{$carousel['href']}}">{{$carousel['title']}}</a></h4>
+                                <span class="f_right"><a href="{{$carousel['href']}}" class="button btn_sm btn_blue">Ver más</a></span>
                             </figcaption>
                         </figure>
                     </article>

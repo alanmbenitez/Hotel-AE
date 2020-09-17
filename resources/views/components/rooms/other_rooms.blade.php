@@ -11,7 +11,7 @@
             <article>
                 <figure>
                 <a href="{{$room['href']}}" 
-                class="hover_effect h_blue h_link"><img 
+                class="hover_effect h_link"><img 
                 src="{{$room['src']}}" 
                 alt="Image" 
                 class="img-responsive"></a>

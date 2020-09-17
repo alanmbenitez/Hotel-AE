@@ -4,7 +4,7 @@
         @foreach ($rooms['fotos'] as $foto)
         <div class="item lightbox-image-icon">
             <a href="{{$foto['href']}}" 
-            class="hover_effect h_lightbox h_blue">
+            class="hover_effect h_lightbox">
                 <img class="img-responsive" 
                 src="{{$foto['href']}}" 
                 alt="{{$foto['alt']}}">

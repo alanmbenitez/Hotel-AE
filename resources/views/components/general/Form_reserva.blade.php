@@ -6,7 +6,7 @@
         <div class="form-group">
             <input class="form-control" id="form_name" name="booking-name" placeholder="Nombre completo" type="text" required>
             <span id="error_form_name"class="error-form-hotel error_form_hidden">
-                Por favor ingrese su nombre completo
+                Por favor ingrese su nombre completo.
             </span>
         </div>
         <div class="form-group">
@@ -24,11 +24,12 @@
         </div>
         <div class="form-group">
             <div class="form_select">
-                <select name="booking-roomtype" class="form-control" id="form_room" value="0" title="Seleccionar habitación" data-header="Room Type">
+                <select name="booking-roomtype" class="form-control" id="form_room" value="0" title="Seleccionar habitación" data-header="Tipo de habitación">
                     
                     <option value="Single Room"  selected="selected">Individual</option>
                     <option value="Double Room">Doble</option>
                     <option value="Deluxe Room">Triple</option>
+                    <option value="Deluxe Room">Cuádruple</option>
                 </select>
             </div>
             <span id="error_form_rooms"class="error-form-hotel error_form_hidden">
