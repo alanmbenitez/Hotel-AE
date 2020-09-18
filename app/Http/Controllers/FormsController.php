@@ -28,7 +28,7 @@ class FormsController extends Controller
                 'checkout' => 'required',
             ]);
 
-        Mail::to('alanmbenitezz@gmail.com')->queue(new BookingEmail($msg)); 
+        Mail::to('reservas@airesexhotel.tk')->queue(new BookingEmail($msg)); 
        
 
          Mail::to($request->email)->queue(new UserEmail($msg)); 
@@ -53,7 +53,7 @@ class FormsController extends Controller
                
             ]);
 
-        Mail::to('alanmbenitezz@gmail.com')->queue(new ContactEmail($msg)); 
+        Mail::to('reservas@airesexhotel.tk')->queue(new ContactEmail($msg)); 
 
         return response()->json(['message' =>'todo ok'], 200);
 
