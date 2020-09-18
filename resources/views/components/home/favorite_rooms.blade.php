@@ -2,8 +2,8 @@
  <section  class=" star_rooms white_bg"  id="rooms">
     <div  class="container container_img_room"  data-aos="fade-right"
     data-aos-anchor="#example-anchor"
-    data-aos-offset="1100"
-    data-aos-duration="1500">
+    data-aos-offset="980"
+    data-aos-duration="1000">
 
         <div class="main_title a_center">
         <h2 class="text_color_title_ae underlined_title" >{{__('home.title_our_rooms')}}</h2>

@@ -2818,7 +2818,8 @@ section .main_title {
 }
 
 .room figure .img-responsive {
-    max-width: 290px
+    min-width: 290px;
+    height: 164px;
 }
 
 .title_hero_gral {

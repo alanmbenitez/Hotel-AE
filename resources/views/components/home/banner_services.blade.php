@@ -1,8 +1,8 @@
 <section class=" star_rooms lightgrey_bg" id="features">
     <div data-aos="fade-left"
     data-aos-anchor="#example-anchor"
-    data-aos-offset="1700"
-    data-aos-duration="1500" class="container">
+    data-aos-offset="1500"
+    data-aos-duration="1000" class="container">
         <div class="main_title a_center">
             <h2 class="text_color_title_ae underlined_title">{{ __('home.title_services') }}</h2>
         </div>

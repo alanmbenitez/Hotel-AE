@@ -95,15 +95,15 @@
                      data-transform_idle="o:1;" 
                      data-transform_in="opacity:0;s:500;e:Power2.easeInOut;" 
                      data-transform_out="opacity:0;s:300;s:300;" 
-                     data-start="8000" 
+                     data-start="1000" 
                      data-splitin="none" 
                      data-splitout="none" 
-                     data-actions='[{"event":"click","action":"scrollbelow","offset":"px"}]' 
+                     data-actions='[{"event":"click","action":"scrollbelow","offset":"-70px"}]' 
                      data-responsive_offset="on" 
                      data-startslide="0" 
                      data-endslide="2" 
                      style="z-index: 11; white-space: nowrap; font-size: 22px; line-height: 30px; font-weight: 400; color: rgba(245, 245, 245, 1.00);text-transform:left;cursor:pointer;">
-                    <div class="rs-looped rs-slideloop" data-easing="Power2.easeInOut" data-speed="1" data-xs="0" data-xe="0" data-ys="-5" data-ye="5"><i class="fa fa-angle-down"></i></div>
+                    <div class="rs-looped rs-slideloop" data-easing="Power2.easeInOut" data-speed="1" data-xs="0" data-xe="0" data-ys="-5" data-ye="3"><i class="fa fa-angle-down"></i></div>
                 </div>
             </li>
 
