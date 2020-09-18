@@ -89,32 +89,32 @@ return [
     'info_our_rooms'=>'Contamos con 52 habitaciones, de las cuales hay <strong>individuales</strong> con cama de 1 o 2 plazas, <strong>dobles</strong> con cama matrimonial o separadas, y <strong>triples</strong> con cama matrimonial o separadas.</p>',
     'main_carousel'=> [
         'carousel1'=>[
-            'src'=>asset('images/rooms/single-room.jpg'),
-            'alt'=>'image',
+            'src'=> asset('images/rooms/single-room/Single_4.webp'),
+            'alt'=>'Single_room',
             'title'=>'Individuales',
             'price'=>'$1700',
             'per_night'=>'/ noche',
             'href' => url('/rooms/single')
         ],
         'carousel2'=>[
-            'src'=>asset('images/rooms/single-room.jpg'),
-            'alt'=>'image',
+            'src'=>asset('images/rooms/double-room/Dobles_2.webp'),
+            'alt'=>'Double_room',
             'title'=>'Dobles',
             'price'=>'$1980',
             'per_night'=>'/ noche',
             'href' => url('/rooms/double')
         ],
         'carousel3'=>[
-            'src'=>asset('images/rooms/single-room.jpg'),
-            'alt'=>'image',
+            'src'=>asset('images/rooms/triple-room/Triple_1.webp'),
+            'alt'=>'Triple_room',
             'title'=>'Triples',
             'price'=>'$2200',
             'per_night'=>'/ noche',
             'href' => url('/rooms/triple')
         ],
         'carousel4'=>[
-            'src'=>asset('images/rooms/single-room.jpg'),
-            'alt'=>'image',
+            'src'=>asset('images/rooms/double-room/Cuadruple_1.webp'),
+            'alt'=>'Quadruple_room',
             'title'=>'Cuádruples',
             'price'=>'$2450',
             'per_night'=>'/ noche',

@@ -17,7 +17,7 @@
                         <figure>
                             <div class="price">{{$carousel['price']}} <span>{{$carousel['per_night']}}</span></div>
                             <a class="hover_effect h_link" href="{{$carousel['href']}}">
-                                <img src="images/rooms/single-room.jpg" class="img-responsive" alt="Image">
+                                <img src="{{$carousel['src']}}" class="img-responsive" alt="Image">
                             </a>
                             <figcaption>
                                 <h4><a href="{{$carousel['href']}}">{{$carousel['title']}}</a></h4>

@@ -17,17 +17,42 @@ return [
     'Precio_per_night'=>'por noche ',
     'fotos'=>[
         'foto1'=>[
-            'href'=> 'https://cf.bstatic.com/images/hotel/max1024x768/101/101866374.jpg',
-            'alt'=>'frontal'
+            'href'=> asset('images/rooms/single-room/Single_4.webp'),
+            'alt'=>'single_frontal'
         ],
         'foto2'=>[
-            'href'=>'https://imgcy.trivago.com/c_limit,d_dummy.jpeg,f_auto,h_650,q_auto,w_1000/itemimages/11/22/112232_v4.jpeg',
-            'alt'=>'lateral'
+            'href'=>asset('images/rooms/single-room/Single_3.webp'),
+            'alt'=>'single_lateral'
         ],
         'foto3'=>[
-            'href'=>'https://media-cdn.tripadvisor.com/media/photo-s/06/fe/72/11/exterior-view.jpg',
-            'alt'=>'tracera'
+            'href'=>asset('images/rooms/single-room/Baño_1.webp'),
+            'alt'=>'single_baño'
+        ],
+        'foto4'=>[
+            'href'=> asset('images/rooms/gral/Hotel_1.webp'),
+            'alt'=>'Hotel_view6'
+        ],
+        'foto5'=>[
+            'href'=>asset('images/rooms/gral/Hotel_2.webp'),
+            'alt'=>'Hotel_view1'
+        ],
+        'foto6'=>[
+            'href'=>asset('images/rooms/gral/Hotel_3.webp'),
+            'alt'=>'Hotel_view2'
+        ],
+        'foto7'=>[
+            'href'=> asset('images/rooms/gral/Hotel_4.webp'),
+            'alt'=>'Hotel_view3'
+        ],
+        'foto8'=>[
+            'href'=>asset('images/rooms/gral/Hotel_5.webp'),
+            'alt'=>'Hotel_view4'
+        ],
+        'foto9'=>[
+            'href'=>asset('images/rooms/gral/Hotel_6.webp'),
+            'alt'=>'Hotel_view5'
         ]
+
     ],
 
     'title_service'=>'Servicios',
@@ -63,25 +88,26 @@ return [
             'other_rooms'=>[
                 'room1'=>[
                     'href'=> url('/rooms/double'),
-                    'src'=>asset('images/rooms/single-room.jpg'),
+                    'src'=>asset('images/rooms/double-room/Dobles_2.webp'),
                     'name'=>'Doble',
                     'price'=>'$1980',
                     'per_night'=>'/noche'
                 ],
                 'room2'=>[
                     'href'=> url('/rooms/triple'),
-                    'src'=>asset('images/rooms/single-room.jpg'),
+                    'src'=> asset('images/rooms/triple-room/Triple_1.webp'),
                     'name'=>'Triple',
                     'price'=>'$2200',
                     'per_night'=>'/noche'
                 ],
                 'room3'=>[
                     'href'=> url('/rooms/cuadruple'),
-                    'src'=>asset('images/rooms/single-room.jpg'),
+                    'src'=>asset('images/rooms/single-room/Single_3.webp'),
                     'name'=>'Cuádruple',
                     'price'=>'$2450',
                     'per_night'=>'/noche'
                 ],
+                
                 
     ]],
     'double' => [
@@ -90,16 +116,40 @@ return [
         'Precio_per_night'=>'por noche ',
         'fotos'=>[
             'foto1'=>[
-                'href'=> 'https://cf.bstatic.com/images/hotel/max1024x768/101/101866374.jpg',
-                'alt'=>'frontal'
+                'href'=> asset('images/rooms/double-room/Dobles_2.webp'),
+                'alt'=>'double_frontal'
             ],
             'foto2'=>[
-                'href'=>'https://imgcy.trivago.com/c_limit,d_dummy.jpeg,f_auto,h_650,q_auto,w_1000/itemimages/11/22/112232_v4.jpeg',
-                'alt'=>'lateral'
+                'href'=>asset('images/rooms/double-room/Dobles_3.webp'),
+                'alt'=>'double_lateral'
             ],
             'foto3'=>[
-                'href'=>'https://media-cdn.tripadvisor.com/media/photo-s/06/fe/72/11/exterior-view.jpg',
-                'alt'=>'tracera'
+                'href'=>asset('images/rooms/single-room/Baño_1.webp'),
+                'alt'=>'double_tracera'
+            ],
+            'foto4'=>[
+                'href'=> asset('images/rooms/gral/Hotel_1.webp'),
+                'alt'=>'Hotel_view6'
+            ],
+            'foto5'=>[
+                'href'=>asset('images/rooms/gral/Hotel_2.webp'),
+                'alt'=>'Hotel_view1'
+            ],
+            'foto6'=>[
+                'href'=>asset('images/rooms/gral/Hotel_3.webp'),
+                'alt'=>'Hotel_view2'
+            ],
+            'foto7'=>[
+                'href'=> asset('images/rooms/gral/Hotel_4.webp'),
+                'alt'=>'Hotel_view3'
+            ],
+            'foto8'=>[
+                'href'=>asset('images/rooms/gral/Hotel_5.webp'),
+                'alt'=>'Hotel_view4'
+            ],
+            'foto9'=>[
+                'href'=>asset('images/rooms/gral/Hotel_6.webp'),
+                'alt'=>'Hotel_view5'
             ]
         ],
 
@@ -136,21 +186,21 @@ return [
             'other_rooms'=>[
                 'room1'=>[
                     'href'=>url('/rooms/single'),
-                    'src'=>asset('images/rooms/single-room.jpg'),
+                    'src'=>asset('images/rooms/single-room/Single_4.webp'),
                     'name'=>'Individual',
                     'price'=>'$1700',
                     'per_night'=>'/noche'
                 ],
                 'room2'=>[
                     'href'=>url('/rooms/triple'),
-                    'src'=>asset('images/rooms/single-room.jpg'),
+                    'src'=> asset('images/rooms/triple-room/Triple_1.webp'),
                     'name'=>'Triple',
                     'price'=>'$2200',
                     'per_night'=>'/noche'
                 ],
                 'room3'=>[
                     'href'=>url('/rooms/cuadruple'),
-                    'src'=>asset('images/rooms/single-room.jpg'),
+                    'src'=>asset('images/rooms/double-room/Dobles_2.webp'),
                     'name'=>'Cuádruple',
                     'price'=>'$2450',
                     'per_night'=>'/noche'
@@ -165,16 +215,40 @@ return [
         'Precio_per_night'=>'por noche ',
         'fotos'=>[
             'foto1'=>[
-                'href'=> 'https://cf.bstatic.com/images/hotel/max1024x768/101/101866374.jpg',
+                'href'=> asset('images/rooms/triple-room/Triple_1.webp'),
                 'alt'=>'frontal'
             ],
             'foto2'=>[
-                'href'=>'https://imgcy.trivago.com/c_limit,d_dummy.jpeg,f_auto,h_650,q_auto,w_1000/itemimages/11/22/112232_v4.jpeg',
+                'href'=>asset('images/rooms/triple-room/Triple_2.webp'),
                 'alt'=>'lateral'
             ],
             'foto3'=>[
-                'href'=>'https://media-cdn.tripadvisor.com/media/photo-s/06/fe/72/11/exterior-view.jpg',
+                'href'=>asset('images/rooms/single-room/Baño_1.webp'),
                 'alt'=>'tracera'
+            ],
+            'foto4'=>[
+                'href'=> asset('images/rooms/gral/Hotel_1.webp'),
+                'alt'=>'Hotel_view6'
+            ],
+            'foto5'=>[
+                'href'=>asset('images/rooms/gral/Hotel_2.webp'),
+                'alt'=>'Hotel_view1'
+            ],
+            'foto6'=>[
+                'href'=>asset('images/rooms/gral/Hotel_3.webp'),
+                'alt'=>'Hotel_view2'
+            ],
+            'foto7'=>[
+                'href'=> asset('images/rooms/gral/Hotel_4.webp'),
+                'alt'=>'Hotel_view3'
+            ],
+            'foto8'=>[
+                'href'=>asset('images/rooms/gral/Hotel_5.webp'),
+                'alt'=>'Hotel_view4'
+            ],
+            'foto9'=>[
+                'href'=>asset('images/rooms/gral/Hotel_6.webp'),
+                'alt'=>'Hotel_view5'
             ]
         ],
 
@@ -211,21 +285,21 @@ return [
             'other_rooms'=>[
                 'room1'=>[
                     'href'=> url('/rooms/single'),
-                    'src'=>asset('images/rooms/single-room.jpg'),
+                    'src'=>asset('images/rooms/single-room/Single_4.webp'),
                     'name'=>'Individual',
                     'price'=>'$1700',
                     'per_night'=>'/noche'
                 ],
                 'room2'=>[
                     'href'=> url('/rooms/double'),
-                    'src'=>asset('images/rooms/single-room.jpg'),
+                    'src'=>asset('images/rooms/double-room/Dobles_2.webp'),
                     'name'=>'Doble',
                     'price'=>'$1980',
                     'per_night'=>'/noche'
                 ],
                 'room3'=>[
                     'href'=>url('/rooms/cuadruple'),
-                    'src'=>asset('images/rooms/single-room.jpg'),
+                    'src'=>asset('images/rooms/double-room/Cuadruple_1.webp'),
                     'name'=>'Cuádruple',
                     'price'=>'$2450',
                     'per_night'=>'/noche'
@@ -240,16 +314,40 @@ return [
                 'Precio_per_night'=>'/ noche ',
                 'fotos'=>[
                     'foto1'=>[
-                        'href'=> 'https://cf.bstatic.com/images/hotel/max1024x768/101/101866374.jpg',
-                        'alt'=>'frontal'
+                        'href'=> asset('images/rooms/single-room/Single_3.webp'),
+                        'alt'=>'Quadruple_frontal'
                     ],
                     'foto2'=>[
-                        'href'=>'https://imgcy.trivago.com/c_limit,d_dummy.jpeg,f_auto,h_650,q_auto,w_1000/itemimages/11/22/112232_v4.jpeg',
-                        'alt'=>'lateral'
+                        'href'=>asset('images/rooms/double-room/Dobles_2.webp'),
+                        'alt'=>'Quadruple_lateral'
                     ],
                     'foto3'=>[
-                        'href'=>'https://media-cdn.tripadvisor.com/media/photo-s/06/fe/72/11/exterior-view.jpg',
-                        'alt'=>'tracera'
+                        'href'=>asset('images/rooms/single-room/Baño_1.webp'),
+                        'alt'=>'Quadruple_tracera'
+                    ],
+                    'foto4'=>[
+                        'href'=> asset('images/rooms/gral/Hotel_1.webp'),
+                        'alt'=>'Hotel_view6'
+                    ],
+                    'foto5'=>[
+                        'href'=>asset('images/rooms/gral/Hotel_2.webp'),
+                        'alt'=>'Hotel_view1'
+                    ],
+                    'foto6'=>[
+                        'href'=>asset('images/rooms/gral/Hotel_3.webp'),
+                        'alt'=>'Hotel_view2'
+                    ],
+                    'foto7'=>[
+                        'href'=> asset('images/rooms/gral/Hotel_4.webp'),
+                        'alt'=>'Hotel_view3'
+                    ],
+                    'foto8'=>[
+                        'href'=>asset('images/rooms/gral/Hotel_5.webp'),
+                        'alt'=>'Hotel_view4'
+                    ],
+                    'foto9'=>[
+                        'href'=>asset('images/rooms/gral/Hotel_6.webp'),
+                        'alt'=>'Hotel_view5'
                     ]
                 ],
             
@@ -284,21 +382,21 @@ return [
                     'other_rooms'=>[
                         'room1'=>[
                             'href'=>url('/rooms/single'),
-                            'src'=>asset('images/rooms/single-room.jpg'),
+                            'src'=>asset('images/rooms/single-room/Single_4.webp'),
                             'name'=>'Individual',
                             'price'=>'$1700',
                             'per_night'=>'/noche'
                         ],
                         'room2'=>[
                             'href'=> url('/rooms/double'),
-                            'src'=>asset('images/rooms/single-room.jpg'),
+                            'src'=>asset('images/rooms/double-room/Dobles_2.webp'),
                             'name'=>'Doble',
                             'price'=>'$1980',
                             'per_night'=>'/noche'
                         ],
                         'room3'=>[
                             'href'=>url('/rooms/triple'),
-                            'src'=>asset('images/rooms/single-room.jpg'),
+                            'src'=> asset('images/rooms/triple-room/Triple_1.webp'),
                             'name'=>'Triple',
                             'price'=>'$2200',
                             'per_night'=>'/noche'
