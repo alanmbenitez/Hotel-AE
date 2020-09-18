@@ -5,7 +5,7 @@
         <div class="item lightbox-image-icon">
             <a href="{{$foto['href']}}" 
             class="hover_effect h_lightbox">
-                <img class="img-responsive" 
+                <img  class="img-responsive" 
                 src="{{$foto['href']}}" 
                 alt="{{$foto['alt']}}">
             </a>
@@ -19,6 +19,7 @@
         @foreach ($rooms['fotos'] as $foto)
         
         <div class="item"><img 
+            style="height: 78px;"
             class="img-responsive" 
             src="{{$foto['href']}}" 
             alt="{{$foto['alt']}}">

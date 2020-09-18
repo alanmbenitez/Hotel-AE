@@ -15,6 +15,7 @@
                 class="hover_effect h_link"><img 
                 src="{{$room['src']}}" 
                 alt="Image" 
+                style="height: 156px;"
                 class="img-responsive"></a>
                 @if ($room['price']!=='')
                 <div class="price">{{$room['price']}}
