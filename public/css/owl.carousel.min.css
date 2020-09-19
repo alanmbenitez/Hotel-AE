@@ -39,7 +39,7 @@
 .owl-carousel .owl-item {
     min-height: 1px;
     float: left;
-    max-height: 350px;
+    /*  max-height: 350px; */
     -webkit-backface-visibility: hidden;
     -webkit-touch-callout: none
 }

@@ -35,11 +35,11 @@ return [
             'class'=>'',
             'alt' => 'tv'
         ],
-       /*  'img5' => [
-            'src' => asset('images/home/aire.webp'),
-            'class'=>'img_service_none_2 ',
+        'img5' => [
+            'src' => asset('images/home/car.webp'),
+            'class'=>'',
             'alt' => 'aire'
-        ] */
+        ]
         ],
 
     'info_services' => [
@@ -78,12 +78,13 @@ return [
             'title' => 'Wifi disponible las 24hs.',
             'description' => 'Para que puedas estar conectado en todo momento',
         ], */
-       /*  'info6' => [
-            'src' => asset('images/icons/conserje.svg'),
+        'info6' => [
+            'src' => asset('images/icons/car.svg'),
             'alt' => 'icon3',
+            'class'=>' ',
             'title' => 'Estacionamiento Cercano',
             'description' => 'A solo algunos metros del Hotel',
-        ], */
+        ],
     ],
     'title_our_rooms'=>'NUESTRAS HABITACIONES',
     'info_our_rooms'=>'Contamos con 52 habitaciones, de las cuales hay <strong>individuales</strong> con cama de 1 o 2 plazas, <strong>dobles</strong> con cama matrimonial o separadas, y <strong>triples</strong> con cama matrimonial o separadas.</p>',

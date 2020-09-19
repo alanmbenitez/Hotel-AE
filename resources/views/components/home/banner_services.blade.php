@@ -8,9 +8,9 @@
         </div>
         <p class="main_description a_center">{{ __('home.subtitle_services') }}</p>
         
-        <div id="imagen" class="row">
+        <div id="imagen" class="row section_service">
             <div class="col-md-7">
-                <div data-slider-id="features" id="features_slider" class="owl-carousel">
+                <div data-slider-id="features" id="features_slider" style="max-width: 670px" class="owl-carousel">
                    @foreach (__('home.img_services') as $img)
                 <div class="{{$img['class']}}"><img src="{{$img['src']}}" class="{{$img['class']}} img-responsive" alt="{{ $img['alt'] }}"></div>
                        
@@ -25,8 +25,8 @@
                             <img src="{{ $info['src'] }}" alt="{{ $info['alt'] }}" srcset="">
                        </span>
                         <div class="media-body">
-                            <h5>{{ $info['title'] }}</h5>
-                            <p>{{ $info['description'] }}</p>
+                            <h5 class="title-service">{{ $info['title'] }}</h5>
+                            <p class="desc-service">{{ $info['description'] }}</p>
                         </div>
                    
                     </a>
@@ -36,3 +36,34 @@
             </div>
         </div>
 </section>
+<style>
+
+
+
+@media screen and (min-width:992px) {
+    .section_service{
+        max-width: 95% !important; 
+        display: flex;
+        align-items: center;
+     }
+  
+}
+
+
+.section_service{
+    max-width: 670px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media screen and (max-width:648px) {
+.title-service{
+        font-size: 1em;
+    }
+    .desc-service{
+        font-size: .8em;
+    }
+  
+
+}
+</style>

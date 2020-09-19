@@ -146,7 +146,7 @@
                                         <div style="border-top:0px solid transparent; border-left:0px solid transparent; border-bottom:0px solid transparent; border-right:0px solid transparent; padding-top:10px; padding-bottom:15px; padding-right: 0px; padding-left: 10px;">
 
                                             <div align="left" class="img-container left fixedwidth" style="padding-right: 0px;padding-left: 0px;">
-                                                <img alt="Logo hotel" border="0" class="left fixedwidth" src="https://i.imgur.com/ZrIVYaY.png" style="text-decoration: none; -ms-interpolation-mode: bicubic; height: auto; border: 0; width: 100%; max-width: 189px; display: block;" title="Alternate text" width="189">
+                                                <img alt="Logo hotel" border="0" class="left fixedwidth" src="https://i.ibb.co/zGCbBfs/New-Horizontall-BG-White-stars-red.png" style="text-decoration: none; -ms-interpolation-mode: bicubic; height: auto; border: 0; width: 100%; max-width: 189px; display: block;" title="Alternate text" width="189">
 
                                             </div>
 
