@@ -87,7 +87,7 @@ return [
         ],
     ],
     'title_our_rooms'=>'NUESTRAS HABITACIONES',
-    'info_our_rooms'=>'Contamos con 52 habitaciones, de las cuales hay <strong>individuales</strong> con cama de 1 o 2 plazas, <strong>dobles</strong> con cama matrimonial o separadas, y <strong>triples</strong> con cama matrimonial o separadas.</p>',
+    'info_our_rooms'=>'El Hotel Aires Express cuenta con 54 habitaciones singles, dobles y triples. Todas son externas y muy luminosas, sobriamente decoradas y preparadas especialmente con ventanas insonorizadas para aislar ruidos externos y aclimatar el ambiente. De esta manera le brindamos al huésped un descanso único.',
     'main_carousel'=> [
         'carousel1'=>[
             'src'=> asset('images/rooms/single-room/Single_4.webp'),
