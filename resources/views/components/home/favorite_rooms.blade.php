@@ -8,7 +8,7 @@
         <div class="main_title a_center">
         <h2 class="text_color_title_ae underlined_title" >{{__('home.title_our_rooms')}}</h2>
         </div>
-    <p class="main_description a_center">{{__('home.title_our_rooms')}}</p>
+    <p class="main_description a_center">{{__('home.info_our_rooms')}}</p>
 
         <div  class="CarouselHome" > 
             @foreach (__('home.main_carousel') as $carousel)

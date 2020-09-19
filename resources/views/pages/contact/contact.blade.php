@@ -32,7 +32,7 @@ Somos un hotel de Categoria ubicado en plena Ciudad de Buenos aires
         </div>
         <div style="width: 100% ; background-color:#f5f5f5 ">
         <div class="section-contacto flex py-4 mx-auto flex-wrap lg:justify-between">
-            <a class="medios-contacto inline-flex text-dh-black text-lg font-bold mx-auto items-center w-full md:w-1/2 lg:w-1/4 px-2" href="https://api.whatsapp.com/send?phone=+5491140480054">
+            <a class="medios-contacto inline-flex text-dh-black text-lg font-bold mx-auto items-center w-full md:w-1/2 lg:w-1/4 px-2" target="_blank" href="https://api.whatsapp.com/send?phone=+5491140480054">
                 <i style="padding: 10px; font-size: 3rem; color: #ED325C" class="fab fa-whatsapp"></i>
                 <p style="margin: 0px" class="font-medios-contacto text-sm"> Whatsapp</p> 
             </a>

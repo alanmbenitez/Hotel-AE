@@ -14,8 +14,8 @@
     <meta content="" name="author">
     
     <!-- ========== FAVICON ========== -->
-    <link rel="apple-touch-icon-precomposed" href="images/favicon-1.svg" />
-	<link rel="icon" href="images/favicon-2.svg">
+    <link rel="apple-touch-icon-precomposed" href="{{asset('images/favicon-1.svg')}}" />
+	<link rel="icon" href="{{asset('images/favicon-2.svg')}}">
 
     <!-- ========== STYLESHEETS ========== --> 
        <!-- Compiled and minified CSS -->

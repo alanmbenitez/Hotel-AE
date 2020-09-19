@@ -25,13 +25,13 @@
                     <address>
                         <ul class="address_details">
                             
-                            <li><i class="fa fa-map-marker-alt"></i>{{__('footer.data')['address']}}</li>
-                            <li><i class="fa fa-phone-alt"></i>{{__('footer.data')['phone']}}</li>
-                            <li><i class="fa fa-whatsapp"></i>{{__('footer.data')['wpp']}}
+                            <li><i class="fa fa-map-marker-alt"></i><a href="https://goo.gl/maps/VBJvXDbRXdb7B7qY8">{{__('footer.data')['address']}}</a></li>
+                            <li><i class="fa fa-phone-alt"></i><a href="tel:+541148671265">{{__('footer.data')['phone']}}<</a>/li>
+                            <li><i class="fa fa-whatsapp"></i> <a href="https://api.whatsapp.com/send?phone=+5491140480054">{{__('footer.data')['wpp']}}</a>
                             </li>
                             <li><i class="fa fa-envelope"></i> Email: <a href="mailto:{{__('footer.data')['email']}}">{{__('footer.data')['email']}}</a></li>
-                            <li><i class="fa fa-instagram"></i><a href="https://www.instagram.com/hotel_airesexpress">{{__('footer.data')['insta']}}</a></li>
-                            <li><i class="fa fa-facebook-square"></i><a href="https://www.facebook.com/airesexpress/">{{__('footer.data')['facebook']}}</a></li>
+                            <li><i class="fa fa-instagram"></i><a target="_blank" href="https://www.instagram.com/hotel_airesexpress">{{__('footer.data')['insta']}}</a></li>
+                            <li><i class="fa fa-facebook-square"></i><a target="_blank"  href="https://www.facebook.com/airesexpress/">{{__('footer.data')['facebook']}}</a></li>
                         </ul>
                     </address>
                 </div>
@@ -43,7 +43,7 @@
             <div class="row">
                 <div style="text-align: center;" class="col-md-12 col-sm-12">
                     <div class="copyrights"><i class="far fa-copyright"></i>
-                          2020 Copyright <a href="index.html">Hotel Aires Express</a> <br> All Rights Reserved.
+                          2020 Copyright <a href="{{route('home')}}">Hotel Aires Express</a> <br> All Rights Reserved.
                     </div>
                 </div>
               

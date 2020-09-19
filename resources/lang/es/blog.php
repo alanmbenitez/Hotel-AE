@@ -14,7 +14,7 @@ return [
     'title_hero' => 'Guía de Buenos Aires',
     'places' => [
         'place1' => [
-            'img' => 'images/blog/jardin.jpg',
+            'img' => 'https://turismo.buenosaires.gob.ar/sites/turismo/files/jarin_japones_puente_2_1200.jpg',
             'title' => 'Jardín Japonés',
             'parrafo' => 'Rodeado por los Bosques de Palermo, el Jardín Japonés es un rincón de Buenos Aires que enamora a quien lo visite. Construido en 1967 en ocasión de la visita del emperador de Japón Akihito y su esposa Michiko, se trata del jardín de estilo japonés más grande fuera del país nipón. Caminar entornado por bonsais, azaleas, kokedamas, orquídeas y faroles de cemento es un placer inolvidable. Tiene también un Chashitsu (casa de té): un espacio construido especialmente para llevar a cabo la tradicional ceremonia del té japonesa. Ornamentado con elementos tradicionales, cuyo interior fue importado desde Japón, algunos de sus componentes datan de hasta más de cien años de antigüedad. Su exquisito interior se encuentra confeccionado de forma artesanal. Una sala de arte y un restaurante completan la visita.',
             'href' => 'https://turismo.buenosaires.gob.ar/es/otros-establecimientos/jard%C3%ADn-japon%C3%A9s'

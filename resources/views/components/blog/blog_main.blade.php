@@ -6,12 +6,12 @@
                 @foreach($data['places'] as $item)
                 <article class="blog_list">
                     <figure>
-                    <a href="{{$item['href']}}" class="hover_effect h_link">
+                    <a target="_blank" href="{{$item['href']}}" class="hover_effect h_link">
                             <img src="{{$item['img']}}" class="img-responsive" alt="Image">
                         </a>
                     </figure>
                     <div class="details">
-                        <h2><a href={{$item['href']}}>{{$item['title']}}</a></h2>
+                        <h2><a target="_blank" href={{$item['href']}}>{{$item['title']}}</a></h2>
                        
                         <p>{{$item['parrafo']}}</p>
                         <a class="button btn_blue " target="_blank" rel="noreferrer" href={{$item['href']}}><i class="fa fa-angle-double-right"></i> Leer más </a>
