@@ -12,7 +12,7 @@
 
         <div  class="CarouselHome" > 
             @foreach (__('home.main_carousel') as $carousel)
-                <div class="col-md-4 carousel-cell">
+                <div style="min-height: 224px;"class="col-md-4 carousel-cell">
                     <article class="cardArticle room">
                         <figure>
                             <div class="price">{{$carousel['price']}} <span>{{$carousel['per_night']}}</span></div>
@@ -31,3 +31,11 @@
             
     </div>
 </section>
+
+<style>
+
+.flickity-enabled.is-draggable .flickity-viewport {
+    min-height: 226px !important;
+}
+
+</style>
