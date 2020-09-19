@@ -4151,7 +4151,7 @@ footer.dark .subfooter .social_media a {
     height: 70px;
     margin-top: 10px;
     border-radius: 4px;
-    background: rgba(255, 182, 0, .3)
+    background: rgb(236 101 132 / 30%);
 }
 
 .page_title .price .inner {

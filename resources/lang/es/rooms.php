@@ -219,7 +219,7 @@ return [
                 'alt'=>'frontal'
             ],
             'foto2'=>[
-                'href'=>asset('images/rooms/triple-room/Triple_2.webp'),
+                'href'=>asset('images/rooms/triple-room/triple_2.webp'),
                 'alt'=>'lateral'
             ],
             'foto3'=>[
