@@ -15,7 +15,7 @@
                 data-title="Slide" 
                 data-description="">
                 <!-- IMAGE -->
-                <img src="{{url('images/home/obelisco.webp')}}" alt="Image" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="5" class="rev-slidebg" data-no-retina>
+                <img src="{{url('images/home/obelisco.jpeg')}}" alt="Image" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="5" class="rev-slidebg" data-no-retina>
                 <!-- LAYER NR. 1 --> 
                 
                 <div class="tp-caption"
