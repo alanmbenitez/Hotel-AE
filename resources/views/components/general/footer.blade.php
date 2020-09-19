@@ -14,7 +14,7 @@
                 <div class="col-md-2 col-sm-6 widget">
                     <h5>Links</h5>
                     <ul class="useful_links">
-                        <li><a href="{{route('home')}}">Home</a></li>
+                        <li><a href="{{route('home')}}">Inicio</a></li>
                         <li><a href="{{url('/rooms/single') }}">Habitaciones</a></li>
                         <li><a href="{{route('guia')}}">Turismo</a></li>
                         <li><a href="{{route('contacto')}}">Contacto</a></li>
@@ -25,9 +25,9 @@
                     <address>
                         <ul class="address_details">
                             
-                            <li><i class="fa fa-map-marker-alt"></i><a href="https://goo.gl/maps/VBJvXDbRXdb7B7qY8">{{__('footer.data')['address']}}</a></li>
-                            <li><i class="fa fa-phone-alt"></i><a href="tel:+541148671265">{{__('footer.data')['phone']}}<</a>/li>
-                            <li><i class="fa fa-whatsapp"></i> <a href="https://api.whatsapp.com/send?phone=+5491140480054">{{__('footer.data')['wpp']}}</a>
+                            <li><i class="fa fa-map-marker-alt"></i><a target="_blank" href="https://goo.gl/maps/VBJvXDbRXdb7B7qY8">{{__('footer.data')['address']}}</a></li>
+                            <li><i class="fa fa-phone-alt"></i><a target="_blank" href="tel:+541148671265">{{__('footer.data')['phone']}}</a></li>
+                            <li><i class="fa fa-whatsapp"></i> <a target="_blank" href="https://api.whatsapp.com/send?phone=+5491140480054">{{__('footer.data')['wpp']}}</a>
                             </li>
                             <li><i class="fa fa-envelope"></i> Email: <a href="mailto:{{__('footer.data')['email']}}">{{__('footer.data')['email']}}</a></li>
                             <li><i class="fa fa-instagram"></i><a target="_blank" href="https://www.instagram.com/hotel_airesexpress">{{__('footer.data')['insta']}}</a></li>
