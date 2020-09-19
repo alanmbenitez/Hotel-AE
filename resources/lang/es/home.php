@@ -16,27 +16,27 @@ return [
 
     'img_services' => [
         'img1' => [
-            'src' => asset('images/home/breakfast.webp'),
+            'src' => asset('images/home/breakfast.jpg'),
             'class'=>'',
             'alt' => 'breakfast'
         ],
         'img2' => [
-            'src' => asset('images/home/aire.webp'),
+            'src' => asset('images/home/aire.jpg'),
             'class'=>'',
             'alt' => 'aire'
         ],
         'img3' => [
-            'src' => asset('images/home/conserje.webp'),
+            'src' => asset('images/home/conserje.jpg'),
             'class'=>'',
             'alt' => 'conserje'
         ],
         'img4' => [
-            'src' => asset('images/home/tv.webp'),
+            'src' => asset('images/home/tv.jpg'),
             'class'=>'',
             'alt' => 'tv'
         ],
         'img5' => [
-            'src' => asset('images/home/car.webp'),
+            'src' => asset('images/home/car.jpg'),
             'class'=>'',
             'alt' => 'aire'
         ]
@@ -90,7 +90,7 @@ return [
     'info_our_rooms'=>'El Hotel Aires Express cuenta con 54 habitaciones singles, dobles y triples. Todas son externas y muy luminosas, sobriamente decoradas y preparadas especialmente con ventanas insonorizadas para aislar ruidos externos y aclimatar el ambiente. De esta manera le brindamos al huésped un descanso único.',
     'main_carousel'=> [
         'carousel1'=>[
-            'src'=> asset('images/rooms/single-room/Single_4.webp'),
+            'src'=> asset('images/rooms/single-room/Single_4.jpg'),
             'alt'=>'Single_room',
             'title'=>'Individuales',
             'price'=>'$1700',
@@ -98,7 +98,7 @@ return [
             'href' => url('/rooms/single')
         ],
         'carousel2'=>[
-            'src'=>asset('images/rooms/double-room/Dobles_2.webp'),
+            'src'=>asset('images/rooms/double-room/Dobles_2.jpg'),
             'alt'=>'Double_room',
             'title'=>'Dobles',
             'price'=>'$1980',
@@ -106,7 +106,7 @@ return [
             'href' => url('/rooms/double')
         ],
         'carousel3'=>[
-            'src'=>asset('images/rooms/triple-room/Triple_1.webp'),
+            'src'=>asset('images/rooms/triple-room/Triple_1.jpg'),
             'alt'=>'Triple_room',
             'title'=>'Triples',
             'price'=>'$2200',
@@ -114,7 +114,7 @@ return [
             'href' => url('/rooms/triple')
         ],
         'carousel4'=>[
-            'src'=>asset('images/rooms/double-room/Cuadruple_1.webp'),
+            'src'=>asset('images/rooms/double-room/Cuadruple_1.jpg'),
             'alt'=>'Quadruple_room',
             'title'=>'Cuádruples',
             'price'=>'$2450',
