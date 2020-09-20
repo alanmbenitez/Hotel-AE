@@ -12,7 +12,7 @@ return [
     // EJ
     'title' => 'Bienvenidos al Hotel Aires Express',
     'title_services' => 'NUESTROS SERVICIOS',
-    'subtitle_services' => 'Ofrecemos los siguientes servicios para que puedas aprovechar al máximo tu estadía en el hotel.',
+    'subtitle_services' => 'Te brindamos diferentes servicios para que puedas aprovechar al máximo tu estadía en el hotel.',
 
     'img_services' => [
         'img1' => [
