@@ -19,7 +19,6 @@
         @foreach ($rooms['fotos'] as $foto)
         
         <div class="item"><img 
-            style="height: 78px;"
             class="img-responsive" 
             src="{{$foto['href']}}" 
             alt="{{$foto['alt']}}">
