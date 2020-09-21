@@ -22,14 +22,14 @@ Route::get('/rooms/double', 'RoomsController@double')->name('lang.swap');
 Route::get('/rooms/triple', 'RoomsController@triple')->name('lang.swap');
 Route::get('/rooms/cuadruple', 'RoomsController@cuadruple')->name('lang.swap');
 
-Route::get('/guia', 'BlogController@index')->name('guia');
-Route::get('/contacto', 'HomeController@contacto')->name('contacto');
+Route::get('/tourism', 'BlogController@index')->name('tourism');
+Route::get('/contact', 'HomeController@contacto')->name('contacto');
 
 Route::post('/', 'FormsController@store')->name('form');
 Route::post('/', 'FormsController@contact')->name('form2');
 
 /* Route::post('/singleRoom', 'FormsController@store')->name('form'); */
 /* Route::post('/', 'FormsController@store')->name('form'); */
-Route::post('/guia', 'FormsController@store')->name('form');
+Route::post('/tourism', 'FormsController@store')->name('form');
 /* Route::get('/{lang}', 'LanguageController@swap')->name('lang.swap');
  */

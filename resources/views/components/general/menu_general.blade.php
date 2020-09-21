@@ -28,7 +28,7 @@
             </li>
           
             <li class="nav_li_menu nav_mobile_ul_menu">
-                <a href="{{route('guia')}}" class="nav_a_menu">TURISMO</a></li>
+                <a href="{{route('tourism')}}" class="nav_a_menu">TURISMO</a></li>
             <li class="nav_li_menu nav_mobile_ul_menu">
                 <a class="nav_a_menu" href="{{route('contacto')}}" >CONTACTO</a></li>
                 @if (false)
