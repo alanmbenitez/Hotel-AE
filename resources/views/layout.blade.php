@@ -155,7 +155,7 @@
           cellAlign: 'center',
           contain: true,
           prevNextButtons: false,
-          /* autoPlay: 2500, */
+          autoPlay: 2500,
           wrapAround: true,
           
           
