@@ -1333,8 +1333,8 @@ button {
 }
 
 .button.btn_dark {
-    background: #5e6667;
-    border-color: #5e6667;
+    background: #9b9495;
+    border-color: #9b9495;
     color: #fff
 }
 
@@ -1376,8 +1376,8 @@ button {
 .button.btn_dark:hover,
 .button.btn_dark:active,
 .button.btn_dark:focus {
-    background: #4f5758;
-    border-color: #4f5758
+    background: #9b9495;
+    border-color: #9b9495
 }
 
 .button.btn_lg i {

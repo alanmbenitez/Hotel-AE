@@ -185,8 +185,10 @@ function validatorForm(valor, error, id, array_error) {
     e.preventDefault();
        
     button_submit.innerHTML = 'Enviando Reserva';
-    button_submit.classList.add("btn_red")
+    button_submit.classList.add("btn_dark")
     button_submit.classList.remove("btn_blue")
+    button_submit.disabled = true;
+
         
     /* =========== validation ========== */
 
@@ -236,7 +238,8 @@ function validatorForm(valor, error, id, array_error) {
             });
             button_submit.innerHTML = 'Solicitar Reserva';
             button_submit.classList.add("btn_blue")
-            button_submit.classList.remove("btn_red")
+            button_submit.classList.remove("btn_dark")
+            button_submit.disabled = false;
 
                 inputReset()
             },
@@ -260,8 +263,10 @@ function validatorForm(valor, error, id, array_error) {
     
   }else{
             button_submit.innerHTML = 'Verifique los datos ingresados';
-            button_submit.classList.add("btn_red")
-            button_submit.classList.remove("btn_blue")
+            button_submit.classList.add("btn_blue")
+            button_submit.classList.remove("btn_dark")
+            button_submit.disabled = false;
+
     
   }
     

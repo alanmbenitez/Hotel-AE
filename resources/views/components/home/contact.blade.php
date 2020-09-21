@@ -28,21 +28,21 @@
                 <form >
                     @csrf
                     <div class="form-group">
-                        <input class="form-control" id="form_name_contact" name="name" placeholder="Nombre" type="text">
+                        <input class="form-control" id="form_name_contact" name="name" placeholder="Nombre Completo" type="text">
                         <span id="error_name_contact" class="error-form-hotel error_form_hidden">
-                            Nombre inválido.
+                            Por favor ingrese su nombre completo.
                         </span>
                     </div>
                     <div class="form-group">
                         <input class="form-control"  id="form_email_contact" name="email" type="email" placeholder="Email">
                         <span id="error_email_contact" class="error-form-hotel error_form_hidden">
-                            Email inválido.
+                            Por favor ingrese una direccion de email válida.
                         </span>
                     </div>
                     <div class="form-group">
                         <textarea class="form-control" id="form_text_contact" name="message" placeholder="Mensaje"></textarea>
                         <span id="error_text_contact" class="error-form-hotel error_form_hidden">
-                            Mensaje incorrecto.
+                            Por favor ingrese un su consulta o sugerencia.
                         </span>
                     </div>
                     <button class="button btn_lg btn_blue btn_full upper" id="button_contact" type="submit"><i class="fa fa-location-arrow"></i>Enviar mensaje</button>
@@ -81,9 +81,10 @@ button_contact.addEventListener('click' ,(e) => {
     e.preventDefault();
 
  
-     button_contact.innerHTML = 'Mensaje Enviado!';
-    button_contact.classList.add("btn_red")
+     button_contact.innerHTML = 'Enviando Mensaje!';
+    button_contact.classList.add("btn_dark")
     button_contact.classList.remove("btn_blue")
+    button_contact.disabled = true;
 
 
     validatorForm(name_contact, error_name_contact, 'name_id', errors_form_contact)
@@ -117,7 +118,8 @@ button_contact.addEventListener('click' ,(e) => {
             });
             button_contact.innerHTML = 'Enviar Mensaje';
             button_contact.classList.add("btn_blue")
-            button_contact.classList.remove("btn_red")
+            button_contact.classList.remove("btn_dark")
+            button_contact.disabled = false;
             inputResetContact()
 
 
@@ -143,8 +145,8 @@ button_contact.addEventListener('click' ,(e) => {
     }else{
             button_contact.innerHTML = 'Verifique los datos ingresados';
             button_contact.classList.add("btn_red")
-            button_contact.classList.remove("btn_blue")
-    
+            button_contact.classList.remove("btn_dark")
+            button_contact.disabled = false;
   }
 
         

@@ -16,7 +16,7 @@
                     <ul class="useful_links">
                         <li><a href="{{route('home')}}">Inicio</a></li>
                         <li><a href="{{url('/rooms/single') }}">Habitaciones</a></li>
-                        <li><a href="{{route('guia')}}">Turismo</a></li>
+                        <li><a href="{{route('tourism')}}">Turismo</a></li>
                         <li><a href="{{route('contacto')}}">Contacto</a></li>
                     </ul>
                 </div>
