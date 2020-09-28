@@ -218,7 +218,7 @@
                                             <!--[if mso]></td></tr></table><![endif]-->
                                             <div align="center" class="img-container center autowidth" style="padding-right: 0px;padding-left: 0px;">
                                                 <!--[if mso]><table width="100%" cellpadding="0" cellspacing="0" border="0"><tr style="line-height:0px"><td style="padding-right: 0px;padding-left: 0px;" align="center"><![endif]-->
-                                                <img align="center" alt="Alternate text" border="0" class="center autowidth" src="https://i.ibb.co/x5g1N1T/IMG-1247.png" style="text-decoration: none; -ms-interpolation-mode: bicubic; height: auto; border: 0; width: 100%; max-width: 650px; display: block;"
+                                                <img align="center" alt="Alternate text" border="0" class="center autowidth" src="https://hotelairesexpress.com.ar/images/rooms/gral/Hotel_3.jpg" style="text-decoration: none; -ms-interpolation-mode: bicubic; height: auto; border: 0; width: 100%; max-width: 650px; display: block;"
                                                     title="Alternate text" width="650">
                                                 <!--[if mso]></td></tr></table><![endif]-->
                                             </div>
