@@ -93,7 +93,7 @@ return [
             'src'=> asset('images/rooms/single-room/Single_4.jpg'),
             'alt'=>'Single_room',
             'title'=>'Individuales',
-            'price'=>'$1700',
+            'price'=>'$1850',
             'per_night'=>'/ noche',
             'href' => url('/rooms/single')
         ],
@@ -117,7 +117,7 @@ return [
             'src'=>asset('images/rooms/double-room/Cuadruple_1.jpg'),
             'alt'=>'Quadruple_room',
             'title'=>'Cuádruples',
-            'price'=>'$2450',
+            'price'=>'$2500',
             'per_night'=>'/ noche',
             'href' => url('/rooms/cuadruple')
         ]

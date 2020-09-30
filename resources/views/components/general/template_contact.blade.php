@@ -302,7 +302,7 @@
                                             <div style="color:#555555;font-family:Arial, Helvetica Neue, Helvetica, sans-serif;line-height:1.2;padding-top:10px;padding-right:10px;padding-bottom:0px;padding-left:10px;">
                                                 <div style="line-height: 1.2; font-size: 12px; color: #555555; font-family: Arial, Helvetica Neue, Helvetica, sans-serif; mso-line-height-alt: 14px;">
                                                     <p style="font-size: 14px; line-height: 1.2; word-break: break-word; text-align: center; mso-line-height-alt: 17px; margin: 0;">
-                                                        <span style="color: #ffffff;">© HOTEL AIRES EXPRESS - (+54) 011 4867-126<br></span></p>
+                                                        <span style="color: #ffffff;">© HOTEL AIRES EXPRESS - (+54) 011 4867-1265<br></span></p>
                                                 </div>
                                             </div>
 

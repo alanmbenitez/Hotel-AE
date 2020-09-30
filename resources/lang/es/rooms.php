@@ -13,7 +13,7 @@ return [
     'single' => [
 
     'title'=>'Habitación Individual',
-    'precio_num'=>'$1700',
+    'precio_num'=>'$1850',
     'Precio_per_night'=>'por noche ',
     'fotos'=>[
         'foto1'=>[
@@ -59,7 +59,7 @@ return [
 
     'informacion'=>[
         'columna1' =>[
-            'servicio1'=>'Cama individual o Matromonial',
+            'servicio1'=>'Cama individual o  Matrimonial',
             'servicio2'=>'1 personas',
             'servicio3'=>'Wifi Libre',
         ] ,
@@ -79,7 +79,7 @@ return [
     'title_content'=>'Hotel Aires Express',
             
         'contenido'=>[
-            'parrafo1' => 'Cómoda habitación espaciosa, un excelente lugar para trabajar y descansar. Tenemos todos los servicios a tu disposición para crear una excelente experiencia en una de las zonas históricas de nuestra ciudad.',
+            'parrafo1' => 'Cómoda habitación, un excelente lugar para trabajar y descansar. Tenemos todos los servicios a tu disposición para crear una excelente experiencia en una de las zonas históricas de nuestra ciudad.',
             'parrafo2' => 'Ven y disfruta de Buenos Aires desde nuestras instalaciones, te esperamos!'
     
         ],
@@ -104,7 +104,7 @@ return [
                     'href'=> url('/rooms/cuadruple'),
                     'src'=>asset('images/rooms/single-room/Single_3.jpg'),
                     'name'=>'Cuádruple',
-                    'price'=>'$2450',
+                    'price'=>'$2500',
                     'per_night'=>'/noche'
                 ],
                 
@@ -158,7 +158,7 @@ return [
     
         'informacion'=>[
             'columna1' =>[
-                'servicio1'=>'Cama Matrimonial',
+                'servicio1'=>'Cama Mat. o 2 Camas Ind.',
                 'servicio2'=>'2 personas',
                 'servicio3'=>'Wifi Libre',
             ] ,
@@ -177,7 +177,7 @@ return [
         'title_content'=>'Hotel Aires Express',
             
         'contenido'=>[
-            'parrafo1' => 'Cómoda habitación espaciosa, un excelente lugar para trabajar y descansar. Tenemos todos los servicios a tu disposición para crear una excelente experiencia en una de las zonas históricas de nuestra ciudad.',
+            'parrafo1' => 'Cómoda habitación, un excelente lugar para trabajar y descansar. Tenemos todos los servicios a tu disposición para crear una excelente experiencia en una de las zonas históricas de nuestra ciudad.',
             'parrafo2' => 'Ven y disfruta de Buenos Aires desde nuestras instalaciones, te esperamos!'
     
         ],
@@ -188,7 +188,7 @@ return [
                     'href'=>url('/rooms/single'),
                     'src'=>asset('images/rooms/single-room/Single_4.jpg'),
                     'name'=>'Individual',
-                    'price'=>'$1700',
+                    'price'=>'$1850',
                     'per_night'=>'/noche'
                 ],
                 'room2'=>[
@@ -202,7 +202,7 @@ return [
                     'href'=>url('/rooms/cuadruple'),
                     'src'=>asset('images/rooms/double-room/Dobles_2.jpg'),
                     'name'=>'Cuádruple',
-                    'price'=>'$2450',
+                    'price'=>'$2500',
                     'per_night'=>'/noche'
                 ]
             ]
@@ -257,7 +257,7 @@ return [
     
         'informacion' => [
             'columna1' =>[
-                'servicio1'=>'Matrimonial y Cama Individual',
+                'servicio1'=>'Camas Mat. e Ind. o 3 Camas Ind.',
                 'servicio2'=>'3 Personas',
                 'servicio3'=>'Secador de cabello',
             ] ,
@@ -277,7 +277,7 @@ return [
         'title_content'=>'Hotel Aires Express',
             
         'contenido'=>[
-            'parrafo1' => 'Cómoda habitación espaciosa, un excelente lugar para trabajar y descansar. Tenemos todos los servicios a tu disposición para crear una excelente experiencia en una de las zonas históricas de nuestra ciudad.',
+            'parrafo1' => 'Cómoda habitación, un excelente lugar para trabajar y descansar. Tenemos todos los servicios a tu disposición para crear una excelente experiencia en una de las zonas históricas de nuestra ciudad.',
             'parrafo2' => 'Ven y disfruta de Buenos Aires desde nuestras instalaciones, te esperamos!'
     
         ],
@@ -287,7 +287,7 @@ return [
                     'href'=> url('/rooms/single'),
                     'src'=>asset('images/rooms/single-room/Single_4.jpg'),
                     'name'=>'Individual',
-                    'price'=>'$1700',
+                    'price'=>'$1850',
                     'per_night'=>'/noche'
                 ],
                 'room2'=>[
@@ -301,7 +301,7 @@ return [
                     'href'=>url('/rooms/cuadruple'),
                     'src'=>asset('images/rooms/double-room/Cuadruple_1.jpg'),
                     'name'=>'Cuádruple',
-                    'price'=>'$2450',
+                    'price'=>'$2500',
                     'per_night'=>'/noche'
                 ]
             ]
@@ -310,7 +310,7 @@ return [
             'cuadruple' => [
 
                 'title'=>'Habitación Cuádruple',
-                'precio_num'=>'$2450',
+                'precio_num'=>'$2500',
                 'Precio_per_night'=>'/ noche ',
                 'fotos'=>[
                     'foto1'=>[
@@ -355,7 +355,7 @@ return [
             
                 'informacion'=>[
                     'columna1' =>[
-                        'servicio1'=>'2 Camas Matrimoniales',
+                        'servicio1'=>'Cama Matrimonial y 2 Camas Ind.',
                         'servicio2'=>'4 personas',
                         'servicio3'=>'Wifi Libre',
                     ] ,
@@ -375,7 +375,7 @@ return [
                 'title_content'=>'Hotel Aires Express',
             
                 'contenido'=>[
-                    'parrafo1' => 'Cómoda habitación espaciosa, un excelente lugar para trabajar y descansar. Tenemos todos los servicios a tu disposición para crear una excelente experiencia en una de las zonas históricas de nuestra ciudad.',
+                    'parrafo1' => 'Cómoda habitación, un excelente lugar para trabajar y descansar. Tenemos todos los servicios a tu disposición para crear una excelente experiencia en una de las zonas históricas de nuestra ciudad.',
                     'parrafo2' => 'Ven y disfruta de Buenos Aires desde nuestras instalaciones, te esperamos!'
                 ],
                 'title_rooms'=>'Otras habitaciones',
@@ -384,7 +384,7 @@ return [
                             'href'=>url('/rooms/single'),
                             'src'=>asset('images/rooms/single-room/Single_4.jpg'),
                             'name'=>'Individual',
-                            'price'=>'$1700',
+                            'price'=>'$1850',
                             'per_night'=>'/noche'
                         ],
                         'room2'=>[
