@@ -297,7 +297,7 @@
 													</p>
 													<p style="font-size: 17px; line-height: 1.8; word-break: break-word; font-family: 'Nunito', Arial, 'Helvetica Neue', Helvetica, sans-serif; mso-line-height-alt: 17px; margin: 0;">
 													<span style="font-size: 17px;">
-														Telfono: {{ $reserva['phone'] }}
+														Telefono: {{ $reserva['phone'] }}
 													</span>
 													</p>
 														<p style="font-size: 17px; line-height: 1.8; word-break: break-word; font-family: 'Nunito', Arial, 'Helvetica Neue', Helvetica, sans-serif; mso-line-height-alt: 17px; margin: 0;">
