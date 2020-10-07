@@ -31,12 +31,12 @@ body.full_screen {
 
 .boxed .wrapper {
     max-width: 1200px;
-    position: relative!important;
+    position: relative !important;
     background: #fff;
     padding: 0;
     box-shadow: 0 0 2px #71787f;
-    margin-left: auto!important;
-    margin-right: auto!important
+    margin-left: auto !important;
+    margin-right: auto !important
 }
 
 .boxed .wrapper .container {
@@ -150,7 +150,7 @@ a:active {
 
 strong,
 .strong {
-    font-weight: 600!important
+    font-weight: 600 !important
 }
 
 small,
@@ -248,13 +248,13 @@ p {
 
 .popover-title {
     color: #a9a9a9;
-    padding: 2px 10px!important;
+    padding: 2px 10px !important;
     margin: 0;
     font-size: 1.2em;
     letter-spacing: 1px;
     background-color: #f5f5f5;
     border-bottom: 1px solid #ededed;
-    float: none!important
+    float: none !important
 }
 
 blockquote {
@@ -282,56 +282,56 @@ blockquote .quote_text {
 }
 
 .nopadding {
-    padding: 0!important
+    padding: 0 !important
 }
 
 .nopadding_right {
-    padding-right: 0!important
+    padding-right: 0 !important
 }
 
 .nopadding_left {
-    padding-left: 0!important
+    padding-left: 0 !important
 }
 
 .nopadding_top {
-    padding-top: 0!important
+    padding-top: 0 !important
 }
 
 .nopadding_bottom {
-    padding-bottom: 0!important
+    padding-bottom: 0 !important
 }
 
 .p5 {
-    padding-left: 5px!important;
-    padding-right: 5px!important
+    padding-left: 5px !important;
+    padding-right: 5px !important
 }
 
 .pr5 {
-    padding-right: 5px!important
+    padding-right: 5px !important
 }
 
 .pl5 {
-    padding-left: 5px!important
+    padding-left: 5px !important
 }
 
 .nomargin {
-    margin: 0!important
+    margin: 0 !important
 }
 
 .nomarginright {
-    margin-right: 0!important
+    margin-right: 0 !important
 }
 
 .nomarginleft {
-    margin-left: 0!important
+    margin-left: 0 !important
 }
 
 .nomargintop {
-    margin-top: 0!important
+    margin-top: 0 !important
 }
 
 .nomarginbottom {
-    margin-bottom: 0!important
+    margin-bottom: 0 !important
 }
 
 .mt0 {
@@ -893,7 +893,7 @@ blockquote .quote_text {
 }
 
 .CarouselRoom .flickity-page-dots {
-    top: 234px!important
+    top: 234px !important
 }
 
 .cardArticle {
@@ -995,7 +995,7 @@ blockquote .quote_text {
 }
 
 .form-control:disabled {
-    background: #f5f5f5!important
+    background: #f5f5f5 !important
 }
 
 .error-form-hotel {
@@ -1004,7 +1004,7 @@ blockquote .quote_text {
 }
 
 .error_form_hidden {
-    display: none!important
+    display: none !important
 }
 
 .form-control select {
@@ -1058,9 +1058,9 @@ select:focus::-ms-value {
 .form-control .btn-select,
 .form-control .btn-select:hover,
 .form-control .btn-select:focus {
-    background: none!important;
-    outline: none!important;
-    box-shadow: none!important;
+    background: none !important;
+    outline: none !important;
+    box-shadow: none !important;
     padding: 4px;
     font-size: 1em
 }
@@ -1128,11 +1128,11 @@ label .label_icon_info {
 
 .datepicker-dropdown.datepicker .prev,
 .datepicker-dropdown.datepicker .next {
-    padding: 0!important;
-    margin: 0!important;
+    padding: 0 !important;
+    margin: 0 !important;
     text-align: center;
-    width: 30px!important;
-    height: 30px!important;
+    width: 30px !important;
+    height: 30px !important;
     background: #e4e5e7;
     border: 1px solid #dadbdd;
     border-radius: 2px;
@@ -1255,7 +1255,7 @@ label .label_icon_info {
 }
 
 .bootstrap-select .dropdown-menu .popover-title {
-    padding: 4px 10px!important;
+    padding: 4px 10px !important;
     background: #e4e5e7;
     font-size: 1em;
     text-transform: uppercase;
@@ -1397,11 +1397,11 @@ button {
 }
 
 .button.bb {
-    border-bottom: 2px solid rgba(0, 0, 0, .2)!important
+    border-bottom: 2px solid rgba(0, 0, 0, .2) !important
 }
 
 .btn_full {
-    width: 100%!important
+    width: 100% !important
 }
 
 .btn_load_more {
@@ -2072,12 +2072,12 @@ button {
 }
 
 .back-to-top {
-    display: none!important
+    display: none !important
 }
 
 @media screen and (min-width:769px) {
     .back-to-top {
-        display: block!important
+        display: block !important
     }
 }
 
@@ -2312,7 +2312,7 @@ button {
 
 @media only screen and (max-width:991px) {
     .nav_mobile_ul_menu {
-        padding: 14px 15px!important
+        padding: 14px 15px !important
     }
 }
 
@@ -2335,8 +2335,8 @@ header.transparent {
 }
 
 .nav_a_menu {
-    padding: 0px!important;
-    padding-bottom: 5px!important
+    padding: 0px !important;
+    padding-bottom: 5px !important
 }
 
 .nav_li_menu {
@@ -2344,7 +2344,7 @@ header.transparent {
 }
 
 .lang_menu {
-    left: 10px!important
+    left: 10px !important
 }
 
 header.nav_bg {
@@ -2483,7 +2483,7 @@ header .navbar-header .mobile_menu_btn.active .icon-bar:nth-of-type(3) {
 #main_menu .navbar-nav .menu_button .button {
     margin-top: 22px;
     padding: 8px 16px;
-    color: #fff!important
+    color: #fff !important
 }
 
 #main_menu .navbar-nav .menu_button .button:hover,
@@ -2491,7 +2491,7 @@ header .navbar-header .mobile_menu_btn.active .icon-bar:nth-of-type(3) {
 #main_menu .navbar-nav .menu_button .button:active {
     background: #efac14;
     border-color: #efac14;
-    color: #fff!important
+    color: #fff !important
 }
 
 .scroll #main_menu .navbar-nav .menu_button .button {
@@ -2623,7 +2623,7 @@ header #main_menu .navbar-nav .dropdown .dropdown-menu {
 section {
     padding-top: 60px;
     padding-bottom: 80px;
-    overflow: hidden!important;
+    overflow: hidden !important;
     max-width: 100%
 }
 
@@ -2652,7 +2652,7 @@ section .main_title {
 }
 
 .rev_slider {
-    overflow-x: hidden!important
+    overflow-x: hidden !important
 }
 
 .full_slider {
@@ -2669,27 +2669,27 @@ section .main_title {
 .rev_slider iframe,
 .rev_slider object,
 .rev_slider video {
-    border: none!important
+    border: none !important
 }
 
 .sub_title_bg {
-    font-size: 48px!important
+    font-size: 48px !important
 }
 
 .sub_title_md {
-    font-size: 32px!important
+    font-size: 32px !important
 }
 
 .sub_title_sm {
-    font-size: 22px!important
+    font-size: 22px !important
 }
 
 .sub_title_xs {
-    font-size: 16px!important
+    font-size: 16px !important
 }
 
 .sub_title_xxs {
-    font-size: 14px!important
+    font-size: 14px !important
 }
 
 #hero .tp_b_title {
@@ -2744,7 +2744,7 @@ section .main_title {
 }
 
 #hero .f_item .text_box {
-    display: inline-block!important;
+    display: inline-block !important;
     background: #f2f2f4;
     height: 45px;
     width: 220px;
@@ -2836,18 +2836,18 @@ section .main_title {
 
 @media screen and (min-width:768px) {
     .container_img_room {
-        width: 614px!important
+        width: 614px !important
     }
 }
 
 @media screen and (min-width:992px) {
     .container_img_room {
-        width: 992px!important
+        width: 992px !important
     }
 }
 
 .flickity-page-dots {
-    top: 257px!important
+    top: 257px !important
 }
 
 .room figcaption {
@@ -2988,22 +2988,22 @@ section .main_title {
 }
 
 .img_service_none_1 {
-    display: none!important
+    display: none !important
 }
 
 .img_service_none_2 {
-    display: none!important
+    display: none !important
 }
 
 @media screen and (min-width:992px) {
     .img_service_none_1 {
-        display: block!important
+        display: block !important
     }
 }
 
 @media screen and (min-width:1200px) {
     .img_service_none_2 {
-        display: block!important
+        display: block !important
     }
 }
 
@@ -3705,7 +3705,7 @@ section .main_title {
     text-align: center;
     letter-spacing: .2px;
     color: #8a959e;
-    font-size: 22px!important;
+    font-size: 22px !important;
     font-family: 'Raleway', sans-serif;
     line-height: 1em;
     font-weight: 700;
@@ -3733,13 +3733,13 @@ section .main_title {
 }
 
 .vbf .form-control:focus {
-    border: 1px solid #bcc4c8!important
+    border: 1px solid #bcc4c8 !important
 }
 
 .vbf .form_date {
     position: relative;
     overflow: hidden;
-    padding: 0 0px!important
+    padding: 0 0px !important
 }
 
 .vbf .form_date .form-control {
@@ -3817,7 +3817,7 @@ section .main_title {
 .hbf .inner .form_date {
     position: relative;
     overflow: hidden;
-    padding: 0 0px!important
+    padding: 0 0px !important
 }
 
 .hbf .inner .form_select select {
@@ -4903,7 +4903,7 @@ footer.dark .subfooter .social_media a {
 }
 
 #contact_page_style_2 .contact-info {
-    padding-top: 0px!important
+    padding-top: 0px !important
 }
 
 #events_page .item {
@@ -5525,7 +5525,7 @@ figure:hover .room_list_slider .owl-nav .owl-next {
 }
 
 .all_facility_list ul .no i {
-    color: #F1572F!important
+    color: #F1572F !important
 }
 
 .single_room_details>p {
@@ -5624,4 +5624,19 @@ figure:hover .room_list_slider .owl-nav .owl-next {
 
 .block:first-child {
     margin-top: 0
+}
+
+.navbar-sticky-top {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 86px;
+    z-index: 98;
+    opacity: 1;
+    width: 100%;
+}
+
+@media only screen and (max-width:991px) {
+    .navbar-sticky-top {
+        top: 61px;
+    }
 }
