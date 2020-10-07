@@ -35,8 +35,6 @@
     <link href="{{asset('css/style.css')}}" rel="stylesheet" type="text/css">
     <link href="{{asset('css/responsive.css')}}" rel="stylesheet" type="text/css">
 
-
-
     <!-- ========== ICON FONTS ========== -->
 
     
@@ -175,7 +173,14 @@
     </script>
     @yield('script')
     @yield('script2')
+<script>
+let cross = document.querySelector(".fa-times");
+let banner = document.querySelector(".navbar-sticky-top")
+   cross.addEventListener("click", () => {
+        banner.style.display ="none"
+   });
 
+</script>
 
 </body>
 </html>
